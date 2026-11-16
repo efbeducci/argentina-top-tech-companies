@@ -1,0 +1,22 @@
+{
+  "rewrites": [
+    { "source": "/mcp", "destination": "/api/mcp" },
+    { "source": "/api/v1/data.json", "destination": "/api/data" },
+    { "source": "/api/v1/companies/:name.json", "destination": "/api/company?name=:name" }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Accept" }
+      ]
+    }
+  ],
+  "functions": {
+    "api/mcp.js": { "maxDuration": 30 },
+    "api/data.js": { "maxDuration": 10 },
+    "api/company.js": { "maxDuration": 10 }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "sample": true,
+  "date": "2024-02",
+  "source": "Encuesta de sueldos sysarmy 2024.01",
+  "mep_rate": 1250,
+  "threshold_usd": 18000,
+  "threshold_ars": 22500000,
+  "min_group": 5,
+  "min_ranked": 3,
+  "quartile_min": 5,
+  "round_usd": 500,
+  "round_ars": 500000,
+  "roles": [
+    {"slug": "software-engineer", "name": "Software Engineer / Desarrollador"},
+    {"slug": "tech-lead", "name": "Tech Lead / Líder Técnico"},
+    {"slug": "software-engineering-manager", "name": "Engineering Manager"},
+    {"slug": "data-scientist", "name": "Data Scientist / ML Engineer"},
+    {"slug": "devops-engineer", "name": "DevOps / SRE / Infraestructura"},
+    {"slug": "qa-engineer", "name": "QA / Tester"},
+    {"slug": "product-manager", "name": "Product Manager"},
+    {"slug": "data-engineer", "name": "Data Engineer"},
+    {"slug": "ux-designer", "name": "UX Designer"},
+    {"slug": "security-engineer", "name": "Security Engineer"}
+  ],
+  "provinces": {
+    "CABA": {"es": "Buenos Aires (CABA)", "en": "Buenos Aires City"},
+    "BA":   {"es": "Buenos Aires (prov.)", "en": "Buenos Aires Province"},
+    "CBA":  {"es": "Córdoba", "en": "Córdoba"},
+    "SF":   {"es": "Santa Fe", "en": "Santa Fe"},
+    "MZA":  {"es": "Mendoza", "en": "Mendoza"},
+    "TUC":  {"es": "Tucumán", "en": "Tucumán"},
+    "NQN":  {"es": "Neuquén", "en": "Neuquén"},
+    "RN":   {"es": "Río Negro", "en": "Río Negro"},
+    "ER":   {"es": "Entre Ríos", "en": "Entre Ríos"},
+    "SL":   {"es": "San Luis", "en": "San Luis"},
+    "SAL":  {"es": "Salta", "en": "Salta"},
+    "JUJ":  {"es": "Jujuy", "en": "Jujuy"},
+    "MIS":  {"es": "Misiones", "en": "Misiones"},
+    "CTE":  {"es": "Corrientes", "en": "Corrientes"},
+    "CHU":  {"es": "Chubut", "en": "Chubut"},
+    "TDF":  {"es": "Tierra del Fuego", "en": "Tierra del Fuego"},
+    "SGO":  {"es": "Santiago del Estero", "en": "Santiago del Estero"},
+    "CAT":  {"es": "Catamarca", "en": "Catamarca"},
+    "LR":   {"es": "La Rioja", "en": "La Rioja"},
+    "SJ":   {"es": "San Juan", "en": "San Juan"},
+    "LP":   {"es": "La Pampa", "en": "La Pampa"},
+    "CHA":  {"es": "Chaco", "en": "Chaco"},
+    "FOR":  {"es": "Formosa", "en": "Formosa"},
+    "SCZ":  {"es": "Santa Cruz", "en": "Santa Cruz"}
+  },
+  "years": ["0-1", "2-4", "5-7", "8-11", "12-19", "20+"],
+  "companies": [
+    {"name": "Auth0 / Okta",    "n": 32, "median_usd": 48000, "median_ars": 60000000, "p25_usd": 36000, "p75_usd": 65000, "linkedin": "auth0", "web": "auth0.com"},
+    {"name": "Medallia",        "n": 28, "median_usd": 42000, "median_ars": 52500000, "p25_usd": 32000, "p75_usd": 58000, "linkedin": "medallia", "web": "medallia.com"},
+    {"name": "MercadoLibre",    "n": 85, "median_usd": 38000, "median_ars": 47500000, "p25_usd": 24000, "p75_usd": 58000, "linkedin": "mercadolibre", "web": "mercadolibre.com.ar"},
+    {"name": "Satellogic",      "n": 18, "median_usd": 34000, "median_ars": 42500000, "p25_usd": 24000, "p75_usd": 48000, "linkedin": "satellogic", "web": "satellogic.com"},
+    {"name": "OLX Group",       "n": 24, "median_usd": 32000, "median_ars": 40000000, "p25_usd": 22000, "p75_usd": 46000, "linkedin": "olx-group", "web": "olxgroup.com"},
+    {"name": "Avature",         "n": 31, "median_usd": 30000, "median_ars": 37500000, "p25_usd": 22000, "p75_usd": 42000, "linkedin": "avature", "web": "avature.net"},
+    {"name": "Globant",         "n": 62, "median_usd": 28000, "median_ars": 35000000, "p25_usd": 18000, "p75_usd": 42000, "linkedin": "globant", "web": "globant.com"},
+    {"name": "Despegar",        "n": 38, "median_usd": 26000, "median_ars": 32500000, "p25_usd": 18000, "p75_usd": 38000, "linkedin": "despegar", "web": "despegar.com"},
+    {"name": "Naranja X",       "n": 29, "median_usd": 24000, "median_ars": 30000000, "p25_usd": 16000, "p75_usd": 36000, "linkedin": "naranjax", "web": "naranjax.com"},
+    {"name": "Ualá",            "n": 22, "median_usd": 24000, "median_ars": 30000000, "p25_usd": 16000, "p75_usd": 34000, "linkedin": "uala", "web": "uala.ar"},
+    {"name": "Tienda Nube",     "n": 19, "median_usd": 22000, "median_ars": 27500000, "p25_usd": 15000, "p75_usd": 32000, "linkedin": "tiendanube", "web": "tiendanube.com"},
+    {"name": "Lemon Cash",      "n": 14, "median_usd": 22000, "median_ars": 27500000, "p25_usd": 14000, "p75_usd": 32000, "linkedin": "lemoncash", "web": "lemon.me"},
+    {"name": "Digital House",   "n": 11, "median_usd": 18000, "median_ars": 22500000, "p25_usd": 12000, "p75_usd": 26000, "linkedin": "digital-house", "web": "digitalhouse.com"},
+    {"name": "Alkemy",          "n": 16, "median_usd": 16000, "median_ars": 20000000, "p25_usd": 11000, "p75_usd": 23000, "linkedin": "alkemy", "web": "alkemy.org"},
+    {"name": "Bitlogic",        "n": 9,  "median_usd": 20000, "median_ars": 25000000, "p25_usd": 14000, "p75_usd": 28000, "linkedin": "bitlogic", "web": "bitlogic.io"}
+  ],
+  "cells": {
+    "software-engineer|CABA|0-1": {
+      "n": 23,
+      "median_usd": 8000,  "p25_usd": 6000,  "p75_usd": 11000,
+      "median_ars": 10000000, "p25_ars": 7500000, "p75_ars": 13750000,
+      "total_usd": 9000, "total_ars": 11250000,
+      "share": 0.08,
+      "hist": [3, 7, 6, 4, 2, 1], "mix": [70, 20, 10]
+    },
+    "software-engineer|CABA|2-4": {
+      "n": 45,
+      "median_usd": 14000, "p25_usd": 10000, "p75_usd": 20000,
+      "median_ars": 17500000, "p25_ars": 12500000, "p75_ars": 25000000,
+      "total_usd": 16000, "total_ars": 20000000,
+      "share": 0.28,
+      "hist": [2, 5, 9, 11, 8, 6, 3, 1], "mix": [65, 25, 10]
+    },
+    "software-engineer|CABA|5-7": {
+      "n": 67,
+      "median_usd": 24000, "p25_usd": 18000, "p75_usd": 34000,
+      "median_ars": 30000000, "p25_ars": 22500000, "p75_ars": 42500000,
+      "total_usd": 28000, "total_ars": 35000000,
+      "share": 0.52,
+      "hist": [1, 3, 7, 12, 15, 13, 9, 5, 2], "mix": [60, 28, 12]
+    },
+    "software-engineer|CABA|8-11": {
+      "n": 38,
+      "median_usd": 34000, "p25_usd": 24000, "p75_usd": 48000,
+      "median_ars": 42500000, "p25_ars": 30000000, "p75_ars": 60000000,
+      "total_usd": 40000, "total_ars": 50000000,
+      "share": 0.72,
+      "hist": [1, 2, 4, 8, 10, 7, 4, 2], "mix": [55, 30, 15]
+    },
+    "software-engineer|CABA|12-19": {
+      "n": 18,
+      "median_usd": 48000, "p25_usd": 36000, "p75_usd": 64000,
+      "median_ars": 60000000, "p25_ars": 45000000, "p75_ars": 80000000,
+      "total_usd": 56000, "total_ars": 70000000,
+      "share": 0.88,
+      "hist": [1, 2, 3, 5, 4, 2, 1], "mix": [50, 32, 18]
+    },
+    "software-engineer|CABA|20+": {
+      "n": 7,
+      "median_usd": 58000, "p25_usd": 46000, "p75_usd": 72000,
+      "median_ars": 72500000, "p25_ars": 57500000, "p75_ars": 90000000,
+      "total_usd": 68000, "total_ars": 85000000,
+      "share": 0.95,
+      "hist": [1, 1, 2, 2, 1], "mix": [45, 35, 20]
+    },
+    "software-engineer|BA|2-4": {
+      "n": 28,
+      "median_usd": 12000, "p25_usd": 8000,  "p75_usd": 17000,
+      "median_ars": 15000000, "p25_ars": 10000000, "p75_ars": 21250000,
+      "total_usd": 14000, "total_ars": 17500000,
+      "share": 0.20,
+      "hist": [2, 6, 8, 7, 4, 1], "mix": [70, 22, 8]
+    },
+    "software-engineer|BA|5-7": {
+      "n": 41,
+      "median_usd": 20000, "p25_usd": 14000, "p75_usd": 28000,
+      "median_ars": 25000000, "p25_ars": 17500000, "p75_ars": 35000000,
+      "total_usd": 23000, "total_ars": 28750000,
+      "share": 0.44,
+      "hist": [2, 5, 9, 12, 8, 4, 1], "mix": [62, 27, 11]
+    },
+    "software-engineer|CBA|2-4": {
+      "n": 19,
+      "median_usd": 12000, "p25_usd": 8000,  "p75_usd": 17000,
+      "median_ars": 15000000, "p25_ars": 10000000, "p75_ars": 21250000,
+      "total_usd": 14000, "total_ars": 17500000,
+      "share": 0.20,
+      "hist": [2, 5, 6, 4, 2], "mix": [72, 20, 8]
+    },
+    "software-engineer|CBA|5-7": {
+      "n": 29,
+      "median_usd": 20000, "p25_usd": 14000, "p75_usd": 28000,
+      "median_ars": 25000000, "p25_ars": 17500000, "p75_ars": 35000000,
+      "total_usd": 23000, "total_ars": 28750000,
+      "share": 0.44,
+      "hist": [1, 4, 7, 9, 5, 2, 1], "mix": [65, 25, 10]
+    },
+    "software-engineer|SF|5-7": {
+      "n": 14,
+      "median_usd": 19000, "p25_usd": 13000, "p75_usd": 27000,
+      "median_ars": 23750000, "p25_ars": 16250000, "p75_ars": 33750000,
+      "total_usd": 22000, "total_ars": 27500000,
+      "share": 0.42,
+      "hist": [1, 3, 4, 4, 2], "mix": [66, 24, 10]
+    },
+    "tech-lead|CABA|5-7": {
+      "n": 22,
+      "median_usd": 34000, "p25_usd": 26000, "p75_usd": 44000,
+      "median_ars": 42500000, "p25_ars": 32500000, "p75_ars": 55000000,
+      "total_usd": 40000, "total_ars": 50000000,
+      "share": 0.72,
+      "hist": [1, 2, 5, 7, 5, 2], "mix": [55, 30, 15]
+    },
+    "tech-lead|CABA|8-11": {
+      "n": 16,
+      "median_usd": 46000, "p25_usd": 36000, "p75_usd": 60000,
+      "median_ars": 57500000, "p25_ars": 45000000, "p75_ars": 75000000,
+      "total_usd": 54000, "total_ars": 67500000,
+      "share": 0.86,
+      "hist": [1, 2, 4, 5, 3, 1], "mix": [50, 32, 18]
+    },
+    "software-engineering-manager|CABA|8-11": {
+      "n": 14,
+      "median_usd": 52000, "p25_usd": 40000, "p75_usd": 70000,
+      "median_ars": 65000000, "p25_ars": 50000000, "p75_ars": 87500000,
+      "total_usd": 62000, "total_ars": 77500000,
+      "share": 0.92,
+      "hist": [1, 2, 3, 4, 3, 1], "mix": [48, 34, 18]
+    },
+    "data-scientist|CABA|2-4": {
+      "n": 17,
+      "median_usd": 16000, "p25_usd": 12000, "p75_usd": 22000,
+      "median_ars": 20000000, "p25_ars": 15000000, "p75_ars": 27500000,
+      "total_usd": 18000, "total_ars": 22500000,
+      "share": 0.34,
+      "hist": [2, 4, 5, 4, 2], "mix": [65, 25, 10]
+    },
+    "data-scientist|CABA|5-7": {
+      "n": 24,
+      "median_usd": 28000, "p25_usd": 20000, "p75_usd": 40000,
+      "median_ars": 35000000, "p25_ars": 25000000, "p75_ars": 50000000,
+      "total_usd": 33000, "total_ars": 41250000,
+      "share": 0.62,
+      "hist": [1, 3, 6, 7, 5, 2], "mix": [58, 30, 12]
+    },
+    "devops-engineer|CABA|2-4": {
+      "n": 13,
+      "median_usd": 16000, "p25_usd": 11000, "p75_usd": 22000,
+      "median_ars": 20000000, "p25_ars": 13750000, "p75_ars": 27500000,
+      "total_usd": 18000, "total_ars": 22500000,
+      "share": 0.34,
+      "hist": [1, 3, 4, 3, 2], "mix": [66, 24, 10]
+    },
+    "devops-engineer|CABA|5-7": {
+      "n": 20,
+      "median_usd": 26000, "p25_usd": 20000, "p75_usd": 36000,
+      "median_ars": 32500000, "p25_ars": 25000000, "p75_ars": 45000000,
+      "total_usd": 30000, "total_ars": 37500000,
+      "share": 0.56,
+      "hist": [1, 2, 5, 6, 4, 2], "mix": [60, 28, 12]
+    },
+    "product-manager|CABA|5-7": {
+      "n": 16,
+      "median_usd": 26000, "p25_usd": 20000, "p75_usd": 36000,
+      "median_ars": 32500000, "p25_ars": 25000000, "p75_ars": 45000000,
+      "total_usd": 30000, "total_ars": 37500000,
+      "share": 0.56,
+      "hist": [1, 2, 4, 5, 3, 1], "mix": [60, 28, 12]
+    },
+    "qa-engineer|CABA|2-4": {
+      "n": 15,
+      "median_usd": 11000, "p25_usd": 7500, "p75_usd": 15000,
+      "median_ars": 13750000, "p25_ars": 9375000, "p75_ars": 18750000,
+      "total_usd": 12500, "total_ars": 15625000,
+      "share": 0.14,
+      "hist": [2, 4, 5, 3, 1], "mix": [72, 20, 8]
+    },
+    "qa-engineer|CABA|5-7": {
+      "n": 12,
+      "median_usd": 18000, "p25_usd": 12000, "p75_usd": 24000,
+      "median_ars": 22500000, "p25_ars": 15000000, "p75_ars": 30000000,
+      "total_usd": 20000, "total_ars": 25000000,
+      "share": 0.40,
+      "hist": [1, 3, 4, 3, 1], "mix": [66, 24, 10]
+    }
+  },
+  "hist": {"low": 4000, "step": 4000, "high": 80000}
+}
