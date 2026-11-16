@@ -31,6 +31,16 @@
   const moneyARS = (n) => n == null ? "—"
     : "$" + Number(n).toLocaleString(LOCALE, { maximumFractionDigits: 0 }) + " ARS";
 
+  // Live MEP (dólar bolsa) to show today's peso equivalent of USD figures.
+  // Survey ARS→USD conversion uses the survey-time MEP baked into data.json.
+  const MEP_NOW_URL = "https://dolarapi.com/v1/dolares/bolsa";
+  let MEP_NOW = null;
+  const mepNow = () => MEP_NOW ?? D?.mep_rate;
+  const arsToday = (usd) => usd == null ? null : Math.round(usd * mepNow());
+  const mepLabel = () => MEP_NOW
+    ? `al MEP de hoy $${MEP_NOW.toLocaleString(LOCALE)}`
+    : `MEP encuesta $${D.mep_rate.toLocaleString(LOCALE)}`;
+
   // Pay shade based on USD annual value
   const SHADE_EDGES_USD = [10000, 18000, 25000, 40000];
   const shade = (usd) => {
@@ -63,7 +73,7 @@
     if (!D?.sample) return;
     const notice = h("div", { class: "sample-notice" },
       "⚠️ Estos son datos de muestra. Para datos reales, corré el pipeline: ",
-      h("code", {}, "python3 scripts/ingest_sysarmy.py encuesta.csv --mep-rate 1250")
+      h("code", {}, "python3 scripts/ingest_sysarmy.py encuesta.csv --survey-month YYYY-MM")
     );
     const main = $("main");
     if (main) main.prepend(notice);
@@ -133,7 +143,7 @@
 
     wrap.append(
       card("Mediana general", moneyUSD(overall), `USD MEP anual bruto`),
-      card("En pesos", overall ? moneyARS(Math.round(overall * D.mep_rate)) : "—", `MEP $${D.mep_rate.toLocaleString(LOCALE)} ARS/USD`),
+      card("En pesos hoy", overall ? moneyARS(arsToday(overall)) : "—", mepLabel()),
       card("Respuestas", totalPeople.toLocaleString(LOCALE), "en la selección"),
       card(`Ganan >${threshStr}`, `${Math.round(wellPaid * 100)}%`, "de los respondentes"),
     );
@@ -184,8 +194,8 @@
           const tooltipLines = [
             `Mediana: ${moneyUSD(c.median_usd)}`,
             `Rango: ${moneyUSD(c.p25_usd)} – ${moneyUSD(c.p75_usd)}`,
-            `En pesos: ${moneyARS(c.median_ars)}`,
-            `Rango ARS: ${moneyARS(c.p25_ars)} – ${moneyARS(c.p75_ars)}`,
+            `En pesos hoy: ${moneyARS(arsToday(c.median_usd))} (${mepLabel()})`,
+            `En pesos (encuesta): ${moneyARS(c.median_ars)}`,
             `Personas: ${c.n}`,
           ];
           const cell_el = h("span",
@@ -244,6 +254,12 @@
       return asc ? diff : -diff;
     });
 
+    if (!D.companies.length) {
+      wrap.append(h("p", { class: "cell-empty" },
+        "La encuesta de sysarmy no publica el nombre de la empresa de cada respondente, " +
+        "así que no hay ranking de empresas para esta edición."));
+      return;
+    }
     if (!companies.length) {
       wrap.append(h("p", { class: "cell-empty" }, "Sin empresas para mostrar."));
       return;
@@ -349,6 +365,13 @@
     if (loading) loading.remove();
     renderSample();
     renderAll();
+
+    // Fetch today's MEP without blocking first render; fall back to survey MEP.
+    try {
+      const r = await fetch(MEP_NOW_URL);
+      const venta = r.ok ? Number((await r.json()).venta) : NaN;
+      if (venta > 0) { MEP_NOW = venta; renderAll(); }
+    } catch { /* keep survey MEP */ }
   }
 
   if (document.readyState === "loading") {

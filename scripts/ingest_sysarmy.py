@@ -3,13 +3,19 @@
 Ingest sysarmy salary survey CSV → data/data.json
 
 Usage:
-  python3 scripts/ingest_sysarmy.py path/to/sysarmy.csv --mep-rate 1250 [--out data/data.json] [--min-group 5]
+  python3 scripts/ingest_sysarmy.py path/to/sysarmy.csv --survey-month 2026-01 [--edition 2026.1]
+  python3 scripts/ingest_sysarmy.py path/to/sysarmy.csv --mep-rate 1476 [--out data/data.json] [--min-group 5]
+
+  --survey-month fetches the historical MEP (dólar bolsa) for that month from
+  api.argentinadatos.com and uses the monthly median. --mep-rate overrides it.
 
 The sysarmy survey is published biannually at https://sysarmy.com/encuesta
 Raw CSVs are in https://github.com/openqube/openqube-sueldos
 
 Currency notes:
-  - Rows with "Pagos en dólares" == Si/Yes are treated as USD-paid directly.
+  - Since ~2023 the salary column is always in ARS ("..._en_pesos_argentinos"),
+    even for people paid in USD. In that case every row is ARS → USD via MEP.
+  - Older editions: rows with "Pagos en dólares" == Si/Yes are treated as USD-paid directly.
     The annual USD is computed from monthly * 12.
   - All other rows are peso-paid. Annual ARS = monthly * 12.
     Annual USD = annual ARS / mep_rate.
@@ -29,9 +35,10 @@ from pathlib import Path
 
 COLS = {
     "job_title":   ["Trabajo de", "trabajo_de", "Puesto"],
-    "location":    ["Dónde estoy trabajando", "donde_estoy_trabajando", "Provincia", "Localidad"],
-    "years":       ["Años de experiencia", "anios_de_experiencia", "Experiencia"],
-    "salary":      ["Salario mensual BRUTO (en tu moneda local)", "salario_mensual_bruto", "Sueldo bruto"],
+    "location":    ["Dónde estoy trabajando", "donde_estoy_trabajando", "donde_estas_trabajando", "Provincia", "Localidad"],
+    "years":       ["Años de experiencia", "anios_de_experiencia", "anos_de_experiencia", "Experiencia"],
+    "salary":      ["ultimo_salario_mensual_o_retiro_bruto_en_pesos_argentinos",
+                    "Salario mensual BRUTO (en tu moneda local)", "salario_mensual_bruto", "Sueldo bruto"],
     "paid_usd":    ["Pagos en dólares", "pagos_en_dolares", "Cobro en dolares"],
     "company":     ["Nombre de la empresa donde trabajo", "empresa", "Empleador"],
     "usd_type":    ["Tipo de dólar elegido", "tipo_de_dolar_elegido", "Dólar elegido para conversión"],
@@ -72,8 +79,8 @@ def words(text):
 
 
 PROVINCE_NAMES = {
-    "CABA": "ciudad autonoma de buenos aires caba capital federal ciudad de buenos aires buenos aires ciudad",
-    "BA":   "buenos aires provincia de buenos aires gba gran buenos aires conurbano bonaerense",
+    "CABA": "ciudad autonoma de buenos aires, caba, capital federal, ciudad de buenos aires",
+    "BA":   "buenos aires, provincia de buenos aires, gba, gran buenos aires, conurbano bonaerense",
     "CBA":  "cordoba",
     "SF":   "santa fe",
     "MZA":  "mendoza",
@@ -99,7 +106,7 @@ PROVINCE_NAMES = {
 }
 
 PROVINCE_CITIES = {
-    "CABA": ["buenos aires", "caba", "capital federal"],
+    "CABA": ["caba", "capital federal"],
     "BA":   ["la plata", "mar del plata", "bahia blanca", "quilmes", "lomas de zamora", "lanus", "avellaneda", "tigre", "moron", "merlo", "san isidro", "vicente lopez", "campana", "zarate"],
     "CBA":  ["cordoba", "villa carlos paz", "rio cuarto", "san francisco", "villa maria"],
     "SF":   ["rosario", "santa fe", "rafaela", "venado tuerto"],
@@ -134,7 +141,7 @@ def _build_place_index():
     for code, cities in PROVINCE_CITIES.items():
         for city in cities:
             index.append((city.strip(), code))
-    # Sort longest first so "buenos aires" matches CABA before BA when CABA phrases are there
+    # Longest first, so "ciudad autonoma de buenos aires" (CABA) wins over "buenos aires" (BA)
     return sorted(index, key=lambda x: -len(x[0]))
 
 
@@ -155,9 +162,9 @@ def province_of(location):
 import re
 
 ROLE_PATTERNS = [
-    ("software-engineering-manager", re.compile(r"\bengineering manager\b|\bjefe de (desarrollo|ingenieria|sistemas)\b|\bcto\b|\btechnical director\b")),
-    ("tech-lead",       re.compile(r"\btech lead\b|\btechnical lead\b|\blider tecnico\b|\blead developer\b")),
-    ("data-scientist",  re.compile(r"\bdata sci\w*\b|\bml engineer\b|\bmachine learning\b|\bcientific\w* de datos\b")),
+    ("software-engineering-manager", re.compile(r"\bengineering manager\b|\bmanager / director\b|\bjefe de (desarrollo|ingenieria|sistemas)\b|\bcto\b|\btechnical director\b")),
+    ("tech-lead",       re.compile(r"\btech lead\b|\btechnical lead(er)?\b|\blider tecnico\b|\blead developer\b")),
+    ("data-scientist",  re.compile(r"\bdata sci\w*\b|\bml engineer\b|\bai engineer\b|\bmachine learning\b|\bcientific\w* de datos\b")),
     ("data-engineer",   re.compile(r"\bdata engineer\b|\bdata platform\b|\bingeni\w* de datos\b")),
     ("devops-engineer", re.compile(r"\bdevops\b|\bsre\b|\bsite reliability\b|\binfrastructure engineer\b|\bplatform engineer\b|\bcloud engineer\b|\binfrastructura\b")),
     ("security-engineer", re.compile(r"\bsecurity\b|\bciberseguridad\b|\bpentester\b|\binfosec\b")),
@@ -263,15 +270,28 @@ ROUND_USD = 500
 ROUND_ARS = 500_000
 
 
-def ingest(csv_path, mep_rate, min_group=5):
-    rows = []
-    with open(csv_path, encoding="utf-8-sig", errors="replace") as f:
-        reader = csv.DictReader(f)
-        header = reader.fieldnames or []
-        col_map = build_col_map(header)
-        print(f"[ingest] CSV columns found: {list(col_map.keys())}", file=sys.stderr)
-        for row in reader:
-            rows.append(row)
+def read_survey(csv_path):
+    """Read the CSV, skipping any preamble lines above the real header row."""
+    with open(csv_path, encoding="utf-8-sig", errors="replace", newline="") as f:
+        raw = list(csv.reader(f))
+    known = {c for cands in COLS.values() for c in cands}
+    for i, line in enumerate(raw[:50]):
+        if sum(1 for c in line if c.strip() in known) >= 3:
+            header = [c.strip() for c in line]
+            rows = [dict(zip(header, r)) for r in raw[i + 1:] if any(x.strip() for x in r)]
+            return header, rows
+    raise SystemExit("[ingest] No header row with known columns found in the first 50 lines")
+
+
+def ingest(csv_path, mep_rate, min_group=5, date="auto", edition=None):
+    header, rows = read_survey(csv_path)
+    col_map = build_col_map(header)
+    print(f"[ingest] CSV columns found: {list(col_map.keys())}", file=sys.stderr)
+    missing = {"job_title", "location", "years", "salary"} - col_map.keys()
+    if missing:
+        raise SystemExit(f"[ingest] Missing required columns: {sorted(missing)}")
+    # Newer editions report salary in pesos for everyone (USD-paid included).
+    salary_in_ars = "pesos" in col_map["salary"].lower()
     print(f"[ingest] Total rows: {len(rows)}", file=sys.stderr)
 
     # Buckets: cells[role|province|years] = list of annual USD values
@@ -329,7 +349,7 @@ def ingest(csv_path, mep_rate, min_group=5):
             skipped += 1
             continue
 
-        in_usd = bool(re.search(r"s[íi]|yes|true|1", paid_usd, re.IGNORECASE))
+        in_usd = (not salary_in_ars) and bool(re.search(r"^(s[íi]|yes|true|1)$", paid_usd.strip(), re.IGNORECASE))
 
         if in_usd:
             # Already paid in USD; treat monthly as USD
@@ -355,6 +375,11 @@ def ingest(csv_path, mep_rate, min_group=5):
 
     print(f"[ingest] Skipped: {skipped}, Classified: {sum(len(v) for v in cells_usd.values())}", file=sys.stderr)
 
+    # Threshold: median of mid-career (5-11 years) respondents; "share" = % at or above it
+    all_usd = [v for key, vals in cells_usd.items() if key.endswith(("|5-7", "|8-11")) for v in vals]
+    threshold_usd = round_to(median(all_usd), ROUND_USD) if all_usd else 18_000
+    threshold_ars = round_to(threshold_usd * mep_rate, ROUND_ARS)
+
     # Build cells dict
     cells_out = {}
     for key, usd_list in cells_usd.items():
@@ -372,9 +397,7 @@ def ingest(csv_path, mep_rate, min_group=5):
         # Total = rough estimate including bonus (10% bump for roles that often have bonus)
         total_usd = med_usd * 1.1
         total_ars = med_ars * 1.1
-        # Share above threshold (18000 USD/yr)
-        threshold = 18_000
-        share = sum(1 for v in usd_list if v >= threshold) / n
+        share = sum(1 for v in usd_list if v >= threshold_usd) / n
 
         hist = histogram(usd_list, HIST_LOW, HIST_STEP, HIST_HIGH)
         # Employment mix: salaried / contractor / freelance (placeholder, survey has this info)
@@ -413,18 +436,11 @@ def ingest(csv_path, mep_rate, min_group=5):
             "p75_ars": round_to(percentile(ars_list, 75), ROUND_ARS),
         })
 
-    # Determine threshold (median of all senior devs)
-    all_usd = []
-    for key, v in cells_usd.items():
-        if "5-7" in key or "8-11" in key:
-            all_usd.extend(v)
-    threshold_usd = round_to(median(all_usd) or 18_000, ROUND_USD) if all_usd else 18_000
-    threshold_ars = round_to(threshold_usd * mep_rate, ROUND_ARS)
-
     out = {
         "sample": False,
-        "date": "auto",
-        "source": f"Encuesta de sueldos sysarmy, procesada con MEP {mep_rate}",
+        "date": date,
+        "source": f"Encuesta de sueldos sysarmy {edition or ''}".strip() + f", procesada con MEP {mep_rate}",
+        "license": "CC BY-NC-SA 4.0",
         "mep_rate": mep_rate,
         "threshold_usd": threshold_usd,
         "threshold_ars": threshold_ars,
@@ -469,17 +485,49 @@ def ingest(csv_path, mep_rate, min_group=5):
     return out
 
 
+MEP_HISTORY_URL = "https://api.argentinadatos.com/v1/cotizaciones/dolares/bolsa"
+
+
+def fetch_mep(month):
+    """Median MEP (dólar bolsa, venta) for a YYYY-MM month, from argentinadatos.com."""
+    import subprocess
+    import urllib.error
+    import urllib.request
+    try:
+        req = urllib.request.Request(MEP_HISTORY_URL, headers={"User-Agent": "ingest-sysarmy"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            history = json.load(r)
+    except urllib.error.URLError:
+        # python.org builds on macOS often lack CA certs; curl uses the system store.
+        out = subprocess.run(["curl", "-sfL", "--max-time", "30", MEP_HISTORY_URL],
+                             capture_output=True, check=True)
+        history = json.loads(out.stdout)
+    values = [d["venta"] for d in history if str(d.get("fecha", "")).startswith(month) and d.get("venta")]
+    if not values:
+        raise SystemExit(f"[ingest] No MEP data for {month} at {MEP_HISTORY_URL}")
+    rate = round(median(values), 1)
+    print(f"[ingest] MEP {month}: median {rate} over {len(values)} days (argentinadatos.com)", file=sys.stderr)
+    return rate
+
+
 def main():
     parser = argparse.ArgumentParser(description="Ingest sysarmy survey CSV → data/data.json")
     parser.add_argument("csv", help="Path to the sysarmy survey CSV file")
-    parser.add_argument("--mep-rate", type=float, required=True,
-                        help="ARS/USD MEP (dólar bolsa) rate at time of survey, e.g. 1250")
+    parser.add_argument("--mep-rate", type=float,
+                        help="ARS/USD MEP (dólar bolsa) rate at time of survey. Overrides --survey-month.")
+    parser.add_argument("--survey-month", metavar="YYYY-MM",
+                        help="Month the survey was taken; its median MEP is fetched automatically")
+    parser.add_argument("--edition", help="Survey edition label, e.g. 2026.1")
     parser.add_argument("--out", default="data/data.json", help="Output path")
     parser.add_argument("--min-group", type=int, default=5,
                         help="Minimum salaries per cell to include in output (default 5)")
     args = parser.parse_args()
 
-    data = ingest(args.csv, args.mep_rate, args.min_group)
+    if args.mep_rate is None and not args.survey_month:
+        parser.error("pass --survey-month YYYY-MM (auto MEP) or --mep-rate")
+    mep_rate = args.mep_rate if args.mep_rate is not None else fetch_mep(args.survey_month)
+    data = ingest(args.csv, mep_rate, args.min_group,
+                  date=args.survey_month or "auto", edition=args.edition)
 
     out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)

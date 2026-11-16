@@ -1,19 +1,21 @@
 # Argentina Top Tech Companies
 
 Sueldos reales de la industria tech argentina, en dólares MEP (dólar bolsa) y pesos argentinos.
-Datos de la [encuesta de sueldos sysarmy](https://sysarmy.com/encuesta) (CC BY-SA 4.0).
+Datos de la [encuesta de sueldos sysarmy](https://sysarmy.com/encuesta) (CC BY-NC-SA 4.0).
 
 ## Monedas
 
 Todos los sueldos son **anuales brutos**.
 
 - **USD MEP (dólar bolsa)**: moneda principal en la web y en el MCP server.
-  El tipo de cambio usado es el MEP vigente al momento de la encuesta
-  (pasado como `--mep-rate` al pipeline de ingesta).
-- **ARS (pesos argentinos)**: mostrado en tooltip en la web; retornado también en las herramientas MCP.
+  Los sueldos en pesos de la encuesta se convierten con la **mediana del MEP del mes de la encuesta**,
+  que el pipeline baja automáticamente de [argentinadatos.com](https://api.argentinadatos.com/v1/cotizaciones/dolares/bolsa).
+- **ARS (pesos argentinos)**: la web muestra el equivalente **al MEP de hoy**
+  (consultado en vivo a [dolarapi.com](https://dolarapi.com/v1/dolares/bolsa)) y, en el tooltip, el valor en pesos
+  de la encuesta. Si dolarapi no responde, se usa el MEP de la encuesta.
 
-Los respondentes que declaran cobrar en dólares (`Pagos en dólares = Sí`) tienen su sueldo
-registrado directamente en USD; para el resto se divide el sueldo en pesos por el tipo MEP.
+Desde ~2023 la encuesta reporta el sueldo bruto siempre en pesos (incluso para quien cobra en dólares),
+así que todas las respuestas se convierten ARS → USD con el MEP de la encuesta.
 
 ## Quickstart
 
@@ -25,30 +27,40 @@ npm install
 
 ### 2. Bajar la encuesta sysarmy
 
-Los CSVs de encuestas anteriores están en [openqube/openqube-sueldos](https://github.com/openqube/openqube-sueldos).
-La encuesta más reciente se publica en [sysarmy.com/encuesta](https://sysarmy.com/encuesta).
+La encuesta más reciente y su dataset se publican en el [blog de sysarmy](https://sysarmy.com/blog/tags/sueldos/)
+como Google Sheet. Para la edición 2026.1:
+
+```bash
+curl -L 'https://docs.google.com/spreadsheets/d/1PBQxpX3jQtuD92N9BcJtYxzCtPgyY3Y90bVBFPKbUmY/export?format=csv' -o encuesta-2026.1.csv
+```
+
+Ediciones viejas (hasta 2021.02) están en [openqube/openqube-sueldos](https://github.com/openqube/openqube-sueldos).
 
 ### 3. Correr el pipeline de ingesta
 
 ```bash
-python3 scripts/ingest_sysarmy.py ruta/a/encuesta.csv --mep-rate 1250 --out data/data.json
+python3 scripts/ingest_sysarmy.py encuesta-2026.1.csv --survey-month 2026-01 --edition 2026.1 --out data/data.json
 ```
 
-El argumento `--mep-rate` es el tipo de cambio MEP (ARS/USD) al momento de la encuesta.
-Por ejemplo, si la encuesta es de mediados de 2024 y el MEP estaba en 1250 ARS/USD,
-se pasa `--mep-rate 1250`.
+- `--survey-month YYYY-MM`: mes en que se tomó la encuesta; el script baja el MEP histórico de ese mes.
+- `--mep-rate N`: alternativa para fijar el tipo de cambio a mano.
 
-El archivo `data/data.json` incluido en el repo tiene **datos de muestra** para que la app
-funcione sin necesidad de correr la ingesta. Estos datos son sintéticos y no representan
-sueldos reales; se reemplazan al correr el pipeline con datos reales.
+El `data/data.json` del repo tiene los datos reales de la encuesta **2026.1** (MEP enero 2026: 1476,1).
+
+**Empresas:** sysarmy no publica el nombre de la empresa de cada respondente, así que el ranking
+de empresas queda vacío con datos reales. El pipeline lo arma solo si el CSV trae esa columna.
 
 ### 4. Correr localmente
 
 ```bash
-npx vercel dev
+npm run dev
 ```
 
-La app queda disponible en `http://localhost:3000`.
+La app queda disponible en `http://localhost:3000` y el MCP server en `http://localhost:3000/mcp`.
+Es un server Node sin dependencias (`scripts/dev-server.js`) que replica los rewrites de `vercel.json`;
+no requiere cuenta de Vercel. Para usar otro puerto: `PORT=4000 npm run dev`.
+
+Alternativa con el runtime real de Vercel (requiere Node 20+ y `vercel login`): `npx vercel dev`.
 
 ### 5. Deploy en Vercel
 
@@ -101,10 +113,10 @@ claude mcp add --transport http tech-pay-argentina https://tu-dominio.vercel.app
 
 - **Encuesta**: [sysarmy.com/encuesta](https://sysarmy.com/encuesta) — encuesta semestral de sueldos tech en Argentina
 - **Datos históricos**: [openqube/openqube-sueldos](https://github.com/openqube/openqube-sueldos)
-- **Licencia de los datos**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- **Licencia de los datos**: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Licencia
 
-Código: MIT. Datos: CC BY-SA 4.0 (sysarmy).
+Código: MIT. Datos: CC BY-NC-SA 4.0 (sysarmy).
 
-Citación sugerida: *Argentina Top Tech Companies (Encuesta sysarmy), CC BY-SA 4.0.*
+Citación sugerida: *Argentina Top Tech Companies (Encuesta sysarmy), CC BY-NC-SA 4.0.*

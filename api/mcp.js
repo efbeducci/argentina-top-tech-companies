@@ -3,7 +3,7 @@
 // Protocol: MCP over Streamable HTTP (2026-07-28) with JSONRPC 2.0 fallback.
 //
 // Salaries: annual gross in USD MEP (dólar bolsa) primary, ARS secondary.
-// Source: sysarmy biannual salary survey (CC BY-SA 4.0).
+// Source: sysarmy biannual salary survey (CC BY-NC-SA 4.0).
 
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
@@ -324,7 +324,7 @@ async function handle(body) {
       protocolVersion: MODERN_VERSION,
       capabilities: { tools: {} },
       serverInfo: SERVER,
-      instructions: `Argentina tech salary MCP server. Salary data from the sysarmy survey (CC BY-SA 4.0). All figures are annual gross in USD MEP (dólar bolsa) with ARS equivalents. MEP rate used is in list_filters. No job-search tools in this version.`,
+      instructions: `Argentina tech salary MCP server. Salary data from the sysarmy survey (CC BY-NC-SA 4.0). All figures are annual gross in USD MEP (dólar bolsa) with ARS equivalents. MEP rate used is in list_filters. No job-search tools in this version.`,
     });
   }
 

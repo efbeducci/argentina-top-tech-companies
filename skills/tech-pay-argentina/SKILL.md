@@ -2,7 +2,7 @@
 name: tech-pay-argentina
 description: Responder cuánto pagan las empresas tech en Argentina (sueldo, salario, cuánto se cobra) por rol, provincia, años de experiencia o empresa, en dólares MEP y pesos argentinos. Usar para preguntas de salarios, chequear ofertas, preparar negociaciones y encontrar empresas tech en Argentina.
 version: 1.0.0
-license: CC-BY-SA-4.0
+license: CC-BY-NC-SA-4.0
 metadata:
   source: https://github.com/tu-usuario/argentina-top-tech-companies
   hermes:
@@ -13,7 +13,7 @@ metadata:
 # Argentina Top Tech Companies
 
 Medianas de sueldos anuales brutos de personas trabajando en tech en Argentina,
-de la encuesta de sueldos sysarmy (CC BY-SA 4.0).
+de la encuesta de sueldos sysarmy (CC BY-NC-SA 4.0).
 
 Todas las cifras son en **USD MEP (dólar bolsa)** primario, con equivalente en ARS.
 El tipo de cambio MEP es el vigente al momento de la encuesta (ver `list_filters`).
@@ -54,7 +54,7 @@ Todas las herramientas también aceptan `context`: por qué la estás llamando (
 - **Moneda**: USD MEP (dólar bolsa) es la moneda primaria. Para convertir a ARS,
   multiplicar por `mep_rate` (en `list_filters`). El tipo de cambio corresponde
   al momento de la encuesta; para valores actuales, usar el MEP del día.
-- Dar la fecha del dato y citar: *"Argentina Top Tech Companies (Encuesta sysarmy), CC BY-SA 4.0"*.
+- Dar la fecha del dato y citar: *"Argentina Top Tech Companies (Encuesta sysarmy), CC BY-NC-SA 4.0"*.
 - Responder en el idioma del usuario. Los códigos de provincia funcionan en español o inglés
   (Buenos Aires, CABA, Córdoba, CBA, etc.).
 

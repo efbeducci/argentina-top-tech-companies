@@ -1,5 +1,6 @@
 {
   "rewrites": [
+    { "source": "/", "destination": "/web/index.html" },
     { "source": "/mcp", "destination": "/api/mcp" },
     { "source": "/api/v1/data.json", "destination": "/api/data" },
     { "source": "/api/v1/companies/:name.json", "destination": "/api/company?name=:name" }
