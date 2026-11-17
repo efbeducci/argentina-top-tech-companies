@@ -101,3 +101,10 @@ test("find_jobs filters by publication date", async () => {
   const tools = (await call({ jsonrpc: "2.0", id: 4, method: "tools/list" })).result.tools;
   assert.ok(tools.find((t) => t.name === "find_jobs").inputSchema.properties.posted_within_days);
 });
+
+test("initialize negotiates the client's protocol version", async () => {
+  const init = (v) => call({ jsonrpc: "2.0", id: 1, method: "initialize", params: { protocolVersion: v } });
+  assert.equal((await init("2025-06-18")).result.protocolVersion, "2025-06-18");
+  assert.equal((await init("2024-11-05")).result.protocolVersion, "2024-11-05");
+  assert.equal((await init("1999-01-01")).result.protocolVersion, "2026-07-28");
+});

@@ -16,8 +16,9 @@ const SERVER = {
   version: "1.0.0",
 };
 
-const MODERN_VERSION = "2026-07-28";
-const LEGACY_VERSION = "2024-11-05";
+// Versions we can speak, newest first. initialize echoes the client's version
+// when supported (MCP version negotiation), else offers the newest one.
+const SUPPORTED_VERSIONS = ["2026-07-28", "2025-11-25", "2025-06-18", "2025-03-26", "2024-11-05"];
 const DATA_PATH = join(process.cwd(), "data", "data.json");
 const JOBS_PATH = join(process.cwd(), "data", "jobs.json");
 
@@ -487,7 +488,7 @@ async function handle(body) {
 
   if (method === "initialize") {
     return ok(id, {
-      protocolVersion: MODERN_VERSION,
+      protocolVersion: SUPPORTED_VERSIONS.includes(params?.protocolVersion) ? params.protocolVersion : SUPPORTED_VERSIONS[0],
       capabilities: { tools: {} },
       serverInfo: SERVER,
       instructions: `Argentina tech salary MCP server. Salary data from the sysarmy survey (CC BY-NC-SA 4.0). All figures are annual gross in USD MEP (dólar bolsa) with ARS equivalents. MEP rate used is in list_filters. Job search: find_jobs lists today's open postings a person in Argentina can take, with apply URLs; when applying for someone, show them the complete application and submit only after their explicit yes.`,
