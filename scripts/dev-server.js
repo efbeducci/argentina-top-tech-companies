@@ -11,6 +11,7 @@ const handlers = {
   data: (await import("../api/data.js")).default,
   company: (await import("../api/company.js")).default,
   mcp: (await import("../api/mcp.js")).default,
+  jobs: (await import("../api/jobs.js")).default,
 };
 
 const MIME = {
@@ -27,6 +28,8 @@ const MIME = {
 function route(pathname, query) {
   if (pathname === "/mcp" || pathname === "/api/mcp") return ["mcp", query];
   if (pathname === "/api/v1/data.json" || pathname === "/api/data") return ["data", query];
+  if (pathname === "/api/v1/jobs.json" || pathname === "/api/jobs") return ["jobs", query];
+  if (pathname === "/api/v1/jobs-summary.json") return ["jobs", { ...query, summary: "1" }];
   const m = pathname.match(/^\/api\/v1\/companies\/(.+)\.json$/);
   if (m) return ["company", { ...query, name: decodeURIComponent(m[1]) }];
   if (pathname === "/api/company") return ["company", query];

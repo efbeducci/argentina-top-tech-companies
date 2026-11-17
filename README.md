@@ -71,15 +71,25 @@ npx vercel --prod
 ## Estructura
 
 ```
+├── .github/workflows/
+│   ├── jobs.yml            # Rastreo diario de ofertas → data/jobs.json
+│   └── ci.yml              # Tests
 ├── api/
 │   ├── _classify.js        # Mapeo de provincias y roles (usado por MCP e ingesta)
+│   ├── _jobs.js            # Clasificador de ofertas: rol, seniority, años, provincia, stack
 │   ├── company.js          # Endpoint /api/v1/companies/:name.json
 │   ├── data.js             # Endpoint /api/v1/data.json
+│   ├── jobs.js             # Endpoint /api/v1/jobs.json
 │   └── mcp.js              # MCP server (Streamable HTTP)
 ├── data/
-│   └── data.json           # Dataset (sample incluido; reemplazar con datos reales)
+│   ├── boards.json         # Portales de empleo que se rastrean (empresa, ATS, board)
+│   ├── data.json           # Sueldos (encuesta sysarmy 2026.1)
+│   └── jobs.json           # Ofertas abiertas del día (generado)
+├── lib/ats/                # Lectores de ATS (Greenhouse, Lever, Workday...), de spanish-top-tech-companies
 ├── scripts/
-│   └── ingest_sysarmy.py   # Pipeline de ingesta: encuesta.csv → data.json
+│   ├── dev-server.js       # Server local (npm run dev)
+│   ├── ingest_sysarmy.py   # Pipeline de ingesta: encuesta.csv → data.json
+│   └── jobs.mjs            # Rastreo de ofertas: data/boards.json → data/jobs.json
 ├── skills/
 │   └── tech-pay-argentina/ # Skill MCP para agentes AI
 │       └── SKILL.md
@@ -102,12 +112,48 @@ Herramientas disponibles:
 - `top_companies(role, province, years, search, limit)` — ranking de empresas por mediana
 - `company_salaries(name)` — datos de una empresa específica
 - `list_filters()` — slugs válidos de roles, códigos de provincia, buckets de experiencia
+- `find_jobs(query, role, province, workplace, seniority, years, company, min_salary_usd, exclude, limit)` —
+  ofertas abiertas hoy que se pueden tomar desde Argentina, con link para postularse y la mediana
+  de sueldo de la encuesta para ese rol, provincia y experiencia
 
 Conectar desde Claude Code:
 
 ```bash
 claude mcp add --transport http tech-pay-argentina https://tu-dominio.vercel.app/mcp
 ```
+
+## Búsqueda de empleo
+
+Todos los días (GitHub Action [`jobs.yml`](.github/workflows/jobs.yml), 07:00 ART) se leen los portales
+de empleo públicos de las empresas de [`data/boards.json`](data/boards.json) y se guardan en
+`data/jobs.json` las ofertas que se pueden tomar **desde Argentina**:
+
+- **`argentina`**: oficina en Argentina (con provincia: CABA, BA, Córdoba...).
+- **`remote-argentina`**: remoto desde Argentina.
+- **`remote-latam`**: remoto desde Latinoamérica / LATAM / Americas.
+- **`remote-global`**: remoto sin país, salvo que el título lo limite a otro lado ("Remote - US").
+
+De cada oferta se guarda título, link, ubicación, sueldo publicado (si lo hay) y lo que se lee
+del título y la descripción: rol (en los roles de la encuesta), seniority (incluye Ssr/Semi Senior),
+años de experiencia pedidos y tecnologías. La descripción no se guarda.
+
+Con un agente conectado al MCP (Claude, Cursor, Codex...), le das tu CV una vez y le pedís, por ejemplo:
+
+> Buscame ofertas de backend con Node o Rails, remotas desde Argentina, para alguien con 6 años de experiencia.
+
+El agente usa `find_jobs`, abre cada oferta y puede completar la postulación con tu CV.
+**Nunca debe enviar nada sin tu sí explícito.** Tu CV y tus datos quedan en tu agente; el servidor no guarda nada tuyo.
+
+Correr el rastreo a mano:
+
+```bash
+npm run jobs                                   # todos los portales (Node 22+)
+node scripts/jobs.mjs --only coderio,redbee    # algunos
+```
+
+**Agregar una empresa**: sumar `{ "name", "ats", "board" }` a `data/boards.json`. El `board` es el slug del
+portal (por ej. `jobs.lever.co/coderio` → `lever` / `coderio`). Para Workday, `tenant/wdN/sitio` y
+`"query": "Argentina"`. Los conectores soportados están en [`lib/ats/`](lib/ats/README.md).
 
 ## Fuente de datos
 
@@ -118,5 +164,7 @@ claude mcp add --transport http tech-pay-argentina https://tu-dominio.vercel.app
 ## Licencia
 
 Código: MIT. Datos: CC BY-NC-SA 4.0 (sysarmy).
+`lib/ats/` y partes de `scripts/jobs.mjs` y `api/_jobs.js` vienen de
+[pugarte7/spanish-top-tech-companies](https://github.com/pugarte7/spanish-top-tech-companies) (MIT).
 
 Citación sugerida: *Argentina Top Tech Companies (Encuesta sysarmy), CC BY-NC-SA 4.0.*

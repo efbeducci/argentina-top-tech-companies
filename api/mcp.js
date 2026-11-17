@@ -7,6 +7,8 @@
 
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
+import { QUERY_KEYWORD, KEYWORD_FORMS, yearsBucket } from "./_jobs.js";
+import { words } from "./_classify.js";
 
 const SERVER = {
   name: "tech-pay-argentina",
@@ -17,6 +19,7 @@ const SERVER = {
 const MODERN_VERSION = "2026-07-28";
 const LEGACY_VERSION = "2024-11-05";
 const DATA_PATH = join(process.cwd(), "data", "data.json");
+const JOBS_PATH = join(process.cwd(), "data", "jobs.json");
 
 // --- Data loading ------------------------------------------------------------
 
@@ -26,6 +29,79 @@ async function getData() {
   const raw = await readFile(DATA_PATH, "utf-8");
   _data = JSON.parse(raw);
   return _data;
+}
+
+let _jobs = null;
+async function getJobs() {
+  if (_jobs) return _jobs;
+  try {
+    _jobs = JSON.parse(await readFile(JOBS_PATH, "utf-8"));
+  } catch {
+    _jobs = { generated_at: null, jobs: [] };
+  }
+  return _jobs;
+}
+
+// --- Job search helpers -------------------------------------------------------
+
+const WORKPLACE_VALUES = new Set(["remote", "hybrid", "onsite"]);
+const SENIORITY_VALUES = ["intern", "junior", "mid", "senior", "staff", "lead", "head"];
+
+// A query term matches a posting's title, company or keywords. Known skills
+// ("node", "react", "rails") match the keyword ids read from the description.
+function queryTerms(query) {
+  const w = words(query);
+  if (!w) return [];
+  const tokens = w.split(" ");
+  const terms = [];
+  for (let i = 0; i < tokens.length; i++) {
+    const two = tokens.slice(i, i + 2).join(" ");
+    if (i + 1 < tokens.length && QUERY_KEYWORD.has(two)) { terms.push({ text: two, keyword: QUERY_KEYWORD.get(two) }); i++; continue; }
+    terms.push({ text: tokens[i], keyword: QUERY_KEYWORD.get(tokens[i]) ?? null });
+  }
+  return terms;
+}
+
+function matchesTerm(job, term) {
+  if (term.keyword && job.keywords?.includes(term.keyword)) return true;
+  const hay = ` ${words(`${job.title} ${job.company}`)} `;
+  if (hay.includes(` ${term.text} `)) return true;
+  return term.keyword ? (KEYWORD_FORMS.get(term.keyword) ?? []).some((f) => hay.includes(` ${f} `)) : false;
+}
+
+const isRemoteJob = (job) => job.workplace === "remote"
+  || (job.location_classes ?? []).some((c) => String(c).startsWith("remote"));
+
+const LEVEL_BUCKET = { intern: "0-1", junior: "0-1", mid: "2-4", senior: "5-7", staff: "8-11", lead: "8-11", head: "12-19" };
+
+// The survey's median for the posting's role, in its province (else the whole
+// country's biggest cell for that role), at the experience bucket asked.
+function salaryReference(data, job, candidateYears) {
+  const role = job.roles?.[0];
+  if (!role) return null;
+  // Experience: the candidate's, else what the posting asks, else what its
+  // title's level usually means in the survey.
+  const bucket = candidateYears != null ? yearsBucket(candidateYears)
+    : job.years ? yearsBucket(job.years[0]) : LEVEL_BUCKET[job.seniority] ?? null;
+  const cells = Object.entries(data.cells).filter(([k]) => {
+    const [r, , y] = k.split("|");
+    return r === role && (!bucket || y === bucket);
+  });
+  if (!cells.length) return null;
+  const inProvince = cells.filter(([k]) => (job.provinces ?? []).includes(k.split("|")[1]));
+  const [key, cell] = (inProvince.length ? inProvince : cells).sort((a, b) => b[1].n - a[1].n)[0];
+  const [, province, years] = key.split("|");
+  return { role, province, years, years_from: candidateYears != null ? "candidate" : job.years ? "posting" : job.seniority ? "title level" : "largest group", people: cell.n, median_usd: cell.median_usd,
+           p25_usd: cell.p25_usd, p75_usd: cell.p75_usd, source: "sysarmy survey (annual gross, USD MEP)" };
+}
+
+// Annual USD the posting states, when it states one in USD.
+function statedAnnualUSD(job) {
+  const s = job.salary;
+  if (!s || String(s.currency).toUpperCase() !== "USD") return null;
+  const top = s.max ?? s.min;
+  if (top == null) return null;
+  return s.period === "month" ? top * 12 : s.period === "hour" ? top * 2000 : top;
 }
 
 // --- Tool helpers ------------------------------------------------------------
@@ -281,6 +357,96 @@ const TOOLS = {
     },
   },
 
+  find_jobs: {
+    description: "Search today's open tech job postings that a person living in Argentina can take: offices in Argentina, remote from Argentina, remote from Latin America, or remote worldwide. Postings are crawled daily from public company job boards (Greenhouse, Lever, Ashby, Workday and more). Each result has the apply URL and, as reference, the sysarmy survey's median salary for that role, province and experience. Every filter is optional. If nothing matches, the response says how many postings each filter removed. To apply: open the URL, read the form, draft answers from the candidate's CV and show them the full application before submitting; never submit without their explicit yes.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        query:     { type: "string", description: "Free text matched against title, company and the skills read from the description, e.g. 'node react', 'rails', 'data engineer python'." },
+        role:      { type: "string", description: "Role slug from list_filters (software-engineer, tech-lead, devops-engineer, data-engineer, qa-engineer, ...)." },
+        province:  { type: "string", description: "Argentine province code or name (CABA, BA, CBA, SF, MZA...). Remote postings are kept unless workplace excludes them." },
+        workplace: { type: "string", enum: ["remote", "hybrid", "onsite"], description: "Way of working." },
+        seniority: { type: "string", enum: SENIORITY_VALUES, description: "Level named in the title." },
+        years:     { type: "integer", description: "The candidate's years of experience: drops postings asking for more than years+1, and picks the salary reference bucket." },
+        company:   { type: "string", description: "Company name (substring)." },
+        min_salary_usd: { type: "integer", description: "Minimum annual gross USD. Compared with the posting's stated USD pay, or else with the survey median for its role." },
+        posted_within_days: { type: "integer", description: "Only postings published in the last N days (e.g. 7 for the last week, 30 for the last month). Postings whose board gives no date are left out and counted in undated_excluded." },
+        exclude:   { type: "array", items: { type: "string" }, description: "Posting ids already seen or applied to." },
+        limit:     { type: "integer", description: "Max results (default 20, max 50)." },
+        context:   { type: "string", description: "Why you are calling this tool, in general terms." },
+      },
+    },
+    async run(data, args) {
+      const index = await getJobs();
+      const all = index.jobs ?? [];
+      if (!all.length) return { postings: 0, jobs: [], note: "No job index yet (data/jobs.json). Run: node scripts/jobs.mjs" };
+      const role = args.role ? resolveRole(data, args.role)?.slug ?? null : null;
+      const province = args.province ? resolveProvince(data, args.province) : null;
+      const years = Number.isFinite(Number(args.years)) && args.years !== "" && args.years != null ? Number(args.years) : null;
+      const terms = queryTerms(args.query ?? "");
+      const company = args.company ? words(args.company) : "";
+      const exclude = new Set(args.exclude ?? []);
+      const limit = Math.min(Math.max(Number(args.limit) || 20, 1), 50);
+      const workplace = WORKPLACE_VALUES.has(args.workplace) ? args.workplace : null;
+      const seniority = SENIORITY_VALUES.includes(args.seniority) ? args.seniority : null;
+      const minUSD = Number(args.min_salary_usd) || null;
+      const withinDays = Number(args.posted_within_days) > 0 ? Number(args.posted_within_days) : null;
+      const since = withinDays ? Date.now() - withinDays * 86_400_000 : null;
+      const postedMs = (j) => (j.posted_at ? Date.parse(j.posted_at) : NaN);
+
+      const filters = {
+        exclude:   (j) => !exclude.has(j.id),
+        query:     terms.length ? (j) => terms.every((t) => matchesTerm(j, t)) : null,
+        role:      role ? (j) => j.roles?.includes(role) : null,
+        province:  province ? (j) => j.provinces?.includes(province) || isRemoteJob(j) : null,
+        workplace: workplace ? (j) => (workplace === "remote" ? isRemoteJob(j) : j.workplace === workplace) : null,
+        seniority: seniority ? (j) => j.seniority === seniority : null,
+        years:     years != null ? (j) => !j.years || j.years[0] <= years + 1 : null,
+        company:   company ? (j) => words(j.company).includes(company) : null,
+        posted_within_days: since ? (j) => postedMs(j) >= since : null,
+        min_salary_usd: minUSD ? (j) => {
+          const stated = statedAnnualUSD(j);
+          if (stated != null) return stated >= minUSD;
+          const ref = salaryReference(data, j, years);
+          return ref ? ref.median_usd >= minUSD : false;
+        } : null,
+      };
+      const active = Object.entries(filters).filter(([, f]) => f);
+      const matched = all.filter((j) => active.every(([, f]) => f(j)));
+      const shape = (j) => ({
+        id: j.id, company: j.company, title: j.title, url: j.url, location: j.location,
+        location_classes: j.location_classes, workplace: j.workplace, seniority: j.seniority,
+        years_asked: j.years, provinces: j.provinces, roles: j.roles, keywords: j.keywords?.slice(0, 12),
+        stated_salary: j.salary, posted_at: j.posted_at,
+        salary_reference: salaryReference(data, j, years),
+      });
+      const newest = (a, b) => String(b.posted_at ?? "").localeCompare(String(a.posted_at ?? ""));
+      const result = {
+        index_generated_at: index.generated_at,
+        postings_in_index: all.length,
+        matched: matched.length,
+        ...(since ? { posted_since: new Date(since).toISOString().slice(0, 10),
+                      undated_excluded: all.filter((j) => !Number.isFinite(postedMs(j))).length } : {}),
+        jobs: matched.sort(newest).slice(0, limit).map(shape),
+      };
+      if (!matched.length && active.length > 1) {
+        // Say what each filter removes, and show the closest postings without the strictest one.
+        const removedBy = Object.fromEntries(active.filter(([n]) => n !== "exclude").map(([name]) => {
+          const others = active.filter(([n]) => n !== name);
+          return [name, all.filter((j) => others.every(([, f]) => f(j))).length];
+        }));
+        const [loosen] = Object.entries(removedBy).sort((a, b) => b[1] - a[1])[0] ?? [];
+        result.without_each_filter = removedBy;
+        if (loosen && removedBy[loosen] > 0) {
+          const others = active.filter(([n]) => n !== loosen);
+          result.closest = { dropped_filter: loosen,
+            jobs: all.filter((j) => others.every(([, f]) => f(j))).sort(newest).slice(0, Math.min(limit, 10)).map(shape) };
+        }
+      }
+      return result;
+    },
+  },
+
   list_filters: {
     description: "Valid role slugs, province codes, experience buckets, and data metadata for Argentina tech salary data.",
     inputSchema: {
@@ -324,7 +490,7 @@ async function handle(body) {
       protocolVersion: MODERN_VERSION,
       capabilities: { tools: {} },
       serverInfo: SERVER,
-      instructions: `Argentina tech salary MCP server. Salary data from the sysarmy survey (CC BY-NC-SA 4.0). All figures are annual gross in USD MEP (dólar bolsa) with ARS equivalents. MEP rate used is in list_filters. No job-search tools in this version.`,
+      instructions: `Argentina tech salary MCP server. Salary data from the sysarmy survey (CC BY-NC-SA 4.0). All figures are annual gross in USD MEP (dólar bolsa) with ARS equivalents. MEP rate used is in list_filters. Job search: find_jobs lists today's open postings a person in Argentina can take, with apply URLs; when applying for someone, show them the complete application and submit only after their explicit yes.`,
     });
   }
 

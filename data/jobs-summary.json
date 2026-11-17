@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "generated_at": "2026-11-16T18:20:22Z",
+  "postings": 998,
+  "companies": 87,
+  "boards": 99,
+  "remote": 495,
+  "roles": {
+    "software-engineer": 215,
+    "devops-engineer": 35,
+    "software-engineering-manager": 35,
+    "data-engineer": 20,
+    "data-scientist": 19,
+    "product-manager": 17,
+    "tech-lead": 17,
+    "security-engineer": 16,
+    "qa-engineer": 9,
+    "ux-designer": 5
+  }
+}

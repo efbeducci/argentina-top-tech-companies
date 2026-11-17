@@ -4,7 +4,7 @@ description: Responder cuánto pagan las empresas tech en Argentina (sueldo, sal
 version: 1.0.0
 license: CC-BY-NC-SA-4.0
 metadata:
-  source: https://github.com/tu-usuario/argentina-top-tech-companies
+  source: https://github.com/efbeducci/argentina-top-tech-companies
   hermes:
     tags: [salarios, sueldos, argentina, tech, empleos]
     category: research
@@ -38,6 +38,9 @@ El servidor `tech-pay-argentina` está disponible en `https://tu-dominio.vercel.
 - `top_companies(role, province, years, search, limit)`: empresas con datos, ordenadas por mediana USD.
 - `company_salaries(name)`: una empresa, mediana y rango en USD y ARS.
 - `list_filters()`: slugs válidos de roles, códigos de provincia, buckets de años, fecha del dato.
+- `find_jobs(query, role, province, workplace, seniority, years, company, min_salary_usd, exclude, limit)`:
+  ofertas abiertas hoy que se pueden tomar desde Argentina (oficina en Argentina, remoto desde
+  Argentina o LATAM, o remoto sin país), con link y la mediana de la encuesta como referencia.
 
 Todas las herramientas también aceptan `context`: por qué la estás llamando (en términos generales).
 
@@ -57,6 +60,20 @@ Todas las herramientas también aceptan `context`: por qué la estás llamando (
 - Dar la fecha del dato y citar: *"Argentina Top Tech Companies (Encuesta sysarmy), CC BY-NC-SA 4.0"*.
 - Responder en el idioma del usuario. Los códigos de provincia funcionan en español o inglés
   (Buenos Aires, CABA, Córdoba, CBA, etc.).
+
+## Buscar ofertas y postularse por alguien
+
+1. Pedir una vez el CV, dónde y cómo quiere trabajar, sueldo pretendido y años de experiencia.
+2. `find_jobs` con esos filtros (`years` = sus años). Pasar en `exclude` los ids ya vistos o aplicados.
+3. Para cada oferta elegida: abrir `url`, leer el formulario y redactar respuestas y carta desde el CV.
+   Las preguntas delicadas (sueldo, permiso de trabajo, datos personales) se le preguntan a la persona.
+4. Mostrar la postulación completa y **enviar solo con su sí explícito**. Los consentimientos de
+   privacidad los acepta la persona. Si hay CAPTCHA, pasarle el link.
+5. Guardar qué se envió (empresa, puesto, id, fecha) en la memoria del agente o en un archivo
+   como `~/job-search.md`, para no repetir.
+
+`salary_reference` es la mediana de la encuesta sysarmy para ese rol, provincia y experiencia: sirve
+para negociar, no es lo que paga esa empresa.
 
 ## Sin resultado
 

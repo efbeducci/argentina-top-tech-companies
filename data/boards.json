@@ -1,0 +1,619 @@
+{
+ "_comment": "Job boards crawled daily by scripts/jobs.mjs. origin: 'argentina' = found for this project; 'spanish-top-tech-companies' = from that repo's list, kept because it had postings open to Argentina. Add a board: name, ats, board (see lib/ats/README.md).",
+ "boards": [
+  {
+   "name": "Abacum",
+   "ats": "ashby",
+   "board": "abacum",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "ABB",
+   "ats": "phenom",
+   "board": "careers.abb/ABB1GLOBAL/global/en",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Accenture",
+   "ats": "workday",
+   "board": "accenture/wd103/AccentureCareers",
+   "query": "Argentina",
+   "origin": "argentina"
+  },
+  {
+   "name": "Aerolab",
+   "ats": "recruitee",
+   "board": "aerolab",
+   "origin": "argentina"
+  },
+  {
+   "name": "Andela",
+   "ats": "ashby",
+   "board": "andela",
+   "origin": "argentina"
+  },
+  {
+   "name": "Aon",
+   "ats": "icims",
+   "board": "jobs.aon.com",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "AppsFlyer",
+   "ats": "greenhouse",
+   "board": "appsflyer",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "AstraZeneca",
+   "ats": "eightfold",
+   "board": "astrazeneca.eightfold.ai/astrazeneca.com",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Autodesk",
+   "ats": "eightfold",
+   "board": "autodesk.eightfold.ai/autodesk.com",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Ava Labs",
+   "ats": "ashby",
+   "board": "ava-labs",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "BBVA",
+   "ats": "workday",
+   "board": "bbva/wd3/BBVA",
+   "query": "Argentina",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "BCG",
+   "ats": "eightfold",
+   "board": "bcg.eightfold.ai/bcg.com",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "BCG Digital Ventures",
+   "ats": "phenom",
+   "board": "careers.bcg.com/BCG1US/global/en",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "BD",
+   "ats": "radancy",
+   "board": "jobs.bd.com/en",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Bitfinex",
+   "ats": "recruitee",
+   "board": "bitfinex",
+   "origin": "argentina"
+  },
+  {
+   "name": "Bitso",
+   "ats": "bamboohr",
+   "board": "bitso",
+   "origin": "argentina"
+  },
+  {
+   "name": "Bosch Global",
+   "ats": "smartrecruiters",
+   "board": "BoschGroup",
+   "country": "ar",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Brambles",
+   "ats": "workday",
+   "board": "brambles/wd5/Brambles_Careers",
+   "query": "Argentina",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Buffer",
+   "ats": "ashby",
+   "board": "buffer",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Cabify",
+   "ats": "greenhouse",
+   "board": "cabify",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Canonical",
+   "ats": "greenhouse",
+   "board": "canonical",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Check Point Software Technologies",
+   "ats": "smartrecruiters",
+   "board": "CheckPointSoftwareTechnologies2",
+   "country": "ar",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Cisco",
+   "ats": "phenom",
+   "board": "careers.cisco.com/CISCISGLOBAL/global/en",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Clipboard Health",
+   "ats": "ashby",
+   "board": "clipboard",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Coderio",
+   "ats": "lever",
+   "board": "coderio",
+   "origin": "argentina"
+  },
+  {
+   "name": "Coinbase",
+   "ats": "greenhouse",
+   "board": "coinbase",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Creative Fabrica",
+   "ats": "greenhouse",
+   "board": "creativefabrica",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Delivery Hero",
+   "ats": "smartrecruiters",
+   "board": "DeliveryHero",
+   "country": "ar",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Dentsu Group",
+   "ats": "workday",
+   "board": "dentsuaegis/wd3/DAN_GLOBAL",
+   "query": "Argentina",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Despegar",
+   "ats": "lever",
+   "board": "despegar",
+   "origin": "argentina"
+  },
+  {
+   "name": "Dynatrace",
+   "ats": "jsonld",
+   "board": "www.dynatrace.com/careers/sitemap-0.xml",
+   "query": "sitemap",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "E. Merck KG",
+   "ats": "phenom",
+   "board": "careers.emdgroup.com/MQAEGZUS/us/en",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Elastic",
+   "ats": "greenhouse",
+   "board": "elastic",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "ElevenLabs",
+   "ats": "ashby",
+   "board": "elevenlabs",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Endava",
+   "ats": "smartrecruiters",
+   "board": "Endava",
+   "country": "ar",
+   "origin": "argentina"
+  },
+  {
+   "name": "Feedzai",
+   "ats": "greenhouse",
+   "board": "feedzai",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Fever",
+   "ats": "greenhouse",
+   "board": "feverup",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Fudo",
+   "ats": "bamboohr",
+   "board": "fudo",
+   "origin": "argentina"
+  },
+  {
+   "name": "Greenhouse",
+   "ats": "greenhouse",
+   "board": "greenhouse",
+   "origin": "argentina"
+  },
+  {
+   "name": "HPE",
+   "ats": "phenom",
+   "board": "careers.hpe.com/HPE1US/us/en",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Infor",
+   "ats": "pinpoint",
+   "board": "infor.pinpointhq.com",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Intetics",
+   "ats": "workable",
+   "board": "intetics-2",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Intive",
+   "ats": "workday",
+   "board": "intive/wd3/Intive",
+   "query": "Argentina",
+   "origin": "argentina"
+  },
+  {
+   "name": "IQVIA",
+   "ats": "workday",
+   "board": "iqvia/wd1/IQVIA",
+   "query": "Argentina",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Kraken",
+   "ats": "ashby",
+   "board": "kraken.com",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Kyndryl",
+   "ats": "workday",
+   "board": "kyndryl/wd5/KyndrylProfessionalCareers",
+   "query": "Argentina",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "L'Oréal",
+   "ats": "radancy",
+   "board": "careers.loreal.com/en",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Libertex",
+   "ats": "workable",
+   "board": "libertexgroup",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Mastercard",
+   "ats": "workday",
+   "board": "mastercard/wd1/CorporateCareers",
+   "query": "Argentina",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Medallia",
+   "ats": "icims",
+   "board": "jobs.medallia.com",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Medtronic",
+   "ats": "workday",
+   "board": "medtronic/wd1/MedtronicCareers",
+   "query": "Argentina",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Mercado Libre",
+   "ats": "eightfold",
+   "board": "mercadolibre.eightfold.ai/mercadolibre.com",
+   "origin": "argentina"
+  },
+  {
+   "name": "Meta",
+   "ats": "meta",
+   "board": "metacareers",
+   "query": "Argentina",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Microsoft",
+   "ats": "eightfold",
+   "board": "apply.careers.microsoft.com/microsoft.com",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "MODO",
+   "ats": "bamboohr",
+   "board": "modo",
+   "origin": "argentina"
+  },
+  {
+   "name": "Mozilla",
+   "ats": "greenhouse",
+   "board": "mozilla",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "MURAL",
+   "ats": "ashby",
+   "board": "mural",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Ocado Group",
+   "ats": "greenhouse",
+   "board": "ocadogroup",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Octopus Energy",
+   "ats": "lever",
+   "board": "octoenergy",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Oyster HR",
+   "ats": "ashby",
+   "board": "oyster",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Parser Digital",
+   "ats": "bamboohr",
+   "board": "parser",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Pennylane",
+   "ats": "ashby",
+   "board": "pennylane",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "PepsiCo",
+   "ats": "icims",
+   "board": "www.pepsicojobs.com",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Percona",
+   "ats": "ashby",
+   "board": "percona",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Pfizer",
+   "ats": "workday",
+   "board": "pfizer/wd1/PfizerCareers",
+   "query": "Argentina",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Plata",
+   "ats": "greenhouse",
+   "board": "platacard",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Platzi",
+   "ats": "workable",
+   "board": "platzi",
+   "origin": "argentina"
+  },
+  {
+   "name": "Pomelo",
+   "ats": "greenhouse",
+   "board": "careerspomelo",
+   "origin": "argentina"
+  },
+  {
+   "name": "Pomelo",
+   "ats": "greenhouse",
+   "board": "pomelocareer",
+   "origin": "argentina"
+  },
+  {
+   "name": "Publicis Groupe",
+   "ats": "icims",
+   "board": "careers.publicisgroupe.com",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Rappi",
+   "ats": "workday",
+   "board": "rappi/wd12/Rappi_jobs",
+   "query": "Argentina",
+   "origin": "argentina"
+  },
+  {
+   "name": "Redbee",
+   "ats": "lever",
+   "board": "redbee",
+   "origin": "argentina"
+  },
+  {
+   "name": "Rillet",
+   "ats": "ashby",
+   "board": "rillet",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Ripio",
+   "ats": "teamtailor",
+   "board": "jobs.ripio.com",
+   "origin": "argentina"
+  },
+  {
+   "name": "Roche",
+   "ats": "phenom",
+   "board": "careers.roche.com/ROCHGLOBAL/global/en",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Safeguard Global",
+   "ats": "workday",
+   "board": "safeguardglobal/wd3/External_Careers",
+   "query": "Argentina",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Santex",
+   "ats": "greenhouse",
+   "board": "santex",
+   "origin": "argentina"
+  },
+  {
+   "name": "Satellogic",
+   "ats": "bamboohr",
+   "board": "satellogic",
+   "origin": "argentina"
+  },
+  {
+   "name": "Sourcegraph",
+   "ats": "greenhouse",
+   "board": "sourcegraph91",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Stripe",
+   "ats": "greenhouse",
+   "board": "stripe",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Talan",
+   "ats": "smartrecruiters",
+   "board": "Talan",
+   "country": "ar",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "TestGorilla",
+   "ats": "ashby",
+   "board": "testgorilla",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Testlio",
+   "ats": "greenhouse",
+   "board": "testlio",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Thermo Fisher Scientific",
+   "ats": "phenom",
+   "board": "jobs.thermofisher.com/TFSCGLOBAL/global/en",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Topsort",
+   "ats": "greenhouse",
+   "board": "topsort",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Toptal",
+   "ats": "lever",
+   "board": "toptal",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "TransPerfect",
+   "ats": "recruitee",
+   "board": "transperfect",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Truelogic",
+   "ats": "ashby",
+   "board": "truelogic",
+   "origin": "argentina"
+  },
+  {
+   "name": "Tyk",
+   "ats": "workable",
+   "board": "tyk-technologies",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Upwork",
+   "ats": "greenhouse",
+   "board": "upwork",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Vercel",
+   "ats": "greenhouse",
+   "board": "vercel",
+   "origin": "argentina"
+  },
+  {
+   "name": "Veriff",
+   "ats": "greenhouse",
+   "board": "veriff",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Verisure",
+   "ats": "phenom",
+   "board": "careers.verisure.com/VERIGLOBAL/global/en",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Visa",
+   "ats": "workday",
+   "board": "visa/wd5/Visa",
+   "query": "Argentina",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "VML",
+   "ats": "greenhouse",
+   "board": "wundermanthompson",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Welocalize",
+   "ats": "lever",
+   "board": "weloglobal",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Wizeline",
+   "ats": "greenhouse",
+   "board": "wizeline",
+   "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Xapo",
+   "ats": "greenhouse",
+   "board": "xapo61",
+   "origin": "argentina"
+  },
+  {
+   "name": "Zartis",
+   "ats": "lever",
+   "board": "zartis",
+   "origin": "spanish-top-tech-companies"
+  }
+ ]
+}

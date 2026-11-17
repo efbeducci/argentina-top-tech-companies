@@ -1,0 +1,40 @@
+# Daily crawl of the job boards in data/boards.json into data/jobs.json.
+# Commits only when the index changed; a push to main redeploys on Vercel.
+name: Daily job crawl
+
+on:
+  schedule:
+    - cron: "0 10 * * *" # 07:00 Argentina
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jobs-crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci --omit=dev
+      - name: Crawl job boards
+        run: node scripts/jobs.mjs --minutes 60
+      - name: Commit the new index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/jobs.json data/jobs-summary.json
+          if git diff --cached --quiet; then
+            echo "No changes in the job index"
+          else
+            git commit -m "Refresh job postings $(date -u +%Y-%m-%d)"
+            git push
+          fi
