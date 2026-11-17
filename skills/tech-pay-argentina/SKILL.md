@@ -38,9 +38,11 @@ El servidor `tech-pay-argentina` está disponible en `https://tu-dominio.vercel.
 - `top_companies(role, province, years, search, limit)`: empresas con datos, ordenadas por mediana USD.
 - `company_salaries(name)`: una empresa, mediana y rango en USD y ARS.
 - `list_filters()`: slugs válidos de roles, códigos de provincia, buckets de años, fecha del dato.
-- `find_jobs(query, role, province, workplace, seniority, years, company, min_salary_usd, exclude, limit)`:
+- `find_jobs(query, role, province, workplace, seniority, years, company, min_salary_usd, posted_within_days, exclude, limit)`:
   ofertas abiertas hoy que se pueden tomar desde Argentina (oficina en Argentina, remoto desde
   Argentina o LATAM, o remoto sin país), con link y la mediana de la encuesta como referencia.
+  Vienen de los portales de las empresas y de Get on Board, We Work Remotely, Jobicy y Himalayas;
+  las de estos últimos traen `via` con el nombre del portal: mencionarlo al mostrar la oferta.
 
 Todas las herramientas también aceptan `context`: por qué la estás llamando (en términos generales).
 
@@ -65,6 +67,7 @@ Todas las herramientas también aceptan `context`: por qué la estás llamando (
 
 1. Pedir una vez el CV, dónde y cómo quiere trabajar, sueldo pretendido y años de experiencia.
 2. `find_jobs` con esos filtros (`years` = sus años). Pasar en `exclude` los ids ya vistos o aplicados.
+   Usar `find_jobs` primero; buscar en la web solo para completar lo que el índice no cubre.
 3. Para cada oferta elegida: abrir `url`, leer el formulario y redactar respuestas y carta desde el CV.
    Las preguntas delicadas (sueldo, permiso de trabajo, datos personales) se le preguntan a la persona.
 4. Mostrar la postulación completa y **enviar solo con su sí explícito**. Los consentimientos de

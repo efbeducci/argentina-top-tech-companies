@@ -359,7 +359,7 @@ const TOOLS = {
   },
 
   find_jobs: {
-    description: "Search today's open tech job postings that a person living in Argentina can take: offices in Argentina, remote from Argentina, remote from Latin America, or remote worldwide. Postings are crawled daily from public company job boards (Greenhouse, Lever, Ashby, Workday and more). Each result has the apply URL and, as reference, the sysarmy survey's median salary for that role, province and experience. Every filter is optional. If nothing matches, the response says how many postings each filter removed. To apply: open the URL, read the form, draft answers from the candidate's CV and show them the full application before submitting; never submit without their explicit yes.",
+    description: "Search today's open tech job postings that a person living in Argentina can take: offices in Argentina, remote from Argentina, remote from Latin America, or remote worldwide. Postings are crawled daily from public company job boards (Greenhouse, Lever, Ashby, Workday and more) and from the job boards Get on Board, We Work Remotely, Jobicy and Himalayas; a result found on one of those names it in `via` (credit it when showing the posting) and its URL is the posting there. Each result has the apply URL and, as reference, the sysarmy survey's median salary for that role, province and experience. Every filter is optional. If nothing matches, the response says how many postings each filter removed. To apply: open the URL, read the form, draft answers from the candidate's CV and show them the full application before submitting; never submit without their explicit yes.",
     inputSchema: {
       type: "object",
       properties: {
@@ -418,7 +418,7 @@ const TOOLS = {
         id: j.id, company: j.company, title: j.title, url: j.url, location: j.location,
         location_classes: j.location_classes, workplace: j.workplace, seniority: j.seniority,
         years_asked: j.years, provinces: j.provinces, roles: j.roles, keywords: j.keywords?.slice(0, 12),
-        stated_salary: j.salary, posted_at: j.posted_at,
+        stated_salary: j.salary, posted_at: j.posted_at, ...(j.via ? { via: j.via } : {}),
         salary_reference: salaryReference(data, j, years),
       });
       const newest = (a, b) => String(b.posted_at ?? "").localeCompare(String(a.posted_at ?? ""));

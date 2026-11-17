@@ -86,6 +86,7 @@ npx vercel --prod
 │   ├── data.json           # Sueldos (encuesta sysarmy 2026.1)
 │   └── jobs.json           # Ofertas abiertas del día (generado)
 ├── lib/ats/                # Lectores de ATS (Greenhouse, Lever, Workday...), de spanish-top-tech-companies
+├── lib/feeds/              # Portales multi-empresa: Get on Board, We Work Remotely, Jobicy, Himalayas
 ├── scripts/
 │   ├── dev-server.js       # Server local (npm run dev)
 │   ├── ingest_sysarmy.py   # Pipeline de ingesta: encuesta.csv → data.json
@@ -112,7 +113,7 @@ Herramientas disponibles:
 - `top_companies(role, province, years, search, limit)` — ranking de empresas por mediana
 - `company_salaries(name)` — datos de una empresa específica
 - `list_filters()` — slugs válidos de roles, códigos de provincia, buckets de experiencia
-- `find_jobs(query, role, province, workplace, seniority, years, company, min_salary_usd, exclude, limit)` —
+- `find_jobs(query, role, province, workplace, seniority, years, company, min_salary_usd, posted_within_days, exclude, limit)` —
   ofertas abiertas hoy que se pueden tomar desde Argentina, con link para postularse y la mediana
   de sueldo de la encuesta para ese rol, provincia y experiencia
 
@@ -124,9 +125,18 @@ claude mcp add --transport http tech-pay-argentina https://tu-dominio.vercel.app
 
 ## Búsqueda de empleo
 
-Todos los días (GitHub Action [`jobs.yml`](.github/workflows/jobs.yml), 07:00 ART) se leen los portales
-de empleo públicos de las empresas de [`data/boards.json`](data/boards.json) y se guardan en
-`data/jobs.json` las ofertas que se pueden tomar **desde Argentina**:
+Todos los días (GitHub Action [`jobs.yml`](.github/workflows/jobs.yml), 07:00 ART) se leen dos tipos de fuentes
+y se guardan en `data/jobs.json` las ofertas que se pueden tomar **desde Argentina**:
+
+1. **Portales propios de las empresas** de [`data/boards.json`](data/boards.json) (Greenhouse, Lever, Ashby,
+   Workday, Eightfold...): Mercado Libre, Despegar, Truelogic, Fudo, Satellogic y ~90 más.
+2. **Portales multi-empresa** ([`lib/feeds/`](lib/feeds/)), con sus APIs o feeds públicos:
+   [Get on Board](https://www.getonbrd.com), [We Work Remotely](https://weworkremotely.com),
+   [Jobicy](https://jobicy.com) y [Himalayas](https://himalayas.app). De estos se guardan solo ofertas tech
+   (con un rol reconocible en el título) de los últimos 30 días; cada una indica de dónde salió (`via`) y su
+   link lleva a la oferta en ese portal. Si una oferta ya está en el portal propio de la empresa, se usa esa.
+
+Clases de ubicación:
 
 - **`argentina`**: oficina en Argentina (con provincia: CABA, BA, Córdoba...).
 - **`remote-argentina`**: remoto desde Argentina.
@@ -148,7 +158,9 @@ Correr el rastreo a mano:
 
 ```bash
 npm run jobs                                   # todos los portales (Node 22+)
-node scripts/jobs.mjs --only coderio,redbee    # algunos
+node scripts/jobs.mjs --only coderio,redbee    # algunos (sin portales multi-empresa)
+node scripts/jobs.mjs --feeds none             # solo portales de empresas
+node scripts/jobs.mjs --only x --feeds getonboard  # solo Get on Board
 ```
 
 **Agregar una empresa**: sumar `{ "name", "ats", "board" }` a `data/boards.json`. El `board` es el slug del
@@ -160,6 +172,9 @@ portal (por ej. `jobs.lever.co/coderio` → `lever` / `coderio`). Para Workday, 
 - **Encuesta**: [sysarmy.com/encuesta](https://sysarmy.com/encuesta) — encuesta semestral de sueldos tech en Argentina
 - **Datos históricos**: [openqube/openqube-sueldos](https://github.com/openqube/openqube-sueldos)
 - **Licencia de los datos**: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- **Ofertas**: portales públicos de cada empresa, y [Get on Board](https://www.getonbrd.com),
+  [We Work Remotely](https://weworkremotely.com), [Jobicy](https://jobicy.com) y
+  [Himalayas](https://himalayas.app), que son la fuente de las ofertas que traen `via`.
 
 ## Licencia
 

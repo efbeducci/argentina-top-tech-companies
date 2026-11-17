@@ -18,11 +18,19 @@
 // for up to a week (boards.stale); a board that answers 404 or with no
 // postings has none. The daily GitHub Action (.github/workflows/jobs.yml)
 // runs it and commits the result.
+//
+// Beside the companies' own boards it reads job boards that list many
+// employers (lib/feeds: Get on Board, We Work Remotely, Jobicy, Himalayas),
+// keeping their tech postings (a role read from the title) from the last
+// FEED_MAX_DAYS that someone in Argentina could take. A posting a company's
+// own board already carries is kept from there; each feed row credits its
+// board (`via`) and links to the posting there.
 
 import { mkdirSync, readFileSync, renameSync, writeFileSync, existsSync } from "node:fs";
 import { dirname } from "node:path";
 import { pathToFileURL } from "node:url";
 import { classifyJob } from "../api/_jobs.js";
+import { FEEDS, client } from "../lib/feeds/index.js";
 
 export const VERSION = 1;
 /** lib/ats location classes a person in Argentina can take. */
@@ -33,6 +41,7 @@ const NO_PLACE = /^(?:remote|fully|100%|work|from|at|home|based|distributed|anyw
 const REMOTE_WORD = /remote|remoto|home|distributed|anywhere|worldwide|global|virtual|wfh/i;
 /** A title that scopes a placeless remote posting somewhere Argentina is not. */
 const ELSEWHERE_TITLE = /\b(?:north america|us|usa|united states|canada|emea|europe|eu|uk|apac|asia|india|australia|japan|brazil|brasil|mexico|spain|germany|poland|portugal)\b(?!\s*(?:&|and|\/|or|,)\s*latam)/i;
+const LATAM_TITLE = /\b(?:latam|latin america|latinoamerica|south america|sudamerica)\b/i;
 const WORKPLACES = new Set(["remote", "hybrid", "onsite"]);
 const PERIODS = new Set(["year", "month", "hour"]);
 
@@ -44,7 +53,11 @@ const DEFAULTS = {
   minutes: Number(process.env.JOBS_MAX_MINUTES) || 60,
   concurrency: 16,
   only: "",
+  // Job-board feeds to read: "all", "none", or ids ("getonboard,jobicy").
+  // Unset: all of them, or none with --only.
+  feeds: "",
 };
+const FEED_MAX_DAYS = 30;
 
 const THROTTLE_STATUS = new Set([402, 403, 405, 429, 503]);
 const BACKOFF_MS = 15_000;
@@ -223,6 +236,74 @@ export async function crawl(boards, ats, opts = {}) {
   };
 }
 
+const dedupeKey = (job) => `${norm(job.company).replace(/[^a-z0-9]/g, "")}|${norm(job.title).replace(/[^a-z0-9]/g, "")}`;
+
+/**
+ * One index row from a feed item, or null: a remote posting open anywhere
+ * whose title scopes it elsewhere, one older than `since`, or one whose title
+ * reads as no tech role.
+ */
+export function feedEntry(item, feed, since = 0) {
+  if (!item?.title || !item.url) return null;
+  if (item.cls === "remote-global" && ELSEWHERE_TITLE.test(item.title)) return null;
+  const cls = item.cls === "remote-global" && LATAM_TITLE.test(item.title) ? "remote-latam" : item.cls;
+  if (item.posted_at && Date.parse(item.posted_at) < since) return null;
+  const row = {
+    id: `${feed.id}:feed:${item.externalId}`,
+    company: item.company || "Unknown",
+    title: item.title,
+    url: item.url,
+    ats: feed.id,
+    via: feed.name,
+    location: item.location,
+    location_classes: [cls],
+    workplace: item.workplace ?? "remote",
+    posted_at: item.posted_at ?? null,
+    salary: item.salary ?? null,
+  };
+  const classified = classifyJob(row, item.text);
+  return classified.roles.length ? { ...row, ...classified } : null;
+}
+
+/**
+ * Reads each feed (side by side, each at its own pace) and returns its rows,
+ * leaving out postings already in `existing` (rows, or a promise of them, so
+ * feeds can run while the boards are crawled) and ones an earlier feed in
+ * FEEDS order carries.
+ */
+export async function crawlFeeds(feeds, existing = [], opts = {}) {
+  const since = (opts.now ?? Date.now()) - FEED_MAX_DAYS * 86_400_000;
+  const results = await Promise.all(feeds.map(async (feed) => {
+    try {
+      const { total, items } = await feed.fetch(opts.get?.(feed) ?? client({ gapMs: feed.gapMs }), { since });
+      return { feed, total, rows: items.map((i) => feedEntry(i, feed, since)).filter(Boolean) };
+    } catch (error) {
+      return { feed, error };
+    }
+  }));
+  const taken = new Set((await existing).map(dedupeKey));
+  const rows = [];
+  const failures = [];
+  const perFeed = {};
+  for (const { feed, total, rows: got, error } of results) {
+    if (error) {
+      failures.push({ company: feed.name, ats: feed.id, board: "feed", code: error.code ?? "feed_error",
+                      message: String(error.message ?? error).slice(0, 300) });
+      continue;
+    }
+    let kept = 0;
+    for (const row of got) {
+      const key = dedupeKey(row);
+      if (taken.has(key)) continue;
+      taken.add(key);
+      rows.push(row);
+      kept += 1;
+    }
+    perFeed[`${feed.id}:feed`] = { name: feed.name, total, kept };
+  }
+  return { rows, failures, perFeed };
+}
+
 const boardKey = (failure) => `${failure.ats}:${failure.board}`;
 
 /** Keeps, unchanged, the previous index's postings of each board that failed this run (up to `maxDays`). */
@@ -261,18 +342,22 @@ export function isIndex(value) {
     && Array.isArray(value.jobs) && typeof value.boards === "object";
 }
 
-/** Postings, companies, boards, remote ones and postings per role. */
+/** Postings, companies, boards, remote ones, postings per source and per role. */
 export function summary(index) {
   const companies = new Set();
   const roles = {};
+  const sources = {};
   let remote = 0;
   for (const job of index.jobs) {
     companies.add(job.company);
+    const source = job.via ?? "company boards";
+    sources[source] = (sources[source] ?? 0) + 1;
     if (job.workplace === "remote" || (job.location_classes ?? []).some((c) => /remote/i.test(String(c)))) remote += 1;
     for (const role of new Set(job.roles ?? [])) roles[role] = (roles[role] ?? 0) + 1;
   }
   return { version: VERSION, generated_at: index.generated_at, postings: index.jobs.length,
            companies: companies.size, boards: index.boards.queried, remote,
+           sources: Object.fromEntries(Object.entries(sources).sort((a, b) => b[1] - a[1])),
            roles: Object.fromEntries(Object.entries(roles).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))) };
 }
 
@@ -323,13 +408,30 @@ async function main() {
   }
   process.env.ATS_USER_AGENT ??= `argentina-top-tech-companies-jobs/${VERSION} (+https://github.com/efbeducci/argentina-top-tech-companies; daily job index)`;
   process.env.ATS_LOG_LEVEL ??= "error";
-  const result = await crawl(boards, await loadAts(), opts);
+  const feedsOpt = opts.feeds || (opts.only ? "none" : "all");
+  const wantedFeeds = feedsOpt === "none" ? []
+    : feedsOpt === "all" ? FEEDS : FEEDS.filter((f) => feedsOpt.split(",").map(norm).includes(f.id));
+  const crawling = crawl(boards, await loadAts(), opts);
+  // Feeds are other hosts: read them while the boards are crawled.
+  const feeding = wantedFeeds.length ? crawlFeeds(wantedFeeds, crawling.then((r) => r.index.jobs)) : null;
+  const result = await crawling;
   const { boards: stats } = result.index;
   log(`${stats.queried} boards queried, ${stats.failed} failed, ${result.retries} retries, ` +
       `${result.index.jobs.length} postings kept, ${Math.round((Date.now() - started) / 1000)}s`);
   for (const [key, b] of Object.entries(result.perBoard).sort((a, b) => b[1].kept - a[1].kept))
     log(`  ${String(b.kept).padStart(4)} / ${String(b.total).padEnd(5)} ${b.name} (${key})`);
   for (const f of result.failures) log(`  - ${f.company} (${f.ats}:${f.board}) ${f.code}: ${f.message.slice(0, 160)}`);
+
+  if (wantedFeeds.length) {
+    const fed = await feeding;
+    result.index.jobs = sortJobs([...result.index.jobs, ...fed.rows]);
+    result.index.boards.queried += wantedFeeds.length - fed.failures.length;
+    result.index.boards.failed += fed.failures.length;
+    result.failures.push(...fed.failures);
+    for (const [key, f] of Object.entries(fed.perFeed))
+      log(`  ${String(f.kept).padStart(4)} / ${String(f.total).padEnd(5)} ${f.name} (${key})`);
+    for (const f of fed.failures) log(`  - ${f.company} (${f.ats}:${f.board}) ${f.code}: ${f.message.slice(0, 160)}`);
+  }
 
   let index = result.index;
   const prior = readPrevious(opts.previous);
