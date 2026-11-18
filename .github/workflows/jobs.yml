@@ -4,7 +4,9 @@ name: Daily job crawl
 
 on:
   schedule:
-    - cron: "0 10 * * *" # 07:00 Argentina
+    # 06:17 Argentina. Off the top of the hour: GitHub delays or drops
+    # scheduled runs at :00, when most cron jobs fire.
+    - cron: "17 9 * * *"
   workflow_dispatch:
 
 permissions:

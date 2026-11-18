@@ -45,6 +45,12 @@
    "origin": "spanish-top-tech-companies"
   },
   {
+   "name": "Arionkoder",
+   "ats": "greenhouse",
+   "board": "arionkoder",
+   "origin": "argentina"
+  },
+  {
    "name": "AstraZeneca",
    "ats": "eightfold",
    "board": "astrazeneca.eightfold.ai/astrazeneca.com",
@@ -239,6 +245,12 @@
    "origin": "argentina"
   },
   {
+   "name": "GitLab",
+   "ats": "greenhouse",
+   "board": "gitlab",
+   "origin": "argentina"
+  },
+  {
    "name": "Greenhouse",
    "ats": "greenhouse",
    "board": "greenhouse",
@@ -300,6 +312,12 @@
    "ats": "workable",
    "board": "libertexgroup",
    "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Making Sense",
+   "ats": "bamboohr",
+   "board": "makingsense",
+   "origin": "argentina"
   },
   {
    "name": "Mastercard",
@@ -369,6 +387,12 @@
    "ats": "lever",
    "board": "octoenergy",
    "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Okta",
+   "ats": "greenhouse",
+   "board": "okta",
+   "origin": "argentina"
   },
   {
    "name": "Oyster HR",
@@ -488,6 +512,12 @@
    "origin": "argentina"
   },
   {
+   "name": "Silver.dev",
+   "ats": "ashby",
+   "board": "silver",
+   "origin": "argentina"
+  },
+  {
    "name": "Sourcegraph",
    "ats": "greenhouse",
    "board": "sourcegraph91",
@@ -559,6 +589,12 @@
    "ats": "greenhouse",
    "board": "upwork",
    "origin": "spanish-top-tech-companies"
+  },
+  {
+   "name": "Vairix",
+   "ats": "teamtailor",
+   "board": "careers.vairix.com",
+   "origin": "argentina"
   },
   {
    "name": "Vercel",
