@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-18T12:14:04Z",
+ "generated_at": "2026-11-18T18:53:01Z",
  "boards": {
   "queried": 103,
   "failed": 0,
@@ -1117,21 +1117,121 @@
    ]
   },
   {
-   "id": "workday:accenture/wd103/AccentureCareers:e7fdeb5777b210017658205d2e5a0000",
+   "id": "workday:accenture/wd103/AccentureCareers:812be8cd38551001bf7f776b03780000",
    "company": "Accenture",
-   "title": "AI Agents Developer– Sourcing & Procurement",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/AI-Agents-Developer--Sourcing---Procurement_R00300020",
+   "title": "DevOps Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/DevOps-Engineer_14848807",
    "ats": "workday",
    "location": "Buenos Aires",
    "location_classes": [
     "argentina"
    ],
    "workplace": null,
-   "posted_at": "2025-12-03T00:00:00.000Z",
+   "posted_at": "2026-11-06T00:00:00.000Z",
    "salary": null,
    "roles": [
-    "software-engineer"
+    "devops-engineer"
    ],
+   "seniority": null,
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "python",
+    "bash",
+    "aws",
+    "gcp",
+    "azure",
+    "docker",
+    "linux",
+    "devops",
+    "ai"
+   ]
+  },
+  {
+   "id": "workday:accenture/wd103/AccentureCareers:4c56f1633e5a100174103004ebfc0000",
+   "company": "Accenture",
+   "title": "Enterprise Value Architect | AI & Data Strategy",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Enterprise-Value-Architect_R00366316-1",
+   "ats": "workday",
+   "location": "Buenos Aires; Cordoba; Salta; Rosario; Mendoza, Chacras Park",
+   "location_classes": [
+    "argentina",
+    "other"
+   ],
+   "workplace": null,
+   "posted_at": "2026-11-16T00:00:00.000Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": null,
+   "provinces": [
+    "CBA",
+    "MZA",
+    "SAL",
+    "CABA",
+    "SF"
+   ],
+   "keywords": [
+    "python",
+    "sql",
+    "aws",
+    "gcp",
+    "azure",
+    "databricks",
+    "spark",
+    "ai",
+    "machine-learning",
+    "llm",
+    "ai-agents",
+    "mlops",
+    "english"
+   ]
+  },
+  {
+   "id": "workday:accenture/wd103/AccentureCareers:3ae1ee0f8b601000db66d95f014f0000",
+   "company": "Accenture",
+   "title": "Human Resources Practitioner",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Human-Resources-Practitioner_14908730",
+   "ats": "workday",
+   "location": "Buenos Aires",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": null,
+   "posted_at": "2026-11-18T00:00:00.000Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": [
+    1,
+    3
+   ],
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "ai",
+    "english",
+    "spanish",
+    "portuguese"
+   ]
+  },
+  {
+   "id": "workday:accenture/wd103/AccentureCareers:7ba423684e321000dae9721782f70000",
+   "company": "Accenture",
+   "title": "Human Resources Practitioner",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Human-Resources-Practitioner_14936622",
+   "ats": "workday",
+   "location": "Buenos Aires",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": null,
+   "posted_at": "2026-11-16T00:00:00.000Z",
+   "salary": null,
+   "roles": [],
    "seniority": null,
    "years": [
     2,
@@ -1141,368 +1241,29 @@
     "CABA"
    ],
    "keywords": [
-    "python",
-    "sql",
-    "react",
-    "angular",
-    "django",
-    "flask",
-    "fastapi",
-    "graphql",
-    "aws",
-    "azure",
-    "docker",
-    "ci-cd",
-    "devops",
-    "kernel",
-    "postgresql",
-    "sap",
-    "ai",
-    "llm",
-    "ai-agents",
-    "iam",
-    "logistics",
-    "agile",
-    "english"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:793ac7d5be2110022a22525c7d030000",
-   "company": "Accenture",
-   "title": "B2B Sales Transformation Consultant/Manager",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/B2B-Sales-Transformation-Consultant-Manager_R00361759",
-   "ats": "workday",
-   "location": "Buenos Aires; Mar del Plata; Cordoba; Salta",
-   "location_classes": [
-    "argentina",
-    "other"
-   ],
-   "workplace": null,
-   "posted_at": "2026-10-02T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    6,
-    null
-   ],
-   "provinces": [
-    "BA",
-    "CBA",
-    "SAL"
-   ],
-   "keywords": [
-    "salesforce",
-    "dynamics",
-    "ai",
-    "llm",
-    "fintech",
-    "biotech",
-    "saas",
-    "crm",
-    "agile"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:c6c4d46ed2ea10012974413ad1c30000",
-   "company": "Accenture",
-   "title": "Campaign Manager Sr. Analyst",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Campaign-Manager-Sr-Analyst_R00373266",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-11-17T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "senior",
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "ai",
-    "llm"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:39265e360a4b1000fcbe036ca5d40000",
-   "company": "Accenture",
-   "title": "Consulting | Order Management",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Consulting---Order-Management_R00252196",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2025-10-28T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "logistics",
-    "english"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:29fe0d8eaeb801c9e73910105a01f2a9",
-   "company": "Accenture",
-   "title": "Consultores Funcionales SAP FI",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Consultores-Funcionales-SAP-FICO_R00003070-1",
-   "ats": "workday",
-   "location": "Buenos Aires; Mendoza; Mar del Plata; Cordoba; Salta; Rosario",
-   "location_classes": [
-    "argentina",
-    "other"
-   ],
-   "workplace": null,
-   "posted_at": "2026-06-03T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    3,
-    null
-   ],
-   "provinces": [
-    "BA",
-    "CBA",
-    "MZA",
-    "SAL",
-    "SF"
-   ],
-   "keywords": [
-    "sap",
-    "sap-analytics",
-    "ai",
-    "fp-a",
-    "english"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:8789429f6bc001222e29afe800027af1",
-   "company": "Accenture",
-   "title": "Consultores Funcionales SAP MM",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Consultores-Funcionales-SAP-MM_R00000620",
-   "ats": "workday",
-   "location": "Buenos Aires; Mendoza; Mar del Plata; Cordoba; Salta; Rosario",
-   "location_classes": [
-    "argentina",
-    "other"
-   ],
-   "workplace": null,
-   "posted_at": "2026-06-03T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    3,
-    null
-   ],
-   "provinces": [
-    "BA",
-    "CBA",
-    "MZA",
-    "SAL",
-    "SF"
-   ],
-   "keywords": [
-    "sap",
     "ai",
     "agile",
-    "english"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:bfb69e3164dd01963bac7c25030260f1",
-   "company": "Accenture",
-   "title": "Consultores Funcionales SAP SD",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Consultores-Funcionales-SAP-SD_R00000703",
-   "ats": "workday",
-   "location": "Buenos Aires; Mendoza; Mar del Plata; Cordoba; Salta; Rosario",
-   "location_classes": [
-    "argentina",
-    "other"
-   ],
-   "workplace": null,
-   "posted_at": "2026-06-03T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    3,
-    null
-   ],
-   "provinces": [
-    "BA",
-    "CBA",
-    "MZA",
-    "SAL",
-    "SF"
-   ],
-   "keywords": [
-    "sap",
-    "ai",
-    "english"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:248d19f31bec1000b15652bacf7c0000",
-   "company": "Accenture",
-   "title": "Finance Process & Operations Processor",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Finance-Process---Operations-Processor_13196733",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2025-07-21T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "fp-a",
-    "english",
-    "spanish",
-    "portuguese"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:4f249112fd56100121ac038f30cf0000",
-   "company": "Accenture",
-   "title": "Fraud Investigations Specialist",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Fraud-Investigations-Specialist_R00364333",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-11-06T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "sap",
-    "ai",
-    "grc",
-    "payments",
-    "english"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:03c0b7ce43a31000bf346d42bac30000",
-   "company": "Accenture",
-   "title": "Human Resources Specialist",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Human-Resources-Practitioner_14839342",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-10-20T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "ai",
     "english",
     "spanish"
    ]
   },
   {
-   "id": "workday:accenture/wd103/AccentureCareers:6d11b19ecb51017a4034b7a7ac01679a",
+   "id": "workday:accenture/wd103/AccentureCareers:8c4b5514cfa31001d761b833751e0000",
    "company": "Accenture",
-   "title": "Impulsá Tu Carrera en Tecnología: Programa Sin Barreras para Profesionales con Discapacidad",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Sin-Barreras----Buscamos-Perfiles-de-Tecnologa-_R00024658-1",
+   "title": "Nearshore Saviynt  Analyst",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Nearshore-Saviynt--Analyst_14913742",
    "ats": "workday",
    "location": "Buenos Aires",
    "location_classes": [
     "argentina"
    ],
    "workplace": null,
-   "posted_at": "2026-08-25T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "java",
-    "sql",
-    "sap",
-    "salesforce",
-    "ai",
-    "english"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:9383d039a7b901bb0238f58eac018388",
-   "company": "Accenture",
-   "title": "Impulsá tu carrera: Programa Sin Barreras para profesionales con discapacidad",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Sin-Barreras---Buscamos-perfiles-de-econmicas--finanzas-o-afines-_R00024677",
-   "ats": "workday",
-   "location": "Buenos Aires; Mar del Plata; Rosario, Torre Nordlink; Cordoba, Torre Capitalinas",
-   "location_classes": [
-    "argentina",
-    "other"
-   ],
-   "workplace": null,
-   "posted_at": "2026-08-31T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "BA",
-    "CBA",
-    "SF"
-   ],
-   "keywords": [
-    "ai",
-    "english"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:3b5bdddda764102001bd528fb56e0000",
-   "company": "Accenture",
-   "title": "Manager | Business Process Management",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Manager---Business-Process-Management_R00183655",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2024-11-22T00:00:00.000Z",
+   "posted_at": "2026-11-05T00:00:00.000Z",
    "salary": null,
    "roles": [],
    "seniority": null,
    "years": [
-    10,
+    1,
     null
    ],
    "provinces": [
@@ -1510,88 +1271,23 @@
    ],
    "keywords": [
     "ai",
-    "logistics",
-    "english"
+    "cybersecurity",
+    "iam",
+    "spanish"
    ]
   },
   {
-   "id": "workday:accenture/wd103/AccentureCareers:72289781b3901001cc7161585e180000",
+   "id": "workday:accenture/wd103/AccentureCareers:ef1264e965771000c8f764f678960000",
    "company": "Accenture",
-   "title": "Oracle JD Edwards Technical Developer",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Oracle-JD-Edwards-Technical-Developer_R00355339",
+   "title": "Oracle EPM Cloud Functional Consultant | Finance",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Oracle-EPM-Cloud-Functional-Consultant---Finance_R00368710",
    "ats": "workday",
    "location": "Buenos Aires",
    "location_classes": [
     "argentina"
    ],
    "workplace": null,
-   "posted_at": "2026-09-10T00:00:00.000Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "sql",
-    "ai",
-    "healthtech",
-    "biotech"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:500746a10fd110005f1e89ddf3c90000",
-   "company": "Accenture",
-   "title": "Process Excellence | Finance",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Process-Excellence---Finance_R00372169",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-11-17T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "python",
-    "sql",
-    "bi",
-    "excel",
-    "sap",
-    "ai",
-    "llm",
-    "ai-agents",
-    "workflow-automation",
-    "low-code",
-    "fp-a",
-    "english"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:89a0d3efed4a1002253c88f385db0000",
-   "company": "Accenture",
-   "title": "Sales Reinvention Agentic Commerce Consultant",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Cordoba/Sales-Reinvention-Agentic-Commerce-Consultant_R00322424",
-   "ats": "workday",
-   "location": "Cordoba; Buenos Aires; Salta; Rosario",
-   "location_classes": [
-    "other",
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-03-27T00:00:00.000Z",
+   "posted_at": "2026-11-02T00:00:00.000Z",
    "salary": null,
    "roles": [],
    "seniority": null,
@@ -1600,149 +1296,31 @@
     null
    ],
    "provinces": [
-    "CBA",
-    "SAL",
-    "CABA",
-    "SF"
-   ],
-   "keywords": [
-    "salesforce",
-    "ai",
-    "llm",
-    "ai-agents",
-    "ecommerce",
-    "crm",
-    "seo",
-    "agile"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:1e1418f955c61000c71ef333deb40000",
-   "company": "Accenture",
-   "title": "Sales Reinvention Agentic Commerce Manager",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Cordoba-Torre-Capitalinas/Sales-Reinvention-Agentic-Commerce-Manager_R00322641",
-   "ats": "workday",
-   "location": "Cordoba, Torre Capitalinas; Buenos Aires; Salta; Mendoza, Chacras Park",
-   "location_classes": [
-    "other",
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-03-30T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    6,
-    null
-   ],
-   "provinces": [
-    "CBA",
-    "MZA",
-    "SAL",
     "CABA"
    ],
    "keywords": [
-    "salesforce",
-    "ai",
-    "llm",
-    "ai-agents",
-    "ecommerce",
-    "crm",
-    "seo",
-    "agile"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:ef57f7a6de06100169d9fea51bc40000",
-   "company": "Accenture",
-   "title": "Salesforce Service Cloud Specialist",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Business-Architect_14537368",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-07-22T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "salesforce",
-    "ai",
-    "crm"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:a730bd9a78e11001ce98038563520001",
-   "company": "Accenture",
-   "title": "SAP PRA Lead",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/SAP-PRA-Lead_14880000-1",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-10-29T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "lead",
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
+    "bi",
+    "excel",
     "sap",
+    "sap-analytics",
     "ai",
+    "llm",
+    "fp-a",
     "english"
    ]
   },
   {
-   "id": "workday:accenture/wd103/AccentureCareers:2827d91978ee1001891aaddb24fe0000",
+   "id": "workday:accenture/wd103/AccentureCareers:5dc8fa15c30a1001c4a5bb9c5f9a0000",
    "company": "Accenture",
-   "title": "Security BTP Sr",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Security-BTP-Sr_14900558",
+   "title": "Procure to Pay Manager",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Procure-to-Pay-Processor_14913043",
    "ats": "workday",
    "location": "Buenos Aires",
    "location_classes": [
     "argentina"
    ],
    "workplace": null,
-   "posted_at": "2026-11-11T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "senior",
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "sap",
-    "ai",
-    "cybersecurity",
-    "soc",
-    "iam"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:d4c22c6e69fe10016596f1287efd0000",
-   "company": "Accenture",
-   "title": "Strategy & Consulting | AI & Data Tech Strategy Consultant",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Strategy---Consulting---AI---Data-Tech-Strategy-Consultant_R00292618",
-   "ats": "workday",
-   "location": "Buenos Aires; Salta, Punto Corp; Mar del Plata, Av. Independencia; Rosario, Torre Nordlink; Cordoba, Torre Capitalinas",
-   "location_classes": [
-    "argentina",
-    "other"
-   ],
-   "workplace": null,
-   "posted_at": "2026-03-06T00:00:00.000Z",
+   "posted_at": "2026-11-18T00:00:00.000Z",
    "salary": null,
    "roles": [],
    "seniority": null,
@@ -1751,24 +1329,70 @@
     null
    ],
    "provinces": [
-    "BA",
-    "CBA",
-    "SAL",
-    "SF"
+    "CABA"
    ],
    "keywords": [
-    "python",
+    "sql",
+    "bi",
+    "excel",
+    "sap",
+    "ai",
+    "workflow-automation",
+    "compliance",
+    "ecommerce",
+    "english",
+    "portuguese"
+   ]
+  },
+  {
+   "id": "workday:accenture/wd103/AccentureCareers:0e4f8cd2e25d10016da54645012a0000",
+   "company": "Accenture",
+   "title": "Project Mgmt Manager (Marketing)",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Senior-Marketing-Project-Manager_R00372451",
+   "ats": "workday",
+   "location": "Buenos Aires",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": null,
+   "posted_at": "2026-11-18T00:00:00.000Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "ai",
+    "english"
+   ]
+  },
+  {
+   "id": "workday:accenture/wd103/AccentureCareers:f5ddb69097051001840596ff4a440000",
+   "company": "Accenture",
+   "title": "SAP Basis Administrator",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Administrador-Sap-Basis_R00106093-1",
+   "ats": "workday",
+   "location": "Buenos Aires",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": null,
+   "posted_at": "2026-10-01T00:00:00.000Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
     "aws",
     "gcp",
     "azure",
-    "databricks",
-    "spark",
-    "etl",
-    "bi",
+    "sap",
     "ai",
-    "machine-learning",
-    "llm",
-    "agile",
     "english"
    ]
   },
@@ -1797,80 +1421,6 @@
    "keywords": [
     "ai",
     "english"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:6b23b488b6c91001bc8cde7965000000",
-   "company": "Accenture",
-   "title": "Strategy & Consulting | Consumer Goods & Retail Consulting Manager",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Strategy---Consulting---Consumer-Goods---Retail-Consulting-Manager_R00361346",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-10-05T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    8,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "sap",
-    "salesforce",
-    "ai",
-    "llm",
-    "ai-agents",
-    "ecommerce",
-    "logistics",
-    "english"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:10acbc8e23211000d1e64f00b23b0000",
-   "company": "Accenture",
-   "title": "Strategy & Consulting | Data Engineer - Process Mining",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Strategy---Consulting---Data-Engineer---Process-Mining_R00345496",
-   "ats": "workday",
-   "location": "Buenos Aires; Cordoba; Salta; Rosario; Mendoza, Chacras Park",
-   "location_classes": [
-    "argentina",
-    "other"
-   ],
-   "workplace": null,
-   "posted_at": "2026-07-20T00:00:00.000Z",
-   "salary": null,
-   "roles": [
-    "data-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [
-    "CBA",
-    "MZA",
-    "SAL",
-    "CABA",
-    "SF"
-   ],
-   "keywords": [
-    "python",
-    "sql",
-    "mysql",
-    "etl",
-    "bi",
-    "sap",
-    "ai",
-    "workflow-automation",
-    "logistics"
    ]
   },
   {
@@ -1909,46 +1459,10 @@
    ]
   },
   {
-   "id": "workday:accenture/wd103/AccentureCareers:59688eec694e1024691402ab8a380000",
+   "id": "workday:accenture/wd103/AccentureCareers:960d7271441e1001c6d5eaf57b520000",
    "company": "Accenture",
-   "title": "Strategy & Consulting | Management Consultant – Marketing Transformation",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Digital-Marketing-Platform-Consultant_R00185439",
-   "ats": "workday",
-   "location": "Buenos Aires; Cordoba; Salta, Punto Corp; Mar del Plata, Av. Independencia; Rosario; Mendoza, Chacras Park",
-   "location_classes": [
-    "remote-argentina",
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-03-12T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    3,
-    null
-   ],
-   "provinces": [
-    "BA",
-    "CBA",
-    "MZA",
-    "SAL",
-    "SF"
-   ],
-   "keywords": [
-    "salesforce",
-    "ai",
-    "crm",
-    "seo",
-    "product-analytics",
-    "english"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:53e7bb50abfb1001b0f36a94296b0000",
-   "company": "Accenture",
-   "title": "Strategy & Consulting | Manager en Learning",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Strategy---Consulting---Manager-en-Learning_R00357773",
+   "title": "Strategy & Consulting | Manager en Gestión del Cambio",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Strategy---Consulting---Manager-en-Gestin-del-Cambio_R00357778",
    "ats": "workday",
    "location": "Buenos Aires",
    "location_classes": [
@@ -1967,140 +1481,24 @@
     "CABA"
    ],
    "keywords": [
-    "ai",
-    "english"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:1220811756d8100221fb2adbcc380000",
-   "company": "Accenture",
-   "title": "Strategy & Consulting | Patient Services Management Consulting Analyst/Consultant - Life Sciences",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Strategy---Consulting---Patient-Services-Management-Consulting-Analyst-Consultant---Life-Sciences_R00372229",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-11-13T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    1,
-    3
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "salesforce",
-    "ai",
-    "llm",
-    "ai-agents",
-    "biotech",
-    "crm",
-    "agile",
-    "english"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:2942985c876a1002162fa634b86e0000",
-   "company": "Accenture",
-   "title": "Strategy & Consulting | SAP (Ariba, TM, WM, EWM, IBP) - Consultants & Managers",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Strategy---Consulting---SAP--Ariba--TM--WM--EWM--IBP----Consultants---Managers_R00361465",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-10-02T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "sap",
-    "ai",
-    "english"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:7bad972ea9ab1001ce8e3126583e0000",
-   "company": "Accenture",
-   "title": "Strategy & Consulting | Spend Optimization Analyst - Sourcing & Procurement",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires-Parque-Patricios/Sourcing---Procurement---Spend-Transformation-Analyst_R00291874",
-   "ats": "workday",
-   "location": "Buenos Aires, Parque Patricios",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-10-01T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "bi",
     "excel",
     "ai",
-    "product-analytics"
-   ]
-  },
-  {
-   "id": "workday:accenture/wd103/AccentureCareers:830410ecf3241001cfcc69cd07900000",
-   "company": "Accenture",
-   "title": "Strategy & Consulting | Tech-Led Transformation Analyst - Sourcing & Procurement",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Sourcing---Procurement---Tech-Led-Transformation-Analyst_R00291999",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-10-28T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    2,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "bi",
-    "excel",
-    "ai",
-    "logistics",
     "english"
    ]
   },
   {
-   "id": "workday:accenture/wd103/AccentureCareers:1e51cf12182d10018070d2cc2f8c0000",
+   "id": "workday:accenture/wd103/AccentureCareers:27308cc8642a10013fedf011da940000",
    "company": "Accenture",
-   "title": "Strategy & Consulting | Technology Lead - Value Case Transformation",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires-Parque-Patricios/Strategy---Consulting---Technology-Lead---Value-Case-Transformation_R00361128",
+   "title": "Strategy & Consulting | SAP Workstream Lead",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Strategy---Consulting---SAP-Workstream-Lead_R00362085",
    "ats": "workday",
-   "location": "Buenos Aires, Parque Patricios; Buenos Aires; Cordoba; Salta; Rosario, Torre Nordlink; Mendoza, Chacras Park",
+   "location": "Buenos Aires; Cordoba; Salta; Rosario; Mendoza, Chacras Park",
    "location_classes": [
     "argentina",
     "other"
    ],
    "workplace": null,
-   "posted_at": "2026-09-30T00:00:00.000Z",
+   "posted_at": "2026-10-06T00:00:00.000Z",
    "salary": null,
    "roles": [],
    "seniority": "lead",
@@ -2113,13 +1511,69 @@
     "SF"
    ],
    "keywords": [
-    "python",
-    "azure",
-    "bi",
     "sap",
     "ai",
-    "llm",
-    "ai-agents"
+    "logistics",
+    "english"
+   ]
+  },
+  {
+   "id": "workday:accenture/wd103/AccentureCareers:285a1700f597100182b763fdf8000000",
+   "company": "Accenture",
+   "title": "Technology Support Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Technology-Support-Engineer_14831211",
+   "ats": "workday",
+   "location": "Buenos Aires",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": null,
+   "posted_at": "2026-11-04T00:00:00.000Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    3,
+    6
+   ],
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "python",
+    "linux",
+    "sre",
+    "ai"
+   ]
+  },
+  {
+   "id": "himalayas:feed:access-softek/jobs/compiler-developer-llvm-c-7427707376",
+   "company": "Access Softek",
+   "title": "Compiler Developer (LLVM, C++)",
+   "url": "https://himalayas.app/companies/access-softek/jobs/compiler-developer-llvm-c-7427707376?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:09:55Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "python",
+    "cpp",
+    "bash",
+    "compilers",
+    "english"
    ]
   },
   {
@@ -3187,6 +2641,47 @@
    ]
   },
   {
+   "id": "himalayas:feed:aktos/jobs/full-stack-engineer-latam",
+   "company": "Aktos",
+   "title": "Full Stack Engineer - LATAM",
+   "url": "https://himalayas.app/companies/aktos/jobs/full-stack-engineer-latam?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (45 countries incl. Argentina)",
+   "location_classes": [
+    "remote-latam"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:04:38Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    5,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "python",
+    "javascript",
+    "sql",
+    "react",
+    "redux",
+    "html-css",
+    "django",
+    "aws",
+    "docker",
+    "terraform",
+    "ci-cd",
+    "devops",
+    "postgresql",
+    "fintech",
+    "saas"
+   ]
+  },
+  {
    "id": "himalayas:feed:alabama-solutions/jobs/senior-ai-engineer",
    "company": "Alabama Solutions",
    "title": "Senior AI Engineer",
@@ -3504,6 +2999,44 @@
     "devops",
     "ai",
     "ai-agents",
+    "agile",
+    "english"
+   ]
+  },
+  {
+   "id": "himalayas:feed:allata/jobs/fullstack-developer-java-angular",
+   "company": "Allata",
+   "title": "FullStack Developer (Java + Angular)",
+   "url": "https://himalayas.app/companies/allata/jobs/fullstack-developer-java-angular?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (Argentina)",
+   "location_classes": [
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:08:13Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "java",
+    "typescript",
+    "angular",
+    "figma",
+    "spring",
+    "microservices",
+    "event-driven",
+    "aws",
+    "ci-cd",
+    "test-automation",
+    "mongodb",
+    "ai",
+    "llm",
     "agile",
     "english"
    ]
@@ -4886,6 +4419,104 @@
    ]
   },
   {
+   "id": "himalayas:feed:amplemarket/jobs/frontend-software-engineer",
+   "company": "Amplemarket",
+   "title": "Frontend Software Engineer",
+   "url": "https://himalayas.app/companies/amplemarket/jobs/frontend-software-engineer?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (193 countries incl. Argentina)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:13:46Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "javascript",
+    "ruby",
+    "rails",
+    "react",
+    "html-css",
+    "postgresql",
+    "redis",
+    "elasticsearch",
+    "ai",
+    "nlp",
+    "payments"
+   ]
+  },
+  {
+   "id": "himalayas:feed:amplemarket/jobs/fullstack-software-engineer",
+   "company": "Amplemarket",
+   "title": "Fullstack Software Engineer",
+   "url": "https://himalayas.app/companies/amplemarket/jobs/fullstack-software-engineer?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (193 countries incl. Argentina)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:13:47Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "ruby",
+    "rails",
+    "react",
+    "postgresql",
+    "redis",
+    "elasticsearch",
+    "ai",
+    "nlp",
+    "payments"
+   ]
+  },
+  {
+   "id": "himalayas:feed:amplemarket/jobs/senior-backend-software-engineer",
+   "company": "Amplemarket",
+   "title": "Senior Backend Software Engineer",
+   "url": "https://himalayas.app/companies/amplemarket/jobs/senior-backend-software-engineer?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (195 countries incl. Argentina)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:14:33Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "senior",
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "ruby",
+    "rails",
+    "react",
+    "postgresql",
+    "redis",
+    "elasticsearch",
+    "ai",
+    "nlp",
+    "payments"
+   ]
+  },
+  {
    "id": "himalayas:feed:amplemarket/jobs/tech-lead",
    "company": "Amplemarket",
    "title": "Tech Lead",
@@ -4950,39 +4581,6 @@
     "ecommerce",
     "gaming",
     "english"
-   ]
-  },
-  {
-   "id": "weworkremotely:feed:anthropic-autonomous-systems-security-engineer",
-   "company": "Anthropic",
-   "title": "Autonomous Systems Security Engineer",
-   "url": "https://weworkremotely.com/remote-jobs/anthropic-autonomous-systems-security-engineer",
-   "ats": "weworkremotely",
-   "via": "We Work Remotely",
-   "location": "Remote (Anywhere in the World)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-10-30T07:31:14Z",
-   "salary": null,
-   "roles": [
-    "security-engineer"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "embedded",
-    "gpu",
-    "ai",
-    "llm",
-    "ai-agents",
-    "soc",
-    "fintech",
-    "logistics",
-    "automotive",
-    "aerospace"
    ]
   },
   {
@@ -5710,10 +5308,10 @@
    ]
   },
   {
-   "id": "himalayas:feed:atmosera/jobs/cloud-infrastructure-engineer-remote-latam-1642478565",
+   "id": "himalayas:feed:atmosera/jobs/cloud-infrastructure-engineer-remote-latam-5310759124",
    "company": "Atmosera",
-   "title": "Cloud Infrastructure Engineer (Remote - LATAM)",
-   "url": "https://himalayas.app/companies/atmosera/jobs/cloud-infrastructure-engineer-remote-latam-1642478565?utm_source=api",
+   "title": "Cloud Infrastructure Engineer (Remote LATAM)",
+   "url": "https://himalayas.app/companies/atmosera/jobs/cloud-infrastructure-engineer-remote-latam-5310759124?utm_source=api",
    "ats": "himalayas",
    "via": "Himalayas",
    "location": "Remote (Argentina, Colombia, Mexico)",
@@ -5721,27 +5319,27 @@
     "remote-latam"
    ],
    "workplace": "remote",
-   "posted_at": "2026-11-06T18:24:59Z",
+   "posted_at": "2026-11-18T17:14:35Z",
    "salary": null,
    "roles": [
     "devops-engineer"
    ],
    "seniority": null,
    "years": [
-    8,
+    7,
     null
    ],
    "provinces": [],
    "keywords": [
-    "python",
-    "bash",
+    "sql",
     "azure",
     "terraform",
-    "ci-cd",
+    "ansible",
     "devops",
     "ai",
-    "english",
-    "spanish"
+    "cybersecurity",
+    "compliance",
+    "agile"
    ]
   },
   {
@@ -6139,7 +5737,7 @@
    "posted_at": "2026-07-17T22:23:38.118+00:00",
    "salary": {
     "min": 225029,
-    "max": 337543,
+    "max": 281286,
     "currency": "USD",
     "period": "year"
    },
@@ -6957,38 +6555,6 @@
    ]
   },
   {
-   "id": "himalayas:feed:banco-plata-s-a-institucion-de-banca-multiple/jobs/principal-research-scientist-risk",
-   "company": "Banco Plata, S.A., Institución de Banca Múltiple",
-   "title": "Principal Research Scientist [Risk]",
-   "url": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/principal-research-scientist-risk?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (anywhere)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-10-19T18:02:37Z",
-   "salary": null,
-   "roles": [
-    "data-scientist"
-   ],
-   "seniority": "staff",
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "ai",
-    "machine-learning",
-    "deep-learning",
-    "llm",
-    "inference",
-    "statistics",
-    "compliance",
-    "fintech",
-    "insurtech"
-   ]
-  },
-  {
    "id": "himalayas:feed:banco-plata-s-a-institucion-de-banca-multiple/jobs/product-designer-junior",
    "company": "Banco Plata, S.A., Institución de Banca Múltiple",
    "title": "Product Designer Junior+",
@@ -7098,32 +6664,6 @@
     "ai",
     "llm",
     "healthtech"
-   ]
-  },
-  {
-   "id": "workday:bbva/wd3/BBVA:c90a95609fb51000b0b7f782926f0000",
-   "company": "BBVA",
-   "title": "Bolsa 2027 - Data Analyst",
-   "url": "https://bbva.wd3.myworkdayjobs.com/BBVA/job/1054-Retiro-Capital-Federal/Bolsa-2027---Data-Analyst_JR00118534",
-   "ats": "workday",
-   "location": "1054, Retiro, Capital Federal",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-11-16T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "python",
-    "sql",
-    "bi",
-    "agile"
    ]
   },
   {
@@ -8846,7 +8386,7 @@
    "url": "https://www.getonbrd.com/jobs/full-stack-developer-blueworks-crm-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Brazil, Chile, El Salvador, Argentina, Peru)",
+   "location": "Remote (Brasil, Chile, El Salvador, Argentina, Peru)",
    "location_classes": [
     "remote-latam"
    ],
@@ -9564,6 +9104,44 @@
     "adtech",
     "crm",
     "seo"
+   ]
+  },
+  {
+   "id": "himalayas:feed:canary-technologies/jobs/lead-security-engineer",
+   "company": "Canary Technologies",
+   "title": "Lead Security Engineer",
+   "url": "https://himalayas.app/companies/canary-technologies/jobs/lead-security-engineer?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (56 countries incl. Argentina)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:13:36Z",
+   "salary": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "seniority": "lead",
+   "years": [
+    8,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "aws",
+    "ai",
+    "ai-agents",
+    "cybersecurity",
+    "iam",
+    "grc",
+    "compliance",
+    "iso-27001",
+    "soc2",
+    "fintech",
+    "payments",
+    "saas"
    ]
   },
   {
@@ -11569,6 +11147,37 @@
    "keywords": [
     "ai",
     "english"
+   ]
+  },
+  {
+   "id": "himalayas:feed:canonical/jobs/junior-software-developer-observability-9517049738",
+   "company": "Canonical",
+   "title": "Junior Software Developer - Observability",
+   "url": "https://himalayas.app/companies/canonical/jobs/junior-software-developer-observability-9517049738?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (195 countries incl. Argentina)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:05:32Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "junior",
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "python",
+    "golang",
+    "distributed-systems",
+    "kubernetes",
+    "docker",
+    "linux",
+    "observability",
+    "ai"
    ]
   },
   {
@@ -14491,6 +14100,36 @@
    ]
   },
   {
+   "id": "himalayas:feed:canonical/jobs/software-engineering-manager-ubuntu-linux-kernel",
+   "company": "Canonical",
+   "title": "Software Engineering Manager - Ubuntu Linux Kernel",
+   "url": "https://himalayas.app/companies/canonical/jobs/software-engineering-manager-ubuntu-linux-kernel?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:04:47Z",
+   "salary": null,
+   "roles": [
+    "software-engineering-manager"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "linux",
+    "ci-cd",
+    "kernel",
+    "test-automation",
+    "ai",
+    "agile",
+    "english"
+   ]
+  },
+  {
    "id": "greenhouse:canonical:4283003",
    "company": "Canonical",
    "title": "Software Engineering Manager (Backend SaaS)",
@@ -14853,6 +14492,39 @@
    ]
   },
   {
+   "id": "himalayas:feed:canonical/jobs/telco-cloud-engineer-5g-openran-openstack-python-americas",
+   "company": "Canonical",
+   "title": "Telco Cloud Engineer (5G, OpenRan, OpenStack, Python) - Americas",
+   "url": "https://himalayas.app/companies/canonical/jobs/telco-cloud-engineer-5g-openran-openstack-python-americas?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (47 countries incl. Argentina)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:05:35Z",
+   "salary": null,
+   "roles": [
+    "devops-engineer"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "python",
+    "kubernetes",
+    "terraform",
+    "linux",
+    "ai",
+    "machine-learning",
+    "telecom",
+    "spanish",
+    "french",
+    "portuguese"
+   ]
+  },
+  {
    "id": "greenhouse:canonical:3748266",
    "company": "Canonical",
    "title": "Telco Cloud Field Engineer",
@@ -15199,6 +14871,43 @@
    ]
   },
   {
+   "id": "himalayas:feed:canonical/jobs/web-frontend-engineer-js-css-react-flutter",
+   "company": "Canonical",
+   "title": "Web Frontend Engineer - JS, CSS, React, Flutter",
+   "url": "https://himalayas.app/companies/canonical/jobs/web-frontend-engineer-js-css-react-flutter?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:05:34Z",
+   "salary": {
+    "min": 48000,
+    "max": 70000,
+    "currency": "USD",
+    "period": "year"
+   },
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "typescript",
+    "react",
+    "html-css",
+    "flutter",
+    "kubernetes",
+    "docker",
+    "linux",
+    "ai",
+    "english"
+   ]
+  },
+  {
    "id": "greenhouse:canonical:5906570",
    "company": "Canonical",
    "title": "インサイドセールス (リモート)/ Sales Development Representative (Remote)",
@@ -15220,43 +14929,6 @@
    "keywords": [
     "linux",
     "crm"
-   ]
-  },
-  {
-   "id": "himalayas:feed:carda-health/jobs/full-stack-ai-engineer-7011883562",
-   "company": "Carda Health",
-   "title": "Full Stack AI Engineer",
-   "url": "https://himalayas.app/companies/carda-health/jobs/full-stack-ai-engineer-7011883562?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (Argentina, Brazil, United Kingdom)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-10-19T13:29:19Z",
-   "salary": null,
-   "roles": [
-    "data-scientist"
-   ],
-   "seniority": null,
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "aws",
-    "gcp",
-    "observability",
-    "ai",
-    "machine-learning",
-    "llm",
-    "ai-agents",
-    "conversational-ai",
-    "statistics",
-    "healthtech"
    ]
   },
   {
@@ -15539,36 +15211,6 @@
     "soc",
     "iso-27001",
     "saas"
-   ]
-  },
-  {
-   "id": "smartrecruiters:CheckPointSoftwareTechnologies2:744000158395749",
-   "company": "Check Point Software Technologies",
-   "title": "Security Engineer, Workspace (SOLA Region)",
-   "url": "https://jobs.smartrecruiters.com/CheckPointSoftwareTechnologies2/744000158395749",
-   "ats": "smartrecruiters",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "remote-argentina"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-10-28T21:58:25.938Z",
-   "salary": null,
-   "roles": [
-    "security-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    2,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "ai",
-    "cybersecurity",
-    "english"
    ]
   },
   {
@@ -16249,35 +15891,46 @@
    ]
   },
   {
-   "id": "lever:coderio:289e4980-a7e7-4c50-8533-522ff59c88f2",
+   "id": "lever:coderio:01b9a61a-9305-42f5-9757-f3b411addef4",
    "company": "Coderio",
-   "title": "Desarrollador Frontend (UX/UI)",
-   "url": "https://jobs.lever.co/coderio/289e4980-a7e7-4c50-8533-522ff59c88f2",
+   "title": "Desarrollador de APIs e Integraciones - Híbrido",
+   "url": "https://jobs.lever.co/coderio/01b9a61a-9305-42f5-9757-f3b411addef4",
    "ats": "lever",
-   "location": "Ciudad Autónoma de Buenos Aires; Buenos Aires",
+   "location": "Ciudad Autónoma de Buenos Aires; Buenos Aires; Argentina",
    "location_classes": [
     "argentina"
    ],
    "workplace": "hybrid",
-   "posted_at": "2026-11-06T17:50:45.269Z",
-   "salary": null,
+   "posted_at": "2026-11-18T18:17:06.993Z",
+   "salary": {
+    "min": 1,
+    "max": 1,
+    "currency": "USD",
+    "period": "month"
+   },
    "roles": [
-    "ux-designer"
+    "software-engineer"
    ],
    "seniority": null,
-   "years": null,
+   "years": [
+    3,
+    5
+   ],
    "provinces": [
     "CABA"
    ],
    "keywords": [
-    "javascript",
-    "react",
-    "angular",
-    "vue",
-    "html-css",
-    "figma",
-    "design-systems",
-    "ai"
+    "java",
+    "dotnet",
+    "php",
+    "spring",
+    "laravel",
+    "graphql",
+    "grpc",
+    "aws",
+    "azure",
+    "ai",
+    "crm"
    ]
   },
   {
@@ -17479,6 +17132,42 @@
    ]
   },
   {
+   "id": "himalayas:feed:commit/jobs/senior-backend-engineer-ai-security-1802285403",
+   "company": "CommIT",
+   "title": "Senior Backend Engineer – AI Security",
+   "url": "https://himalayas.app/companies/commit/jobs/senior-backend-engineer-ai-security-1802285403?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (Argentina)",
+   "location_classes": [
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:52:18Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    6,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "typescript",
+    "nodejs",
+    "microservices",
+    "distributed-systems",
+    "spark",
+    "ai",
+    "llm",
+    "ai-agents",
+    "cybersecurity",
+    "english"
+   ]
+  },
+  {
    "id": "himalayas:feed:committedstaff/jobs/agentic-fullstack-engineer",
    "company": "Committedstaff",
    "title": "Agentic Fullstack Engineer",
@@ -18312,6 +18001,48 @@
     "redis",
     "etl",
     "energy"
+   ]
+  },
+  {
+   "id": "himalayas:feed:creative-chaos/jobs/devops-architect-7109691652",
+   "company": "Creative Chaos",
+   "title": "DevOps Architect",
+   "url": "https://himalayas.app/companies/creative-chaos/jobs/devops-architect-7109691652?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (Argentina)",
+   "location_classes": [
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:07:15Z",
+   "salary": null,
+   "roles": [
+    "devops-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    8,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "python",
+    "ruby",
+    "nosql",
+    "bash",
+    "azure",
+    "docker",
+    "ansible",
+    "linux",
+    "ci-cd",
+    "devops",
+    "embedded",
+    "mysql",
+    "mongodb",
+    "redis",
+    "elasticsearch",
+    "english"
    ]
   },
   {
@@ -20343,7 +20074,7 @@
    "url": "https://www.getonbrd.com/jobs/m365-security-compliance-engineer-msp-fluent-english-datasolved-consulting-group-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (México, Central America, South America)",
+   "location": "Remote (Mexico, Central America, South America)",
    "location_classes": [
     "remote-latam"
    ],
@@ -20793,6 +20524,34 @@
     "ai",
     "fintech",
     "crm"
+   ]
+  },
+  {
+   "id": "smartrecruiters:DeliveryHero:744000162349901",
+   "company": "Delivery Hero",
+   "title": "Online Marketing Sr Analyst",
+   "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000162349901",
+   "ats": "smartrecruiters",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "hybrid",
+   "posted_at": "2026-11-18T16:35:26.244Z",
+   "salary": null,
+   "roles": [],
+   "seniority": "senior",
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "sql",
+    "gcp",
+    "bi",
+    "excel",
+    "crm",
+    "seo"
    ]
   },
   {
@@ -21428,113 +21187,26 @@
    ]
   },
   {
-   "id": "workday:dentsuaegis/wd3/DAN_GLOBAL:ebf7b1c024cb10015a6ac88ed7300000",
+   "id": "workday:dentsuaegis/wd3/DAN_GLOBAL:e68e1041cabf100104cba5098a0a0000",
    "company": "Dentsu Group",
-   "title": "Resource Manager",
-   "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Buenos-Aires/Resource-Manager_R1136826",
+   "title": "HR Advisor - Sumate a nuestra base de candidatos!",
+   "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Buenos-Aires/HR-Advisor---Sumate-a-nuestra-base-de-candidatos-_R1109506",
    "ats": "workday",
    "location": "Buenos Aires",
    "location_classes": [
     "argentina"
    ],
    "workplace": null,
-   "posted_at": "2026-11-04T00:00:00.000Z",
+   "posted_at": "2025-11-25T00:00:00.000Z",
    "salary": null,
    "roles": [],
    "seniority": null,
-   "years": [
-    2,
-    3
-   ],
+   "years": null,
    "provinces": [
     "CABA"
    ],
    "keywords": [
-    "excel"
-   ]
-  },
-  {
-   "id": "workday:dentsuaegis/wd3/DAN_GLOBAL:2fc90d2237c810015ac18d282c590000",
-   "company": "Dentsu Group",
-   "title": "Sr Associate, Paid Social",
-   "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Buenos-Aires/Sr-Associate--Paid-Social_R1137128",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-11-11T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "senior",
-   "years": [
-    1,
-    2
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "bi",
-    "excel",
-    "seo"
-   ]
-  },
-  {
-   "id": "workday:dentsuaegis/wd3/DAN_GLOBAL:3ccc9befb8621001160bf09835020000",
-   "company": "Dentsu Group",
-   "title": "Sr Associate, Paid Social",
-   "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Buenos-Aires/Sr-Associate--Paid-Social_R1132208",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-10-27T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "senior",
-   "years": [
-    1,
-    2
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "excel",
-    "seo",
-    "agile"
-   ]
-  },
-  {
-   "id": "workday:dentsuaegis/wd3/DAN_GLOBAL:7556a59c610110015b4840565fb60000",
-   "company": "Dentsu Group",
-   "title": "Sr Associate, Paid Social",
-   "url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Buenos-Aires/Sr-Associate--Paid-Social_R1137127",
-   "ats": "workday",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-11-11T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "senior",
-   "years": [
-    1,
-    2
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "excel",
-    "seo",
-    "agile"
+    "english"
    ]
   },
   {
@@ -24450,6 +24122,35 @@
    ]
   },
   {
+   "id": "ashby:elevenlabs:09936411-899b-466d-aae7-54f6873caea0",
+   "company": "ElevenLabs",
+   "title": "Partner Manager - Public Sector Partnerships",
+   "url": "https://jobs.ashbyhq.com/ElevenLabs/09936411-899b-466d-aae7-54f6873caea0",
+   "ats": "ashby",
+   "location": "Remote",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T16:01:33.483+00:00",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": [
+    10,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "ai",
+    "statistics",
+    "compliance",
+    "automotive",
+    "saas",
+    "govtech"
+   ]
+  },
+  {
    "id": "ashby:elevenlabs:1b43cf6f-bc1f-4241-b8a2-5f85fb4ea028",
    "company": "ElevenLabs",
    "title": "Revenue Partnerships - Southern Latam",
@@ -26537,6 +26238,75 @@
    ]
   },
   {
+   "id": "himalayas:feed:fluxon/jobs/staff-software-engineer-5843542676",
+   "company": "Fluxon",
+   "title": "Staff Software Engineer",
+   "url": "https://himalayas.app/companies/fluxon/jobs/staff-software-engineer-5843542676?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (Argentina)",
+   "location_classes": [
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:08:15Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "staff",
+   "years": [
+    7,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "python",
+    "java",
+    "kotlin",
+    "javascript",
+    "typescript",
+    "golang",
+    "rust",
+    "csharp",
+    "dotnet",
+    "ruby",
+    "rails",
+    "swift",
+    "sql",
+    "nosql",
+    "react",
+    "react-native",
+    "angular",
+    "nextjs",
+    "django",
+    "fastapi",
+    "spring",
+    "kafka",
+    "aws",
+    "gcp",
+    "azure",
+    "docker",
+    "ci-cd",
+    "observability",
+    "serverless",
+    "postgresql",
+    "mysql",
+    "mongodb",
+    "redis",
+    "data-warehouse",
+    "ai",
+    "machine-learning",
+    "llm",
+    "ai-agents",
+    "mlops",
+    "nlp",
+    "soc",
+    "crypto",
+    "english"
+   ]
+  },
+  {
    "id": "himalayas:feed:fly/jobs/infrastructure-ops-engineer",
    "company": "Fly",
    "title": "Infrastructure Ops Engineer",
@@ -26693,45 +26463,6 @@
     "odoo",
     "payments",
     "logistics",
-    "english",
-    "portuguese"
-   ]
-  },
-  {
-   "id": "bamboohr:fudo:350",
-   "company": "Fudo",
-   "title": "Data Engineer",
-   "url": "https://fudo.bamboohr.com/careers/350",
-   "ats": "bamboohr",
-   "location": "CABA, Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-09-02",
-   "salary": null,
-   "roles": [
-    "data-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    4,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "python",
-    "ruby",
-    "distributed-systems",
-    "gcp",
-    "networking",
-    "postgresql",
-    "mysql",
-    "data-warehouse",
-    "bi",
-    "statistics",
     "english",
     "portuguese"
    ]
@@ -27156,32 +26887,6 @@
     "snowflake",
     "databricks",
     "fintech"
-   ]
-  },
-  {
-   "id": "himalayas:feed:g2i/jobs/ai-engineer-llm-engineer-g2i-talent-pool-5753734984",
-   "company": "G2i",
-   "title": "AI Engineer / LLM Engineer - G2i Talent Pool",
-   "url": "https://himalayas.app/companies/g2i/jobs/ai-engineer-llm-engineer-g2i-talent-pool-5753734984?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (anywhere)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-01T00:06:21Z",
-   "salary": null,
-   "roles": [
-    "data-scientist"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "ai",
-    "machine-learning",
-    "llm"
    ]
   },
   {
@@ -27762,50 +27467,13 @@
    ]
   },
   {
-   "id": "weworkremotely:feed:growth-minded-senior-data-engineer",
-   "company": "Growth Minded",
-   "title": "Senior Data Engineer",
-   "url": "https://weworkremotely.com/remote-jobs/growth-minded-senior-data-engineer",
-   "ats": "weworkremotely",
-   "via": "We Work Remotely",
-   "location": "Remote (Anywhere in the World)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-10-19T12:47:58Z",
-   "salary": null,
-   "roles": [
-    "data-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    2,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "sql",
-    "gcp",
-    "postgresql",
-    "dbt",
-    "ai",
-    "machine-learning",
-    "saas",
-    "crm",
-    "seo",
-    "product-analytics"
-   ]
-  },
-  {
    "id": "getonboard:feed:back-end-developer-grupo-mariposa-remote",
    "company": "Grupo Mariposa",
    "title": "Back-end Developer",
    "url": "https://www.getonbrd.com/jobs/back-end-developer-grupo-mariposa-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (México, Colombia, Chile, Peru, Ecuador, Central America)",
+   "location": "Remote (Mexico, Colombia, Chile, Peru, Ecuador, Central America)",
    "location_classes": [
     "remote-latam"
    ],
@@ -30070,7 +29738,7 @@
    "url": "https://www.getonbrd.com/jobs/senior-software-engineer-serverless-workflow-hyqoo-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Argentina, Colombia, México, Brazil)",
+   "location": "Remote (Argentina, Colombia, Mexico, Brasil)",
    "location_classes": [
     "remote-latam"
    ],
@@ -30504,7 +30172,7 @@
    "url": "https://www.getonbrd.com/jobs/android-software-engineer-improving-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Costa Rica, Peru, México, Colombia, Argentina)",
+   "location": "Remote (Costa Rica, Peru, Mexico, Colombia, Argentina)",
    "location_classes": [
     "remote-latam"
    ],
@@ -30527,48 +30195,6 @@
     "machine-learning",
     "soc",
     "agile",
-    "english"
-   ]
-  },
-  {
-   "id": "getonboard:feed:aws-iot-backend-engineer-improving-remote",
-   "company": "Improving",
-   "title": "AWS IoT Back-end Engineer",
-   "url": "https://www.getonbrd.com/jobs/aws-iot-backend-engineer-improving-remote",
-   "ats": "getonboard",
-   "via": "Get on Board",
-   "location": "Remote (Colombia, Peru, Argentina, Costa Rica, México, Chile)",
-   "location_classes": [
-    "remote-latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-10T03:02:27Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    4,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "csharp",
-    "dotnet",
-    "react",
-    "nextjs",
-    "fastapi",
-    "aws",
-    "azure",
-    "terraform",
-    "observability",
-    "serverless",
-    "embedded",
-    "postgresql",
-    "machine-learning",
-    "iam",
     "english"
    ]
   },
@@ -30639,41 +30265,6 @@
     "postgresql",
     "mongodb",
     "snowflake",
-    "english"
-   ]
-  },
-  {
-   "id": "getonboard:feed:desarrollador-senior-c-net-maui-ios-improving-remote",
-   "company": "Improving",
-   "title": "Desarrollador Senior C# / .NET Maui (iOS)",
-   "url": "https://www.getonbrd.com/jobs/desarrollador-senior-c-net-maui-ios-improving-remote",
-   "ats": "getonboard",
-   "via": "Get on Board",
-   "location": "Remote (Argentina, Colombia, Peru, Chile)",
-   "location_classes": [
-    "remote-latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-10-23T19:51:40Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    2,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "java",
-    "csharp",
-    "dotnet",
-    "sql",
-    "ios",
-    "azure",
-    "ci-cd",
-    "devops",
     "english"
    ]
   },
@@ -30932,41 +30523,13 @@
    ]
   },
   {
-   "id": "getonboard:feed:python-ml-optimization-engineer-improving-remote",
-   "company": "Improving",
-   "title": "Python ML & Optimization Engineer",
-   "url": "https://www.getonbrd.com/jobs/python-ml-optimization-engineer-improving-remote",
-   "ats": "getonboard",
-   "via": "Get on Board",
-   "location": "Remote (Costa Rica, México, Argentina, Colombia)",
-   "location_classes": [
-    "remote-latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-08T22:20:09Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "python",
-    "azure",
-    "machine-learning",
-    "logistics",
-    "english"
-   ]
-  },
-  {
    "id": "getonboard:feed:sap-datasphere-developer-consultant-improving-remote",
    "company": "Improving",
    "title": "SAP Datasphere Developer / Consultant",
    "url": "https://www.getonbrd.com/jobs/sap-datasphere-developer-consultant-improving-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Argentina, México, Brazil)",
+   "location": "Remote (Argentina, Mexico, Brasil)",
    "location_classes": [
     "remote-latam"
    ],
@@ -30997,7 +30560,7 @@
    "url": "https://www.getonbrd.com/jobs/sap-datasphere-engineer-improving-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Argentina, Brazil)",
+   "location": "Remote (Argentina, Brasil)",
    "location_classes": [
     "remote-latam"
    ],
@@ -31030,7 +30593,7 @@
    "url": "https://www.getonbrd.com/jobs/looker-developer-senior-improving-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Brazil, Argentina, Colombia, Peru, Chile)",
+   "location": "Remote (Brasil, Argentina, Colombia, Peru, Chile)",
    "location_classes": [
     "remote-latam"
    ],
@@ -31061,7 +30624,7 @@
    "url": "https://www.getonbrd.com/jobs/software-engineer-net-azure-improving-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Costa Rica, México, Argentina, Colombia)",
+   "location": "Remote (Costa Rica, Mexico, Argentina, Colombia)",
    "location_classes": [
     "remote-latam"
    ],
@@ -31091,41 +30654,6 @@
     "observability",
     "devops",
     "fintech",
-    "agile",
-    "english"
-   ]
-  },
-  {
-   "id": "getonboard:feed:sr-qa-automation-engineer-improving-remote",
-   "company": "Improving",
-   "title": "Sr. QA Automation Engineer",
-   "url": "https://www.getonbrd.com/jobs/sr-qa-automation-engineer-improving-remote",
-   "ats": "getonboard",
-   "via": "Get on Board",
-   "location": "Remote (Costa Rica, Colombia, Argentina, México)",
-   "location_classes": [
-    "remote-latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-12T00:02:00Z",
-   "salary": null,
-   "roles": [
-    "qa-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    5,
-    7
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "java",
-    "csharp",
-    "test-automation",
-    "ai",
-    "llm",
-    "ai-agents",
     "agile",
     "english"
    ]
@@ -31417,32 +30945,6 @@
     "logistics",
     "saas",
     "agile"
-   ]
-  },
-  {
-   "id": "pinpoint:infor.pinpointhq.com:575304",
-   "company": "Infor",
-   "title": "ERP Solution Architect - Industrial Manufacturing (LN) m/f/d",
-   "url": "https://careers.infor.com/en/postings/69e5de10-ea47-46bc-bc54-a94c32151058",
-   "ats": "pinpoint",
-   "location": "Remote",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "hybrid",
-   "posted_at": null,
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "logistics",
-    "automotive",
-    "english",
-    "german"
    ]
   },
   {
@@ -32044,6 +31546,83 @@
    ]
   },
   {
+   "id": "workday:intive/wd3/Intive:65137cfb2fd01001b7e049a572090000",
+   "company": "Intive",
+   "title": "Senior .Net Engineers",
+   "url": "https://intive.wd3.myworkdayjobs.com/Intive/job/Remote-Argentina/XMLNAME-Net-Engineers_JR101557",
+   "ats": "workday",
+   "location": "Remote: Argentina; Remote - Paraguay; Remote - Ecuador; Remote - Dominican Republican; Remote - Costa Rica; Remote - Chile; Remote - Brazil; Remote - Bolivia; Remote - Guatemala; Remote - El Salvador; Remote - Panama; Remote - Peru; Remote - Mexico; Remote - Colombia",
+   "location_classes": [
+    "remote-argentina",
+    "latam",
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T00:00:00.000Z",
+   "salary": null,
+   "roles": [],
+   "seniority": "senior",
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "csharp",
+    "dotnet",
+    "sql",
+    "aws",
+    "fintech",
+    "biotech",
+    "automotive",
+    "agile"
+   ]
+  },
+  {
+   "id": "workday:intive/wd3/Intive:74092aa8847410015b8159d0a0d50000",
+   "company": "Intive",
+   "title": "Technical Lead/ Architect - Data Engineers",
+   "url": "https://intive.wd3.myworkdayjobs.com/Intive/job/LATAM/Senior-Data-Engineers_JR101548",
+   "ats": "workday",
+   "location": "LATAM",
+   "location_classes": [
+    "remote-latam"
+   ],
+   "workplace": null,
+   "posted_at": "2026-11-18T00:00:00.000Z",
+   "salary": null,
+   "roles": [
+    "tech-lead"
+   ],
+   "seniority": "lead",
+   "years": [
+    10,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "kafka",
+    "aws",
+    "gcp",
+    "azure",
+    "kubernetes",
+    "ci-cd",
+    "databricks",
+    "spark",
+    "airflow",
+    "dbt",
+    "etl",
+    "data-warehouse",
+    "ai",
+    "llm",
+    "ai-agents",
+    "mlops",
+    "iam",
+    "fintech",
+    "biotech",
+    "automotive",
+    "agile",
+    "spanish"
+   ]
+  },
+  {
    "id": "himalayas:feed:intuition-machines/jobs/sales-engineer-latam-7547173302",
    "company": "Intuition Machines",
    "title": "Sales Engineer - LATAM",
@@ -32139,146 +31718,32 @@
    ]
   },
   {
-   "id": "workday:iqvia/wd1/IQVIA:4a4a75e7755f1001a30a82cc53c00000",
+   "id": "workday:iqvia/wd1/IQVIA:c3797db765dc1041806abd6e6ce40001",
    "company": "IQVIA",
-   "title": "Assoc Site Activation Manager - Global Study Leadership",
-   "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Buenos-Aires-Argentina/Assoc-Site-Activation-Manager---Global-Study-Leadership_R1571575",
-   "ats": "workday",
-   "location": "Buenos Aires, Argentina; Mexico City, Mexico; São Paulo, Brazil; Bogota, Colombia",
-   "location_classes": [
-    "argentina",
-    "latam"
-   ],
-   "workplace": null,
-   "posted_at": "2026-10-15T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "gcp",
-    "ai",
-    "healthtech",
-    "biotech"
-   ]
-  },
-  {
-   "id": "workday:iqvia/wd1/IQVIA:f8970901dcef10019daf05f315350000",
-   "company": "IQVIA",
-   "title": "Associate Manager - Safety Operations",
-   "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Buenos-Aires-Argentina/Associate-Manager---Safety-Operations_R1574551-1",
+   "title": "Graphic Designer - (Buenos Aires/Hybrid)",
+   "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Buenos-Aires-Argentina/Graphic-Designer----Buenos-Aires-Hybrid-_R1577991-1",
    "ats": "workday",
    "location": "Buenos Aires, Argentina",
    "location_classes": [
     "argentina"
    ],
    "workplace": null,
-   "posted_at": "2026-11-05T00:00:00.000Z",
+   "posted_at": "2026-11-17T00:00:00.000Z",
    "salary": null,
    "roles": [],
    "seniority": null,
    "years": [
-    5,
-    null
+    4,
+    6
    ],
    "provinces": [
     "CABA"
    ],
    "keywords": [
-    "compliance",
+    "html-css",
+    "ai",
     "biotech",
     "english"
-   ]
-  },
-  {
-   "id": "workday:iqvia/wd1/IQVIA:4a4a75e7755f100157f6645394d30000",
-   "company": "IQVIA",
-   "title": "Clinical Lead - Global Study Leadership",
-   "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Buenos-Aires-Argentina/Clinical-Lead---Global-Study-Leadership_R1574263",
-   "ats": "workday",
-   "location": "Buenos Aires, Argentina; Mexico City, Mexico; Lima, Peru; São Paulo, Brazil; Bogota, Colombia",
-   "location_classes": [
-    "argentina",
-    "latam"
-   ],
-   "workplace": null,
-   "posted_at": "2026-10-14T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "lead",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "gcp",
-    "healthtech",
-    "biotech"
-   ]
-  },
-  {
-   "id": "workday:iqvia/wd1/IQVIA:e25a140148da1001edd53ce896890000",
-   "company": "IQVIA",
-   "title": "CRA2, IQVIA Biotech Argentina",
-   "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Buenos-Aires-Argentina/CRA2--IQVIA-Biotech-Argentina_R1577385",
-   "ats": "workday",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-10-30T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    1,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "gcp",
-    "healthtech",
-    "biotech",
-    "agile"
-   ]
-  },
-  {
-   "id": "workday:iqvia/wd1/IQVIA:8f4f5f0f48b301017545cd79c8ef0000",
-   "company": "IQVIA",
-   "title": "Learning Solutions Advisor",
-   "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Buenos-Aires-Argentina/Learning-Solutions-Advisor_R1271034",
-   "ats": "workday",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2022-02-03T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    3,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "healthtech",
-    "biotech"
    ]
   },
   {
@@ -32310,31 +31775,6 @@
    ]
   },
   {
-   "id": "workday:iqvia/wd1/IQVIA:bba5448c431e1001f215affb28270000",
-   "company": "IQVIA",
-   "title": "Site Enrollment and Engagement Lead - Argentina",
-   "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Buenos-Aires-Argentina/Site-Enrollment-and-Engagement-Lead---Argentina_R1577417",
-   "ats": "workday",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-10-30T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "lead",
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "healthtech",
-    "biotech",
-    "english"
-   ]
-  },
-  {
    "id": "workday:iqvia/wd1/IQVIA:bc890a442fc11001aa71577b44720000",
    "company": "IQVIA",
    "title": "Sr CTA",
@@ -32361,35 +31801,6 @@
     "excel",
     "biotech",
     "english"
-   ]
-  },
-  {
-   "id": "workday:iqvia/wd1/IQVIA:fd08571b50fc10016497fcaf65b00001",
-   "company": "IQVIA",
-   "title": "Sr. CRA 3, Argentina, IQVIA Biotech",
-   "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Buenos-Aires-Argentina/Sr-CRA-3--Argentina--IQVIA-Biotech_R1559491-1",
-   "ats": "workday",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-09-16T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "senior",
-   "years": [
-    4,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "gcp",
-    "healthtech",
-    "biotech",
-    "agile"
    ]
   },
   {
@@ -33803,7 +33214,7 @@
    "title": "Engineering Manager - Frontend - Krak",
    "url": "https://jobs.ashbyhq.com/kraken.com/c6a90178-82d7-414e-ad74-69496b44d3c4",
    "ats": "ashby",
-   "location": "Canada; Uruguay; Costa Rica; Colombia; Argentina; Paraguay; South Africa; Panama; Mexico; Chile",
+   "location": "Canada; Brazil; Uruguay; Costa Rica; Colombia; Argentina; Paraguay; South Africa; Panama; Mexico; Chile",
    "location_classes": [
     "remote-canada",
     "latam",
@@ -34998,40 +34409,6 @@
    ]
   },
   {
-   "id": "ashby:kraken.com:0cdfdcb9-6387-4e5c-90b4-480fa94562c3",
-   "company": "Kraken",
-   "title": "Sr Product Designer, Growth - Kraken Pro",
-   "url": "https://jobs.ashbyhq.com/kraken.com/0cdfdcb9-6387-4e5c-90b4-480fa94562c3",
-   "ats": "ashby",
-   "location": "United Kingdom; Brazil; United Arab Emirates; Ireland; Peru; Sweden; Colombia; Argentina; Romania; Cyprus; Switzerland; Portugal; Lithuania; South Africa; Czech Republic; Canada; Hungary; Mexico; Chile; Poland; Spain; Bulgaria",
-   "location_classes": [
-    "europe",
-    "latam",
-    "remote-global",
-    "remote-argentina",
-    "remote-canada",
-    "remote-spain"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-18T10:08:29.709+00:00",
-   "salary": null,
-   "roles": [
-    "ux-designer"
-   ],
-   "seniority": "senior",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "figma",
-    "ai",
-    "fintech",
-    "crypto"
-   ]
-  },
-  {
    "id": "ashby:kraken.com:91a866e7-f6a2-4901-9dea-214996889d8c",
    "company": "Kraken",
    "title": "Sr Product Manager - Virality, Referrals & KOL",
@@ -35238,39 +34615,6 @@
     "soc",
     "fintech",
     "crypto"
-   ]
-  },
-  {
-   "id": "workday:kyndryl/wd5/KyndrylProfessionalCareers:c2224a49902d1001b00f741470c10000",
-   "company": "Kyndryl",
-   "title": "SW Engineer - Developer",
-   "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Buenos-Aires-Argentina/SW-Engineer---Developer_R-60887",
-   "ats": "workday",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "remote-argentina"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-05-06T00:00:00.000Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "aws",
-    "gcp",
-    "azure",
-    "ci-cd",
-    "devops",
-    "ai"
    ]
   },
   {
@@ -37098,43 +36442,31 @@
    ]
   },
   {
-   "id": "himalayas:feed:maxana/jobs/backend-engineer",
-   "company": "Maxana",
-   "title": "Backend Engineer",
-   "url": "https://himalayas.app/companies/maxana/jobs/backend-engineer?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (45 countries incl. Argentina)",
+   "id": "workday:mastercard/wd1/CorporateCareers:29ae7b0f147d1001fd43da2b2fba0000",
+   "company": "Mastercard",
+   "title": "Senior Managing Consultant, Services Business Development",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Buenos-Aires-Argentina/Senior-Managing-Consultant--Services-Business-Development_R-294830",
+   "ats": "workday",
+   "location": "Buenos Aires, Argentina",
    "location_classes": [
-    "remote-global"
+    "argentina"
    ],
-   "workplace": "remote",
-   "posted_at": "2026-11-01T13:08:29Z",
+   "workplace": null,
+   "posted_at": "2026-11-11T00:00:00.000Z",
    "salary": null,
-   "roles": [
-    "software-engineer"
+   "roles": [],
+   "seniority": "senior",
+   "years": null,
+   "provinces": [
+    "CABA"
    ],
-   "seniority": null,
-   "years": [
-    3,
-    null
-   ],
-   "provinces": [],
    "keywords": [
-    "typescript",
-    "golang",
-    "react",
-    "react-native",
-    "nodejs",
-    "gcp",
-    "observability",
-    "serverless",
-    "postgresql",
-    "ai",
+    "cybersecurity",
     "fintech",
     "payments",
-    "ecommerce",
-    "english"
+    "govtech",
+    "english",
+    "spanish"
    ]
   },
   {
@@ -37687,7 +37019,7 @@
    "url": "https://www.getonbrd.com/jobs/desarrollad-r-mobile-ctv-mediastream-bogota-9881",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Venezuela, Ecuador, Argentina, Peru, Bolivia, México)",
+   "location": "Remote (Venezuela, Ecuador, Argentina, Peru, Bolivia, Mexico)",
    "location_classes": [
     "remote-latam"
    ],
@@ -37715,6 +37047,33 @@
     "figma",
     "graphql",
     "ci-cd"
+   ]
+  },
+  {
+   "id": "workday:medtronic/wd1/MedtronicCareers:70591926cba810397f7ccfa181330002",
+   "company": "Medtronic",
+   "title": "Country Manager Argentina, Uruguay & Paraguay",
+   "url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/Buenos-Aires-Ciudad-Autnoma-de-Buenos-Aires-Argentina/Country-Manager-Argentina--Uruguay---Paraguay_R80042-2",
+   "ats": "workday",
+   "location": "Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": null,
+   "posted_at": "2026-11-11T00:00:00.000Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": [
+    15,
+    null
+   ],
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "healthtech",
+    "biotech"
    ]
   },
   {
@@ -37868,8 +37227,7 @@
     "CABA"
    ],
    "keywords": [
-    "fintech",
-    "payments"
+    "fintech"
    ]
   },
   {
@@ -38148,7 +37506,8 @@
     "CABA"
    ],
    "keywords": [
-    "fintech"
+    "fintech",
+    "spanish"
    ]
   },
   {
@@ -38598,6 +37957,29 @@
    ]
   },
   {
+   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45590995",
+   "company": "Mercado Libre",
+   "title": "Analista Senior de Negocio - Fintech",
+   "url": "https://mercadolibre.eightfold.ai/careers/job/45590995",
+   "ats": "eightfold",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "onsite",
+   "posted_at": "2026-11-18T11:57:08.000Z",
+   "salary": null,
+   "roles": [],
+   "seniority": "senior",
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "fintech"
+   ]
+  },
+  {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45306679",
    "company": "Mercado Libre",
    "title": "Analista Senior de Negocio de Pagos Online - Fintech",
@@ -38998,6 +38380,46 @@
    ]
   },
   {
+   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45598975",
+   "company": "Mercado Libre",
+   "title": "DevOps Engineer Cloud",
+   "url": "https://mercadolibre.eightfold.ai/careers/job/45598975",
+   "ats": "eightfold",
+   "location": "Bogotá, Colombia; buenos aires",
+   "location_classes": [
+    "latam",
+    "argentina"
+   ],
+   "workplace": "onsite",
+   "posted_at": "2026-11-18T18:22:35.000Z",
+   "salary": null,
+   "roles": [
+    "devops-engineer"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "python",
+    "sql",
+    "bash",
+    "aws",
+    "gcp",
+    "azure",
+    "terraform",
+    "ansible",
+    "linux",
+    "observability",
+    "devops",
+    "sre",
+    "mysql",
+    "ai",
+    "llm"
+   ]
+  },
+  {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:44539626",
    "company": "Mercado Libre",
    "title": "Ejecución Comercial de Grandes Cuentas para Pagos Offline- Fintech",
@@ -39058,16 +38480,12 @@
    "salary": null,
    "roles": [],
    "seniority": null,
-   "years": [
-    5,
-    null
-   ],
+   "years": null,
    "provinces": [
     "CABA"
    ],
    "keywords": [
-    "fintech",
-    "payments"
+    "fintech"
    ]
   },
   {
@@ -39293,7 +38711,6 @@
     "CABA"
    ],
    "keywords": [
-    "llm",
     "fintech"
    ]
   },
@@ -39468,15 +38885,7 @@
    "provinces": [
     "CABA"
    ],
-   "keywords": [
-    "python",
-    "sql",
-    "excel",
-    "ai",
-    "llm",
-    "fintech",
-    "english"
-   ]
+   "keywords": []
   },
   {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:44442979",
@@ -39743,11 +39152,6 @@
     "CABA"
    ],
    "keywords": [
-    "sql",
-    "excel",
-    "ai",
-    "machine-learning",
-    "statistics",
     "fintech"
    ]
   },
@@ -39986,12 +39390,15 @@
    "location_classes": [
     "argentina"
    ],
-   "workplace": "onsite",
+   "workplace": "hybrid",
    "posted_at": "2026-11-17T20:54:42.000Z",
    "salary": null,
    "roles": [],
    "seniority": null,
-   "years": null,
+   "years": [
+    5,
+    null
+   ],
    "provinces": [
     "CABA"
    ],
@@ -40013,7 +39420,7 @@
    "location_classes": [
     "argentina"
    ],
-   "workplace": "onsite",
+   "workplace": "hybrid",
    "posted_at": "2026-11-06T15:32:33.000Z",
    "salary": null,
    "roles": [],
@@ -40344,12 +39751,7 @@
     "CABA"
    ],
    "keywords": [
-    "ai",
-    "fintech",
-    "payments",
-    "crm",
-    "agile",
-    "portuguese"
+    "fintech"
    ]
   },
   {
@@ -40396,11 +39798,20 @@
    "salary": null,
    "roles": [],
    "seniority": "senior",
-   "years": null,
+   "years": [
+    7,
+    null
+   ],
    "provinces": [
     "CABA"
    ],
-   "keywords": []
+   "keywords": [
+    "sql",
+    "excel",
+    "ai",
+    "llm",
+    "ecommerce"
+   ]
   },
   {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45392300",
@@ -40489,6 +39900,38 @@
    ]
   },
   {
+   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:44898370",
+   "company": "Mercado Libre",
+   "title": "Ingeniero/a de Seguridad - Seguridad en Cloud y Storage",
+   "url": "https://mercadolibre.eightfold.ai/careers/job/44898370",
+   "ats": "eightfold",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "onsite",
+   "posted_at": "2026-11-18T13:42:37.000Z",
+   "salary": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "python",
+    "golang",
+    "aws",
+    "gcp",
+    "azure",
+    "ai",
+    "llm",
+    "iso-27001"
+   ]
+  },
+  {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45061912",
    "company": "Mercado Libre",
    "title": "IT CRM Customer Service Senior Engineer",
@@ -40516,6 +39959,31 @@
     "ai",
     "ecommerce",
     "crm"
+   ]
+  },
+  {
+   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45594614",
+   "company": "Mercado Libre",
+   "title": "Líder de Equipo de Operaciones - Mercado Envíos",
+   "url": "https://mercadolibre.eightfold.ai/careers/job/45594614",
+   "ats": "eightfold",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "onsite",
+   "posted_at": "2026-11-18T15:21:48.000Z",
+   "salary": null,
+   "roles": [],
+   "seniority": "lead",
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "excel",
+    "llm",
+    "logistics"
    ]
   },
   {
@@ -40651,6 +40119,36 @@
     "CABA"
    ],
    "keywords": []
+  },
+  {
+   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45478067",
+   "company": "Mercado Libre",
+   "title": "Pricing & Profitability Modelling Manager - Fintech",
+   "url": "https://mercadolibre.eightfold.ai/careers/job/45478067",
+   "ats": "eightfold",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "onsite",
+   "posted_at": "2026-11-18T12:31:22.000Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": [
+    6,
+    null
+   ],
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "python",
+    "sql",
+    "gcp",
+    "machine-learning",
+    "fintech"
+   ]
   },
   {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45554242",
@@ -41006,39 +40504,6 @@
     "java",
     "golang",
     "ai",
-    "ecommerce"
-   ]
-  },
-  {
-   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:43978061",
-   "company": "Mercado Libre",
-   "title": "Senior Software Engineer - Evals for Agents",
-   "url": "https://mercadolibre.eightfold.ai/careers/job/43978061",
-   "ats": "eightfold",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "onsite",
-   "posted_at": "2026-10-26T14:21:40.000Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "python",
-    "sql",
-    "distributed-systems",
-    "gcp",
-    "ai",
-    "llm",
-    "ai-agents",
-    "statistics",
     "ecommerce"
    ]
   },
@@ -41468,6 +40933,39 @@
    ]
   },
   {
+   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:43978061",
+   "company": "Mercado Libre",
+   "title": "Software Engineer - Evals for Agents",
+   "url": "https://mercadolibre.eightfold.ai/careers/job/43978061",
+   "ats": "eightfold",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "onsite",
+   "posted_at": "2026-10-26T14:21:40.000Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "python",
+    "sql",
+    "distributed-systems",
+    "gcp",
+    "ai",
+    "llm",
+    "ai-agents",
+    "statistics",
+    "ecommerce"
+   ]
+  },
+  {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45014325",
    "company": "Mercado Libre",
    "title": "Software Engineer - Evals for Agents",
@@ -41565,6 +41063,34 @@
    ]
   },
   {
+   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:44425782",
+   "company": "Mercado Libre",
+   "title": "Software Engineer - Personal Banker",
+   "url": "https://mercadolibre.eightfold.ai/careers/job/44425782",
+   "ats": "eightfold",
+   "location": "Capital Federal, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "onsite",
+   "posted_at": "2026-10-28T17:53:48.000Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "golang",
+    "distributed-systems",
+    "ai",
+    "llm"
+   ]
+  },
+  {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45478756",
    "company": "Mercado Libre",
    "title": "Software Engineer - Reputación IT | Marketplace",
@@ -41650,29 +41176,6 @@
     "test-automation",
     "ai",
     "ecommerce"
-   ]
-  },
-  {
-   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45264556",
-   "company": "Mercado Libre",
-   "title": "Software Engineer Backend - GenAI Gateway",
-   "url": "https://mercadolibre.eightfold.ai/careers/job/45264556",
-   "ats": "eightfold",
-   "location": "Sudeste, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "hybrid",
-   "posted_at": "2026-10-29T23:41:46.000Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "llm"
    ]
   },
   {
@@ -41791,6 +41294,35 @@
     "sre",
     "ai",
     "ecommerce"
+   ]
+  },
+  {
+   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:44619068",
+   "company": "Mercado Libre",
+   "title": "Software Technical Leader",
+   "url": "https://mercadolibre.eightfold.ai/careers/job/44619068",
+   "ats": "eightfold",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "onsite",
+   "posted_at": "2026-11-18T15:07:52.000Z",
+   "salary": null,
+   "roles": [
+    "tech-lead"
+   ],
+   "seniority": "lead",
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "javascript",
+    "typescript",
+    "react",
+    "ai",
+    "llm"
    ]
   },
   {
@@ -42078,41 +41610,7 @@
    "provinces": [
     "CABA"
    ],
-   "keywords": [
-    "golang",
-    "distributed-systems",
-    "test-automation",
-    "ai",
-    "llm"
-   ]
-  },
-  {
-   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:44425782",
-   "company": "Mercado Libre",
-   "title": "Sr. Software Engineer",
-   "url": "https://mercadolibre.eightfold.ai/careers/job/44425782",
-   "ats": "eightfold",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "onsite",
-   "posted_at": "2026-10-28T17:53:48.000Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "golang",
-    "distributed-systems",
-    "ai",
-    "llm"
-   ]
+   "keywords": []
   },
   {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:44419341",
@@ -42282,44 +41780,6 @@
     "CBA"
    ],
    "keywords": []
-  },
-  {
-   "id": "himalayas:feed:mercor/jobs/customer-success-engineer",
-   "company": "mercor",
-   "title": "Customer Success Engineer",
-   "url": "https://himalayas.app/companies/mercor/jobs/customer-success-engineer?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (45 countries incl. Argentina)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-01T12:54:11Z",
-   "salary": {
-    "min": 35000,
-    "max": 50000,
-    "currency": "USD",
-    "period": "year"
-   },
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    2,
-    5
-   ],
-   "provinces": [],
-   "keywords": [
-    "react",
-    "nextjs",
-    "flask",
-    "nodejs",
-    "ai",
-    "llm",
-    "saas"
-   ]
   },
   {
    "id": "himalayas:feed:mercor/jobs/customer-success-engineer-ai-saas-9344326803",
@@ -42897,7 +42357,7 @@
     "remote-global"
    ],
    "workplace": "remote",
-   "posted_at": "2026-11-17T15:45:19Z",
+   "posted_at": "2026-11-18T13:00:16Z",
    "salary": {
     "min": 60,
     "max": 120,
@@ -44807,6 +44267,47 @@
    ]
   },
   {
+   "id": "himalayas:feed:my-va-support-inc/jobs/developer-programmer-latam-only",
+   "company": "My VA Support, Inc.",
+   "title": "Developer/Programmer (LATAM only)",
+   "url": "https://himalayas.app/companies/my-va-support-inc/jobs/developer-programmer-latam-only?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (45 countries incl. Argentina)",
+   "location_classes": [
+    "remote-latam"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T12:13:59Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "java",
+    "kotlin",
+    "typescript",
+    "react",
+    "react-native",
+    "html-css",
+    "tailwind",
+    "spring",
+    "aws",
+    "docker",
+    "linux",
+    "ci-cd",
+    "test-automation",
+    "postgresql",
+    "payments",
+    "saas",
+    "english",
+    "spanish"
+   ]
+  },
+  {
    "id": "himalayas:feed:my-va-support-inc/jobs/quality-assurance-analyst-and-recruitment-specialist-english-c1-latam-only",
    "company": "My VA Support, Inc.",
    "title": "Quality Assurance Analyst and Recruitment Specialist- ENGLISH C1  (LATAM only)",
@@ -44967,7 +44468,7 @@
     "remote-global"
    ],
    "workplace": "remote",
-   "posted_at": "2026-11-01T12:55:53Z",
+   "posted_at": "2026-11-18T17:08:13Z",
    "salary": null,
    "roles": [
     "software-engineer"
@@ -46194,7 +45695,7 @@
    "url": "https://www.getonbrd.com/jobs/ai-engineering-lead-niuro-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (México, Central America, South America)",
+   "location": "Remote (Mexico, Central America, South America)",
    "location_classes": [
     "remote-latam"
    ],
@@ -46226,53 +45727,13 @@
    ]
   },
   {
-   "id": "getonboard:feed:aws-infrastructure-engineer-niuro-remote",
-   "company": "Niuro",
-   "title": "AWS Infrastructure Engineer",
-   "url": "https://www.getonbrd.com/jobs/aws-infrastructure-engineer-niuro-remote",
-   "ats": "getonboard",
-   "via": "Get on Board",
-   "location": "Remote (México, Central America, South America)",
-   "location_classes": [
-    "remote-latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-10-19T12:26:25Z",
-   "salary": null,
-   "roles": [
-    "devops-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    10,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "dotnet",
-    "aws",
-    "kubernetes",
-    "docker",
-    "terraform",
-    "ci-cd",
-    "observability",
-    "devops",
-    "ai",
-    "llm",
-    "soc",
-    "iam",
-    "fintech",
-    "english"
-   ]
-  },
-  {
    "id": "getonboard:feed:senior-net-backend-developer-legacy-platform-niuro-remote",
    "company": "Niuro",
    "title": "Senior .NET Back-end Developer (Legacy Platform)",
    "url": "https://www.getonbrd.com/jobs/senior-net-backend-developer-legacy-platform-niuro-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (México, Central America, South America)",
+   "location": "Remote (Mexico, Central America, South America)",
    "location_classes": [
     "remote-latam"
    ],
@@ -46304,7 +45765,7 @@
    "url": "https://www.getonbrd.com/jobs/senior-net-backend-engineer-modern-platform-niuro-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (México, Central America, South America)",
+   "location": "Remote (Mexico, Central America, South America)",
    "location_classes": [
     "remote-latam"
    ],
@@ -46341,7 +45802,7 @@
    "url": "https://www.getonbrd.com/jobs/senior-full-stack-ai-engineer-healthcare-health-tech-niuro-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (México, Central America, South America)",
+   "location": "Remote (Mexico, Central America, South America)",
    "location_classes": [
     "remote-latam"
    ],
@@ -46385,7 +45846,7 @@
    "url": "https://www.getonbrd.com/jobs/senior-ux-ui-lead-niuro-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (México, Central America, South America)",
+   "location": "Remote (Mexico, Central America, South America)",
    "location_classes": [
     "remote-latam"
    ],
@@ -46422,7 +45883,7 @@
    "url": "https://www.getonbrd.com/jobs/web-app-full-stack-engineer-niuro-remote-03c6",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (México, Central America, South America)",
+   "location": "Remote (Mexico, Central America, South America)",
    "location_classes": [
     "remote-latam"
    ],
@@ -46778,31 +46239,6 @@
     "govtech",
     "agile",
     "english"
-   ]
-  },
-  {
-   "id": "himalayas:feed:novra/jobs/business-developer-freelance",
-   "company": "Novra",
-   "title": "Business Developer (Freelance)",
-   "url": "https://himalayas.app/companies/novra/jobs/business-developer-freelance?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (74 countries incl. Argentina)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-01T13:09:09Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "spark",
-    "logistics"
    ]
   },
   {
@@ -48450,6 +47886,44 @@
    ]
   },
   {
+   "id": "bamboohr:parser:502",
+   "company": "Parser Digital",
+   "title": "Senior Fullstack Engineer (Golang -Java-React)",
+   "url": "https://parser.bamboohr.com/careers/502",
+   "ats": "bamboohr",
+   "location": "Remote, Latin America, LATAM",
+   "location_classes": [
+    "remote-latam"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-07-20",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "senior",
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "java",
+    "kotlin",
+    "javascript",
+    "typescript",
+    "golang",
+    "sql",
+    "nosql",
+    "react",
+    "aws",
+    "ci-cd",
+    "devops",
+    "mongodb",
+    "ai",
+    "ecommerce",
+    "agile",
+    "english"
+   ]
+  },
+  {
    "id": "jobicy:feed:161424",
    "company": "Particle41",
    "title": "Data Engineer (Tableau)",
@@ -49646,175 +49120,6 @@
    ]
   },
   {
-   "id": "himalayas:feed:phdata/jobs/applied-ai-solutions-architect",
-   "company": "phData",
-   "title": "Applied AI Solutions Architect",
-   "url": "https://himalayas.app/companies/phdata/jobs/applied-ai-solutions-architect?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (47 countries incl. Argentina)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-01T13:10:07Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    8,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "sql",
-    "aws",
-    "gcp",
-    "azure",
-    "observability",
-    "snowflake",
-    "databricks",
-    "dbt",
-    "ai",
-    "machine-learning",
-    "llm",
-    "ai-agents",
-    "workflow-automation",
-    "mlops",
-    "statistics"
-   ]
-  },
-  {
-   "id": "himalayas:feed:phdata/jobs/senior-devops-engineer-data-platforms-latam-based",
-   "company": "phData",
-   "title": "Senior DevOps Engineer (Data Platforms) - LATAM Based",
-   "url": "https://himalayas.app/companies/phdata/jobs/senior-devops-engineer-data-platforms-latam-based?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (45 countries incl. Argentina)",
-   "location_classes": [
-    "remote-latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-01T13:10:01Z",
-   "salary": null,
-   "roles": [
-    "devops-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    6,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "sql",
-    "kafka",
-    "aws",
-    "azure",
-    "terraform",
-    "linux",
-    "ci-cd",
-    "devops",
-    "snowflake",
-    "spark",
-    "airflow",
-    "dbt",
-    "etl",
-    "data-warehouse",
-    "ai",
-    "iam",
-    "english"
-   ]
-  },
-  {
-   "id": "himalayas:feed:phdata/jobs/solutions-architect",
-   "company": "phData",
-   "title": "Solutions Architect",
-   "url": "https://himalayas.app/companies/phdata/jobs/solutions-architect?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (45 countries incl. Argentina)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-01T13:09:56Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    8,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "java",
-    "scala",
-    "sql",
-    "kafka",
-    "aws",
-    "gcp",
-    "azure",
-    "terraform",
-    "ci-cd",
-    "observability",
-    "snowflake",
-    "databricks",
-    "spark",
-    "airflow",
-    "dbt",
-    "ai",
-    "llm"
-   ]
-  },
-  {
-   "id": "himalayas:feed:phdata/jobs/solutions-architect-latam",
-   "company": "phData",
-   "title": "Solutions Architect (LATAM)",
-   "url": "https://himalayas.app/companies/phdata/jobs/solutions-architect-latam?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (45 countries incl. Argentina)",
-   "location_classes": [
-    "remote-latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-01T13:09:56Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    8,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "sql",
-    "kafka",
-    "aws",
-    "azure",
-    "terraform",
-    "ci-cd",
-    "snowflake",
-    "spark",
-    "dbt",
-    "data-warehouse",
-    "ai",
-    "soc"
-   ]
-  },
-  {
    "id": "himalayas:feed:phdata/jobs/sr-applied-ai-engineer",
    "company": "phData",
    "title": "Sr. Applied AI Engineer",
@@ -50961,49 +50266,6 @@
    "keywords": []
   },
   {
-   "id": "himalayas:feed:power-digital-marketing/jobs/data-engineer-ai-analytics-1131194073",
-   "company": "Power Digital Marketing",
-   "title": "Data Engineer, AI & Analytics",
-   "url": "https://himalayas.app/companies/power-digital-marketing/jobs/data-engineer-ai-analytics-1131194073?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (Argentina)",
-   "location_classes": [
-    "remote-argentina"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-10-29T17:07:32Z",
-   "salary": null,
-   "roles": [
-    "data-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    3,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "sql",
-    "gcp",
-    "terraform",
-    "ci-cd",
-    "test-automation",
-    "snowflake",
-    "dbt",
-    "etl",
-    "ai",
-    "ai-agents",
-    "ecommerce",
-    "adtech",
-    "crm",
-    "seo",
-    "product-analytics",
-    "english"
-   ]
-  },
-  {
    "id": "himalayas:feed:power-digital-marketing/jobs/data-engineer-marketing-science-5414756499",
    "company": "Power Digital Marketing",
    "title": "Data Engineer, Marketing Science",
@@ -51729,9 +50991,9 @@
    "url": "https://www.getonbrd.com/jobs/ux-ui-designer-pyxl-remote-5bf7",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Estados Unidos, South America)",
+   "location": "Remote (United States, South America)",
    "location_classes": [
-    "remote-global"
+    "remote-latam"
    ],
    "workplace": "remote",
    "posted_at": "2026-11-02T18:37:56Z",
@@ -53671,6 +52933,43 @@
    ]
   },
   {
+   "id": "himalayas:feed:ryz-labs/jobs/customer-support-engineer",
+   "company": "Ryz Labs",
+   "title": "Customer Support Engineer",
+   "url": "https://himalayas.app/companies/ryz-labs/jobs/customer-support-engineer?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (56 countries incl. Argentina)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:14:35Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    5,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "python",
+    "sql",
+    "react",
+    "vue",
+    "test-automation",
+    "servicenow",
+    "ai",
+    "ai-agents",
+    "workflow-automation",
+    "logistics",
+    "saas"
+   ]
+  },
+  {
    "id": "himalayas:feed:ryz-labs/jobs/data-center-network-engineer",
    "company": "Ryz Labs",
    "title": "Data Center Network Engineer",
@@ -54276,39 +53575,6 @@
     "soc",
     "grc",
     "saas"
-   ]
-  },
-  {
-   "id": "himalayas:feed:safetywing/jobs/product-engineer-1774480954",
-   "company": "SafetyWing",
-   "title": "Product Engineer",
-   "url": "https://himalayas.app/companies/safetywing/jobs/product-engineer-1774480954?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (anywhere)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-17T08:27:10Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "java",
-    "kotlin",
-    "typescript",
-    "react",
-    "nextjs",
-    "redux",
-    "tailwind",
-    "gcp",
-    "kubernetes",
-    "mysql"
    ]
   },
   {
@@ -55397,6 +54663,52 @@
    ]
   },
   {
+   "id": "himalayas:feed:sezzle/jobs/mobile-engineer-argentina-all-levels",
+   "company": "Sezzle",
+   "title": "Mobile Engineer (Argentina, All Levels)",
+   "url": "https://himalayas.app/companies/sezzle/jobs/mobile-engineer-argentina-all-levels?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (Argentina)",
+   "location_classes": [
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:13:45Z",
+   "salary": {
+    "min": 3500,
+    "max": 9500,
+    "currency": "USD",
+    "period": "month"
+   },
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "python",
+    "javascript",
+    "typescript",
+    "golang",
+    "react",
+    "react-native",
+    "aws",
+    "kubernetes",
+    "ci-cd",
+    "devops",
+    "postgresql",
+    "mysql",
+    "elasticsearch",
+    "ai",
+    "llm",
+    "fintech",
+    "payments",
+    "ecommerce"
+   ]
+  },
+  {
    "id": "himalayas:feed:sezzle/jobs/principal-infrastructure-engineer-2464147880",
    "company": "Sezzle",
    "title": "Principal Infrastructure Engineer",
@@ -56011,87 +55323,6 @@
    "provinces": [],
    "keywords": [
     "microservices"
-   ]
-  },
-  {
-   "id": "getonboard:feed:software-engineer-python-softtechassociate-remote",
-   "company": "Softtechassociate",
-   "title": "Software Engineer(python)",
-   "url": "https://www.getonbrd.com/jobs/software-engineer-python-softtechassociate-remote",
-   "ats": "getonboard",
-   "via": "Get on Board",
-   "location": "Remote",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-11T17:10:03Z",
-   "salary": {
-    "min": 3000,
-    "max": 5000,
-    "currency": "USD",
-    "period": "month"
-   },
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "python",
-    "django",
-    "flask",
-    "fastapi",
-    "aws",
-    "gcp",
-    "azure",
-    "docker",
-    "ci-cd",
-    "postgresql",
-    "mysql",
-    "redis",
-    "ai",
-    "machine-learning",
-    "english"
-   ]
-  },
-  {
-   "id": "himalayas:feed:software-mind/jobs/8gt-senior-business-intelligence-engineer",
-   "company": "Software Mind",
-   "title": "[8GT] Senior Business Intelligence Engineer",
-   "url": "https://himalayas.app/companies/software-mind/jobs/8gt-senior-business-intelligence-engineer?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (45 countries incl. Argentina)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-01T11:42:51Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "sql",
-    "gcp",
-    "snowflake",
-    "dbt",
-    "data-warehouse",
-    "bi",
-    "salesforce",
-    "ecommerce",
-    "saas",
-    "agile",
-    "english"
    ]
   },
   {
@@ -58879,35 +58110,6 @@
    ]
   },
   {
-   "id": "himalayas:feed:talentus-global/jobs/senior-it-support-engineer-part-time",
-   "company": "Talentus Global",
-   "title": "Senior IT Support Engineer (Part-Time)",
-   "url": "https://himalayas.app/companies/talentus-global/jobs/senior-it-support-engineer-part-time?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (45 countries incl. Argentina)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-15T21:34:54Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "azure",
-    "crm",
-    "english"
-   ]
-  },
-  {
    "id": "himalayas:feed:tarmac/jobs/uy-net-developer",
    "company": "Tarmac",
    "title": "UY .Net Developer",
@@ -60575,30 +59777,6 @@
    "keywords": []
   },
   {
-   "id": "phenom:jobs.thermofisher.com/TFSCGLOBAL/global/en:R-01370999",
-   "company": "Thermo Fisher Scientific",
-   "title": "FSP Clinical Trial Coordinator",
-   "url": "https://jobs.thermofisher.com/global/en/job/R-01370999",
-   "ats": "phenom",
-   "location": "Remote, Argentina",
-   "location_classes": [
-    "remote-argentina"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-03T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "excel",
-    "compliance",
-    "biotech",
-    "english"
-   ]
-  },
-  {
    "id": "phenom:jobs.thermofisher.com/TFSCGLOBAL/global/en:R-01372063",
    "company": "Thermo Fisher Scientific",
    "title": "FSP Clinical Trial Coordinator II",
@@ -61002,6 +60180,31 @@
    ]
   },
   {
+   "id": "phenom:jobs.thermofisher.com/TFSCGLOBAL/global/en:R-01376431",
+   "company": "Thermo Fisher Scientific",
+   "title": "FSP Site Payment Associate II",
+   "url": "https://jobs.thermofisher.com/global/en/job/R-01376431",
+   "ats": "phenom",
+   "location": "Remote, Argentina",
+   "location_classes": [
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T00:00:00.000Z",
+   "salary": null,
+   "roles": [],
+   "seniority": "mid",
+   "years": [
+    1,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "payments",
+    "english"
+   ]
+  },
+  {
    "id": "phenom:jobs.thermofisher.com/TFSCGLOBAL/global/en:R-01370975",
    "company": "Thermo Fisher Scientific",
    "title": "FSP Sr Clinical Research Associate",
@@ -61245,32 +60448,6 @@
    "years": null,
    "provinces": [],
    "keywords": [
-    "grc",
-    "healthtech",
-    "biotech",
-    "english"
-   ]
-  },
-  {
-   "id": "phenom:jobs.thermofisher.com/TFSCGLOBAL/global/en:R-01361687",
-   "company": "Thermo Fisher Scientific",
-   "title": "Medical Director/Senior Medical Director - Dermatology",
-   "url": "https://jobs.thermofisher.com/global/en/job/R-01361687",
-   "ats": "phenom",
-   "location": "Remote, Argentina; Remote, São Paulo, Brazil; Remote, Lima, Peru; Remote, Colombia; Remote, Chile; Remote, Mexico",
-   "location_classes": [
-    "remote-argentina",
-    "latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-08-21T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "head",
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "gcp",
     "grc",
     "healthtech",
     "biotech",
@@ -62310,6 +61487,40 @@
    ]
   },
   {
+   "id": "himalayas:feed:trafilea-com/jobs/product-engineer-core-apis-backend",
+   "company": "Trafilea",
+   "title": "Product Engineer – Core APIS Backend",
+   "url": "https://himalayas.app/companies/trafilea-com/jobs/product-engineer-core-apis-backend?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (Argentina)",
+   "location_classes": [
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:07:21Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    4,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "golang",
+    "sql",
+    "nosql",
+    "nodejs",
+    "aws",
+    "ai",
+    "ecommerce",
+    "agile"
+   ]
+  },
+  {
    "id": "recruitee:transperfect:2727811",
    "company": "TransPerfect",
    "title": "AI Content Marketing Strategist (Buenos Aires)",
@@ -62413,83 +61624,6 @@
    ],
    "keywords": [
     "healthtech",
-    "english"
-   ]
-  },
-  {
-   "id": "recruitee:transperfect:2514616",
-   "company": "TransPerfect",
-   "title": "Commerce and Content Back End Technical Consultant",
-   "url": "https://transperfect.recruitee.com/o/commerce-and-content-back-end-technical-consultant",
-   "ats": "recruitee",
-   "location": "Buenos Aires, Argentina; Sao Paulo, São Paulo, Brazil; Bogota, Distrito Capital de Bogotá, Colombia; San José, Costa Rica; Mexico, México; Prague, Praha, Hlavní město, Czechia; Warsaw, Mazowieckie, Poland; Bucharest, București, Romania; New York, United States",
-   "location_classes": [
-    "remote-argentina",
-    "latam",
-    "bay-area",
-    "europe",
-    "remote-us"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-03-05T08:56:44Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "java",
-    "php",
-    "nodejs",
-    "graphql",
-    "docker",
-    "ci-cd",
-    "postgresql",
-    "mysql",
-    "elasticsearch",
-    "sap",
-    "payments"
-   ]
-  },
-  {
-   "id": "recruitee:transperfect:2513644",
-   "company": "TransPerfect",
-   "title": "Commerce and Content Front End Technical Consultant",
-   "url": "https://transperfect.recruitee.com/o/commerce-and-content-front-end-technical-consultant",
-   "ats": "recruitee",
-   "location": "Buenos Aires, Argentina; Bogota, Distrito Capital de Bogotá, Colombia; Sao Paulo, São Paulo, Brazil; Mexico, México; San José, Costa Rica; Bucharest, București, Romania; Warsaw, Mazowieckie, Poland; Prague, Praha, Hlavní město, Czechia; New York, United States",
-   "location_classes": [
-    "remote-argentina",
-    "latam",
-    "bay-area",
-    "europe",
-    "remote-us"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-03-04T12:01:39Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "javascript",
-    "typescript",
-    "react",
-    "angular",
-    "vue",
-    "nextjs",
-    "html-css",
-    "figma",
-    "graphql",
-    "docker",
-    "ci-cd",
-    "sap",
-    "payments",
     "english"
    ]
   },
@@ -62860,6 +61994,34 @@
    ]
   },
   {
+   "id": "recruitee:transperfect:2832758",
+   "company": "TransPerfect",
+   "title": "Language Quality Specialist (Buenos Aires)",
+   "url": "https://transperfect.recruitee.com/o/language-quality-specialist-buenos-aires",
+   "ats": "recruitee",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "onsite",
+   "posted_at": "2026-11-18T18:20:57Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": [
+    2,
+    null
+   ],
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "biotech",
+    "english",
+    "spanish"
+   ]
+  },
+  {
    "id": "recruitee:transperfect:2623177",
    "company": "TransPerfect",
    "title": "Onboarding Coordinator - LATAM",
@@ -62960,30 +62122,25 @@
    ]
   },
   {
-   "id": "recruitee:transperfect:2514896",
+   "id": "himalayas:feed:transperfect/jobs/qa-automation-engineer",
    "company": "TransPerfect",
    "title": "QA Automation Engineer",
-   "url": "https://transperfect.recruitee.com/o/qa-automation-engineer-8",
-   "ats": "recruitee",
-   "location": "Buenos Aires, Argentina; Sao Paulo, São Paulo, Brazil; Bogota, Distrito Capital de Bogotá, Colombia; San José, Costa Rica; Mexico, México; Warsaw, Mazowieckie, Poland; Prague, Praha, Hlavní město, Czechia; Bucharest, București, Romania; Casablanca, Casablanca-Settat, Morocco; Cape Town, Western Cape, South Africa; Budapest, Hungary; Lima, Peru; Santiago, Región Metropolitana de Santiago, Chile; Sofia, Bulgaria",
+   "url": "https://himalayas.app/companies/transperfect/jobs/qa-automation-engineer?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (15 countries incl. Argentina)",
    "location_classes": [
-    "remote-argentina",
-    "latam",
-    "bay-area",
-    "europe",
     "remote-global"
    ],
    "workplace": "remote",
-   "posted_at": "2026-03-05T10:14:53Z",
+   "posted_at": "2026-11-18T16:57:06Z",
    "salary": null,
    "roles": [
     "qa-engineer"
    ],
    "seniority": null,
    "years": null,
-   "provinces": [
-    "CABA"
-   ],
+   "provinces": [],
    "keywords": [
     "sql",
     "ios",
@@ -63503,7 +62660,7 @@
     "remote-latam"
    ],
    "workplace": "remote",
-   "posted_at": "2026-11-05T09:31:07.572+00:00",
+   "posted_at": "2026-11-18T16:34:59.463+00:00",
    "salary": null,
    "roles": [
     "software-engineer"
@@ -64170,6 +63327,39 @@
    ]
   },
   {
+   "id": "ashby:truelogic:8c3d2c68-6e98-4330-a87b-14eaaedd3ea1",
+   "company": "Truelogic",
+   "title": "Senior Front-End Engineer (Next.js/React) - Real Estate",
+   "url": "https://jobs.ashbyhq.com/truelogic/8c3d2c68-6e98-4330-a87b-14eaaedd3ea1",
+   "ats": "ashby",
+   "location": "LatAm",
+   "location_classes": [
+    "remote-latam"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T15:41:11.773+00:00",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    5,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "typescript",
+    "react",
+    "nextjs",
+    "html-css",
+    "design-systems",
+    "nodejs",
+    "postgresql",
+    "proptech"
+   ]
+  },
+  {
    "id": "ashby:truelogic:53c2731f-8bb9-47ab-8a93-6849ff435ae7",
    "company": "Truelogic",
    "title": "Senior Full-Stack Engineer (TypeScript/AI Automation) - Real Estate - LATAM",
@@ -64232,6 +63422,34 @@
    ]
   },
   {
+   "id": "ashby:truelogic:8088aae5-a29c-4f08-9f84-e280e1be32ae",
+   "company": "Truelogic",
+   "title": "Senior Product Designer - Travel & Hospitality",
+   "url": "https://jobs.ashbyhq.com/truelogic/8088aae5-a29c-4f08-9f84-e280e1be32ae",
+   "ats": "ashby",
+   "location": "LatAm",
+   "location_classes": [
+    "remote-latam"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T14:35:19.272+00:00",
+   "salary": null,
+   "roles": [
+    "ux-designer"
+   ],
+   "seniority": "senior",
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "react-native",
+    "figma",
+    "design-systems",
+    "ai",
+    "payments",
+    "ecommerce"
+   ]
+  },
+  {
    "id": "ashby:truelogic:90fae790-9524-4dd5-b5dc-f182e595250e",
    "company": "Truelogic",
    "title": "Senior Product Manager - Technology",
@@ -64260,36 +63478,6 @@
     "conversational-ai",
     "workflow-automation",
     "ux-research",
-    "english"
-   ]
-  },
-  {
-   "id": "ashby:truelogic:4458dd25-2995-41fe-aeec-7ed93d2ab170",
-   "company": "Truelogic",
-   "title": "System Administrator - Digital Media & Technology",
-   "url": "https://jobs.ashbyhq.com/truelogic/4458dd25-2995-41fe-aeec-7ed93d2ab170",
-   "ats": "ashby",
-   "location": "LatAm",
-   "location_classes": [
-    "remote-latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-10-22T19:34:14.398+00:00",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    4,
-    6
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "bash",
-    "terraform",
-    "llm",
-    "iam",
-    "logistics",
     "english"
    ]
   },
@@ -64334,6 +63522,40 @@
     "computer-vision",
     "agile",
     "english"
+   ]
+  },
+  {
+   "id": "workable:tyk-technologies:FFD5BA0436",
+   "company": "Tyk",
+   "title": "Senior Customer Success Engineer - AMER",
+   "url": "https://apply.workable.com/j/FFD5BA0436",
+   "ats": "workable",
+   "location": "Canada; Brazil; Colombia; Mexico; Argentina; Costa Rica",
+   "location_classes": [
+    "remote-canada",
+    "latam",
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-11",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "senior",
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "sql",
+    "distributed-systems",
+    "kubernetes",
+    "docker",
+    "mongodb",
+    "redis",
+    "ai",
+    "iam",
+    "ecommerce",
+    "telecom"
    ]
   },
   {
@@ -66276,29 +65498,6 @@
    ]
   },
   {
-   "id": "greenhouse:wundermanthompson:8893048002",
-   "company": "VML",
-   "title": "Dupla Creativa Semi Senior (Art Director y Copywriter)",
-   "url": "https://job-boards.greenhouse.io/embed/job_app?for=wundermanthompson&token=8893048002",
-   "ats": "greenhouse",
-   "location": "Buenos Aires, Argentina; Buenos Aires, Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-10-22T14:44:41-04:00",
-   "salary": null,
-   "roles": [],
-   "seniority": "head",
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "ai-agents"
-   ]
-  },
-  {
    "id": "greenhouse:wundermanthompson:8920653002",
    "company": "VML",
    "title": "Junior Marketing Analyst (Advanced Portuguese)",
@@ -67562,6 +66761,47 @@
    ]
   },
   {
+   "id": "getonboard:feed:devops-plataforma-senior-devsecops-finops-witi-remote",
+   "company": "WiTi",
+   "title": "DevOps / Plataforma Senior (DevSecOps & FinOps)",
+   "url": "https://www.getonbrd.com/jobs/devops-plataforma-senior-devsecops-finops-witi-remote",
+   "ats": "getonboard",
+   "via": "Get on Board",
+   "location": "Remote (Central America, South America)",
+   "location_classes": [
+    "remote-latam"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:30:30Z",
+   "salary": null,
+   "roles": [
+    "devops-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    5,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "python",
+    "typescript",
+    "bash",
+    "nodejs",
+    "aws",
+    "gcp",
+    "kubernetes",
+    "terraform",
+    "ci-cd",
+    "observability",
+    "devops",
+    "sre",
+    "cybersecurity",
+    "iam",
+    "english"
+   ]
+  },
+  {
    "id": "himalayas:feed:wizdaa/jobs/senior-react-native-react-engineer-latam",
    "company": "Wizdaa",
    "title": "Senior React Native & React Engineer LATAM",
@@ -68195,36 +67435,6 @@
    ]
   },
   {
-   "id": "himalayas:feed:rekluti/jobs/desarrollador-flutter",
-   "company": "XKTalent Inc. - Rimutee",
-   "title": "DESARROLLADOR FLUTTER",
-   "url": "https://himalayas.app/companies/rekluti/jobs/desarrollador-flutter?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (11 countries incl. Argentina)",
-   "location_classes": [
-    "remote-latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-10-29T09:15:34Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "dart",
-    "flutter",
-    "agile",
-    "spanish"
-   ]
-  },
-  {
    "id": "himalayas:feed:rekluti/jobs/desarrollador-full-stack-java-react-bilingue",
    "company": "XKTalent Inc. - Rimutee",
    "title": "DESARROLLADOR FULL STACK (JAVA  + REACT) BILINGUE",
@@ -68270,43 +67480,6 @@
     "conversational-ai",
     "agile",
     "english"
-   ]
-  },
-  {
-   "id": "himalayas:feed:rekluti/jobs/desarrollador-full-stack-python-angular-go",
-   "company": "XKTalent Inc. - Rimutee",
-   "title": "DESARROLLADOR FULL STACK (PYTHON + ANGULAR + GO)",
-   "url": "https://himalayas.app/companies/rekluti/jobs/desarrollador-full-stack-python-angular-go?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (45 countries incl. Argentina)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-10-29T09:12:36Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "golang",
-    "sql",
-    "nosql",
-    "angular",
-    "flutter",
-    "gcp",
-    "devops",
-    "agile",
-    "english",
-    "spanish"
    ]
   },
   {
@@ -69589,6 +68762,84 @@
     "networking",
     "cybersecurity",
     "iam"
+   ]
+  },
+  {
+   "id": "himalayas:feed:zencore/jobs/senior-cloud-engineer-infrastructure",
+   "company": "Zencore",
+   "title": "Senior Cloud Engineer, Infrastructure",
+   "url": "https://himalayas.app/companies/zencore/jobs/senior-cloud-engineer-infrastructure?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (Argentina)",
+   "location_classes": [
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:14:42Z",
+   "salary": null,
+   "roles": [
+    "devops-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    3,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "python",
+    "sql",
+    "nosql",
+    "bash",
+    "aws",
+    "gcp",
+    "azure",
+    "kubernetes",
+    "docker",
+    "terraform",
+    "ci-cd",
+    "serverless"
+   ]
+  },
+  {
+   "id": "himalayas:feed:zencore/jobs/senior-data-engineer",
+   "company": "Zencore",
+   "title": "Senior Data Engineer",
+   "url": "https://himalayas.app/companies/zencore/jobs/senior-data-engineer?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (Argentina)",
+   "location_classes": [
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-18T17:14:42Z",
+   "salary": null,
+   "roles": [
+    "data-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    4,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "python",
+    "sql",
+    "gcp",
+    "ci-cd",
+    "observability",
+    "test-automation",
+    "snowflake",
+    "databricks",
+    "spark",
+    "airflow",
+    "flink",
+    "etl",
+    "data-warehouse",
+    "mlops"
    ]
   },
   {
