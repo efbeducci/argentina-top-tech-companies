@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { analyzeLocation } from "../lib/ats/ranking/location.js";
 import { openToArgentina, carryOver } from "../scripts/jobs.mjs";
-import { classifyJob, jobTitleRoles, jobProvinces, seniorityOf } from "../api/_jobs.js";
+import { classifyJob, jobTitleRoles, jobProvinces, seniorityOf, keywordsOf } from "../api/_jobs.js";
 import mcp from "../api/mcp.js";
 
 const cls = (s) => analyzeLocation([s]).locationClass;
@@ -64,6 +64,14 @@ test("classifyJob reads years and skills from the description", () => {
     "5+ years of experience with Ruby on Rails, PostgreSQL and AWS.");
   assert.deepEqual(c.years, [5, null]);
   assert.ok(c.keywords.includes("rails") && c.keywords.includes("postgresql"));
+});
+
+test("rails is the framework, not payment rails", () => {
+  for (const text of ["Ruby on Rails and React", "Our stack: Rails, Postgres", "ruby/rails experience", "Strong RoR skills"])
+    assert.ok(keywordsOf("Engineer", text).includes("rails"), text);
+  for (const text of ["dozens of PSPs and local rails powering deposits", "bank rails (ACH, SEPA)",
+    "integrate new Payment Rails", "MicroK8s for on-rails K8s", "AI guard rails"])
+    assert.ok(!keywordsOf("Engineer", text).includes("rails"), text);
 });
 
 test("a failing board keeps its previous postings for a week", () => {

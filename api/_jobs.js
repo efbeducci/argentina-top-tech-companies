@@ -160,7 +160,10 @@ export const KEYWORDS = [
   ["dotnet", ["dotnet", "asp net", "net core", "net framework", "blazor"], { query: ["net", "asp"], cased: /\.NET\b/ }],
   ["php", ["php"]],
   ["ruby", ["ruby"]],
-  ["rails", ["rails", "ruby on rails", "ror"]],
+  ["rails", ["ruby on rails", "rubyonrails", "ror"], { query: ["rails"],
+    // "Rails" the framework, "Ruby/Rails"; never payment rails ("bank rails",
+    // "local rails", "Payment Rails") or "on-rails".
+    cased: /(?<!\b(?:[Pp]ayments?|[Pp]ayout|[Bb]ank(?:ing)?|[Ll]ocal|[Mm]oney|[Cc]rypto|[Ss]tablecoin|[Ss]ettlement|[Ff]inancial|[Cc]ard|[Ff]iat|[Gg]uard|[Ss]afety|[Oo]n)[\s-]+)\bRails\b|\b[Rr]uby\s*[/&,+]\s*[Rr]ails\b/ }],
   ["elixir", ["elixir", "phoenix framework"]],
   ["erlang", ["erlang"]],
   ["clojure", ["clojure"]],
