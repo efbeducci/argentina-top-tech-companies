@@ -1,15 +1,24 @@
 {
  "version": 1,
- "generated_at": "2026-11-23T21:23:24Z",
+ "generated_at": "2026-11-24T20:11:59Z",
  "boards": {
   "queried": 109,
-  "failed": 2,
-  "stale": 1,
+  "failed": 12,
+  "stale": 10,
   "stale_since": {
-   "workday:accenture/wd103/AccentureCareers": "2026-11-22T17:18:41Z"
+   "workday:accenture/wd103/AccentureCareers": "2026-11-22T17:18:41Z",
+   "workday:brambles/wd5/Brambles_Careers": "2026-11-23T21:23:24Z",
+   "workday:dentsuaegis/wd3/DAN_GLOBAL": "2026-11-23T21:23:24Z",
+   "workday:intive/wd3/Intive": "2026-11-23T21:23:24Z",
+   "workday:iqvia/wd1/IQVIA": "2026-11-23T21:23:24Z",
+   "workday:kyndryl/wd5/KyndrylProfessionalCareers": "2026-11-23T21:23:24Z",
+   "workday:mastercard/wd1/CorporateCareers": "2026-11-23T21:23:24Z",
+   "workday:medtronic/wd1/MedtronicCareers": "2026-11-23T21:23:24Z",
+   "workday:pfizer/wd1/PfizerCareers": "2026-11-23T21:23:24Z",
+   "workday:visa/wd5/Visa": "2026-11-23T21:23:24Z"
   },
   "issues": {
-   "workday:retryable_http": 2
+   "workday:retryable_http": 12
   }
  },
  "jobs": [
@@ -2317,6 +2326,127 @@
    ]
   },
   {
+   "id": "weworkremotely:feed:airbnb-senior-mobile-software-engineer-quality-engineering",
+   "company": "Airbnb",
+   "title": "Senior Mobile Software Engineer, Quality Engineering",
+   "url": "https://weworkremotely.com/remote-jobs/airbnb-senior-mobile-software-engineer-quality-engineering",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T06:02:03Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    5,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "kotlin",
+    "swift",
+    "ios",
+    "android",
+    "ci-cd",
+    "test-automation",
+    "ai",
+    "llm",
+    "english"
+   ]
+  },
+  {
+   "id": "weworkremotely:feed:airbnb-senior-software-engineer-guest-host",
+   "company": "Airbnb",
+   "title": "Senior Software Engineer Guest & Host",
+   "url": "https://weworkremotely.com/remote-jobs/airbnb-senior-software-engineer-guest-host",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T06:02:14Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    5,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "ai"
+   ]
+  },
+  {
+   "id": "weworkremotely:feed:airbnb-senior-software-engineer-partner-integrations",
+   "company": "Airbnb",
+   "title": "Senior Software Engineer, Partner Integrations",
+   "url": "https://weworkremotely.com/remote-jobs/airbnb-senior-software-engineer-partner-integrations",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T18:31:09Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    6,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "microservices"
+   ]
+  },
+  {
+   "id": "weworkremotely:feed:airbnb-senior-staff-data-scientist-guest-host-marketplace-ai",
+   "company": "Airbnb",
+   "title": "Senior Staff Data Scientist, Guest & Host Marketplace AI",
+   "url": "https://weworkremotely.com/remote-jobs/airbnb-senior-staff-data-scientist-guest-host-marketplace-ai",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T18:31:10Z",
+   "salary": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "seniority": "staff",
+   "years": [
+    12,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "python",
+    "sql",
+    "ai",
+    "llm",
+    "statistics",
+    "ecommerce"
+   ]
+  },
+  {
    "id": "himalayas:feed:airespring/jobs/network-engineer-juniper-night-shift-remote-latam",
    "company": "AireSpring",
    "title": "Network Engineer (Juniper) - Night Shift - Remote LATAM",
@@ -2521,37 +2651,6 @@
     "ai-agents",
     "payments",
     "english"
-   ]
-  },
-  {
-   "id": "himalayas:feed:aitt/jobs/ai-engineer-part-time-agentes-de-ia-automatizacion",
-   "company": "AIT",
-   "title": "AI Engineer (Part-time) Agentes de IA & Automatización",
-   "url": "https://himalayas.app/companies/aitt/jobs/ai-engineer-part-time-agentes-de-ia-automatizacion?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (45 countries incl. Argentina)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-01T11:46:54Z",
-   "salary": null,
-   "roles": [
-    "data-scientist"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "python",
-    "fastapi",
-    "ai",
-    "llm",
-    "ai-agents",
-    "fintech",
-    "payments",
-    "spanish"
    ]
   },
   {
@@ -3749,7 +3848,7 @@
    "url": "https://himalayas.app/companies/alpaca/jobs/senior-data-scientist-ai-evaluation?utm_source=api",
    "ats": "himalayas",
    "via": "Himalayas",
-   "location": "Remote (57 countries incl. Argentina)",
+   "location": "Remote (56 countries incl. Argentina)",
    "location_classes": [
     "remote-global"
    ],
@@ -4044,7 +4143,7 @@
    "url": "https://himalayas.app/companies/alpaca/jobs/senior-software-engineer-trading?utm_source=api",
    "ats": "himalayas",
    "via": "Himalayas",
-   "location": "Remote (57 countries incl. Argentina)",
+   "location": "Remote (56 countries incl. Argentina)",
    "location_classes": [
     "remote-global"
    ],
@@ -4344,7 +4443,7 @@
    "url": "https://himalayas.app/companies/alpaca/jobs/staff-data-scientist-growth?utm_source=api",
    "ats": "himalayas",
    "via": "Himalayas",
-   "location": "Remote (57 countries incl. Argentina)",
+   "location": "Remote (56 countries incl. Argentina)",
    "location_classes": [
     "remote-global"
    ],
@@ -4860,30 +4959,6 @@
    ]
   },
   {
-   "id": "icims:jobs.aon.com:110600",
-   "company": "Aon",
-   "title": "Broker Senior - Reinsurance",
-   "url": "https://jobs.aon.com/jobs/110600?lang=en-us",
-   "ats": "icims",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-11-04T13:47:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "senior",
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "insurtech",
-    "english"
-   ]
-  },
-  {
    "id": "icims:jobs.aon.com:109190",
    "company": "Aon",
    "title": "Junior Broker – Treaty Reinsurance",
@@ -4939,35 +5014,6 @@
    ]
   },
   {
-   "id": "icims:jobs.aon.com:109184",
-   "company": "Aon",
-   "title": "Reinsurance FAC Broker",
-   "url": "https://jobs.aon.com/jobs/109184?lang=en-us",
-   "ats": "icims",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-10-30T01:52:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    3,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "excel",
-    "insurtech",
-    "english",
-    "spanish"
-   ]
-  },
-  {
    "id": "himalayas:feed:appetiser-apps/jobs/junior-full-stack-developer",
    "company": "Appetiser Apps",
    "title": "Junior Full-Stack Developer",
@@ -5006,37 +5052,6 @@
     "ai",
     "ai-agents",
     "agile"
-   ]
-  },
-  {
-   "id": "greenhouse:appsflyer:8474364002",
-   "company": "AppsFlyer",
-   "title": "Senior Support Engineer",
-   "url": "https://job-boards.greenhouse.io/embed/job_app?for=appsflyer&token=8474364002",
-   "ats": "greenhouse",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-03-23T05:13:58-04:00",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "sql",
-    "ai",
-    "llm",
-    "ai-agents"
    ]
   },
   {
@@ -5833,7 +5848,7 @@
     "remote-global"
    ],
    "workplace": "remote",
-   "posted_at": "2026-11-23T19:30:20Z",
+   "posted_at": "2026-11-24T19:30:25Z",
    "salary": null,
    "roles": [
     "software-engineer"
@@ -5868,7 +5883,7 @@
     "remote-global"
    ],
    "workplace": "remote",
-   "posted_at": "2026-11-23T19:30:19Z",
+   "posted_at": "2026-11-24T19:30:25Z",
    "salary": null,
    "roles": [
     "software-engineer"
@@ -6021,6 +6036,40 @@
    ]
   },
   {
+   "id": "himalayas:feed:assurant/jobs/cybersecurity-analyst",
+   "company": "Assurant",
+   "title": "Cybersecurity Analyst",
+   "url": "https://himalayas.app/companies/assurant/jobs/cybersecurity-analyst?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (Argentina)",
+   "location_classes": [
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T06:12:15Z",
+   "salary": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    3,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "servicenow",
+    "ai",
+    "cybersecurity",
+    "grc",
+    "compliance",
+    "fintech",
+    "insurtech",
+    "english"
+   ]
+  },
+  {
    "id": "himalayas:feed:assuresoft/jobs/devops-engineer",
    "company": "AssureSoft",
    "title": "DevOps Engineer",
@@ -6147,6 +6196,30 @@
     "CABA"
    ],
    "keywords": [
+    "english"
+   ]
+  },
+  {
+   "id": "eightfold:astrazeneca.eightfold.ai/astrazeneca.com:563877691891763",
+   "company": "AstraZeneca",
+   "title": "Medical Science Liaison ( Rare Diseases) ( Neurología)",
+   "url": "https://astrazeneca.eightfold.ai/careers/job/563877691891763",
+   "ats": "eightfold",
+   "location": "CABA, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "onsite",
+   "posted_at": "2026-11-24T00:00:00.000Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "healthtech",
     "english"
    ]
   },
@@ -6531,17 +6604,18 @@
   {
    "id": "eightfold:autodesk.eightfold.ai/autodesk.com:1443154073651",
    "company": "Autodesk",
-   "title": "Account Executive, Global Expansion Sales",
+   "title": "Account Executive, Expansion Sales",
    "url": "https://jobs.autodesk.com/careers/job/1443154073651",
    "ats": "eightfold",
-   "location": "AMER - Argentina - Remote; AMER - United States - California - Remote; New York, USA - Remote; AMER - United States - Massachusetts - Boston - Drydock; AMER - United States - Arizona - Remote; AMER - Costa Rica - Remote; Massachusetts, USA - Remote; AMER - United States - Alabama - Remote; AMER - Canada - British Columbia - Remote; AMER - Canada - Ontario - Remote; AMER - Canada - Alberta - Remote; AMER - United States - Missouri - Remote; AMER - Canada - Quebec - Remote; AMER - United States - Minnesota - Remote; AMER - United States - Michigan - Remote; AMER - United States - Massachusetts - Remote; AMER - United States - Maryland - Remote; AMER - United States - Colorado - Remote; AMER - United States - Louisiana - Remote; AMER - United States - Kentucky - Remote; AMER - United States - Kansas - Remote; AMER - United States - Illinois - Remote; AMER - Peru - Remote; AMER - United States - Georgia - Remote; AMER - United States - Florida - Remote; AMER - United States - Pennsylvania - Remote; AMER - United States - Oregon - Remote; AMER - United States - Oklahoma - Remote; AMER - United States - Ohio - Remote; AMER - United States - North Carolina - Remote; AMER - United States - New York - Remote; AMER - Mexico - Chapultepec Mexico City; AMER - United States - Massachusetts - Boston Area - Remote; AMER - Brazil - Remote",
+   "location": "AMER - Argentina - Remote; AMER - United States - California - Remote; New York, USA - Remote; AMER - Costa Rica - SanJose - Belen; AMER - United States - Massachusetts - Boston - Drydock; AMER - United States - Arizona - Remote; Massachusetts, USA - Remote; AMER - United States - Alabama - Remote; AMER - Canada - British Columbia - Remote; AMER - Canada - Ontario - Remote; AMER - Canada - Alberta - Remote; AMER - United States - Missouri - Remote; AMER - Canada - Quebec - Remote; AMER - United States - Minnesota - Remote; AMER - United States - Michigan - Remote; AMER - United States - Massachusetts - Remote; AMER - United States - Maryland - Remote; AMER - United States - Colorado - Remote; AMER - United States - Louisiana - Remote; AMER - United States - Kentucky - Remote; AMER - United States - Kansas - Remote; AMER - United States - Illinois - Remote; AMER - United States - Georgia - Remote; AMER - United States - Florida - Remote; AMER - United States - Pennsylvania - Remote; AMER - United States - Oregon - Remote; AMER - United States - Oklahoma - Remote; AMER - United States - Ohio - Remote; AMER - United States - North Carolina - Remote; AMER - United States - New York - Remote; AMER - Mexico - Chapultepec Mexico City; AMER - United States - Massachusetts - Boston Area - Remote; Montreal, QC, CAN; AMER - Brazil - Remote; Vancouver, BC, CAN; Toronto, ON, CAN",
    "location_classes": [
     "remote-argentina",
     "remote-latam",
-    "remote-us"
+    "remote-us",
+    "canada"
    ],
    "workplace": "remote",
-   "posted_at": "2026-11-16T00:00:00.000Z",
+   "posted_at": "2026-11-24T00:00:00.000Z",
    "salary": null,
    "roles": [],
    "seniority": null,
@@ -9349,7 +9423,7 @@
    "url": "https://www.getonbrd.com/jobs/full-stack-developer-blueworks-crm-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Brazil, Chile, El Salvador, Argentina, Peru)",
+   "location": "Remote (Brazil, Chile, El Salvador, Argentina, Perú)",
    "location_classes": [
     "remote-latam"
    ],
@@ -10012,6 +10086,44 @@
     "crypto",
     "fp-a",
     "english"
+   ]
+  },
+  {
+   "id": "weworkremotely:feed:cambridge-information-group-inc-front-end-developer",
+   "company": "Cambridge Information Group Inc",
+   "title": "Front-End Developer",
+   "url": "https://weworkremotely.com/remote-jobs/cambridge-information-group-inc-front-end-developer",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-10-28T21:42:43Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    4,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "javascript",
+    "php",
+    "react",
+    "vue",
+    "html-css",
+    "figma",
+    "ci-cd",
+    "salesforce",
+    "ai",
+    "adtech",
+    "crm",
+    "seo"
    ]
   },
   {
@@ -17207,34 +17319,6 @@
    ]
   },
   {
-   "id": "ashby:clipboard:b33b6c51-ea36-479f-bd35-595844f1951f",
-   "company": "Clipboard Health",
-   "title": "Workforce Management - Real Time Analyst",
-   "url": "https://jobs.ashbyhq.com/clipboard/b33b6c51-ea36-479f-bd35-595844f1951f",
-   "ats": "ashby",
-   "location": "Remote (Central & South America)",
-   "location_classes": [
-    "remote-latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-10T21:38:01.636+00:00",
-   "salary": {
-    "min": 16000,
-    "max": 27000,
-    "currency": "USD",
-    "period": "year"
-   },
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "bi",
-    "excel",
-    "ecommerce"
-   ]
-  },
-  {
    "id": "himalayas:feed:cobalto-talent/jobs/01_full-stack-software-developer-ai-enabled",
    "company": "Cobalto Talent",
    "title": "01_Full-Stack Software Developer (AI-Enabled)",
@@ -17435,37 +17519,6 @@
    ]
   },
   {
-   "id": "himalayas:feed:codekeeper/jobs/digital-product-designer-7980129206",
-   "company": "Codekeeper",
-   "title": "Digital Product Designer",
-   "url": "https://himalayas.app/companies/codekeeper/jobs/digital-product-designer-7980129206?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (Argentina)",
-   "location_classes": [
-    "remote-argentina"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-19T16:48:59Z",
-   "salary": {
-    "min": 10000,
-    "max": 100000,
-    "currency": "USD",
-    "period": "year"
-   },
-   "roles": [
-    "ux-designer"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "figma",
-    "design-systems",
-    "english"
-   ]
-  },
-  {
    "id": "himalayas:feed:codepath/jobs/senior-product-designer-1565625775",
    "company": "CodePath",
    "title": "Senior Product Designer",
@@ -17564,34 +17617,6 @@
     "ai",
     "cybersecurity",
     "soc"
-   ]
-  },
-  {
-   "id": "lever:coderio:04d66140-65f5-4379-b105-084a2918c436",
-   "company": "Coderio",
-   "title": "Analista técnico funcional - Híbrido",
-   "url": "https://jobs.lever.co/coderio/04d66140-65f5-4379-b105-084a2918c436",
-   "ats": "lever",
-   "location": "Ciudad Autónoma de Buenos Aires; Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "hybrid",
-   "posted_at": "2026-11-06T17:59:02.786Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "sql",
-    "ai",
-    "fintech",
-    "ecommerce",
-    "agile",
-    "english"
    ]
   },
   {
@@ -17918,48 +17943,6 @@
     "data-warehouse",
     "ecommerce",
     "agile"
-   ]
-  },
-  {
-   "id": "lever:coderio:c5a06b69-2d39-4228-8963-29e91dac3a07",
-   "company": "Coderio",
-   "title": "Machine Learning Engineer - AWS",
-   "url": "https://jobs.lever.co/coderio/c5a06b69-2d39-4228-8963-29e91dac3a07",
-   "ats": "lever",
-   "location": "Brazil; Argentina; Uruguay",
-   "location_classes": [
-    "latam",
-    "remote-argentina"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-12T15:37:13.416Z",
-   "salary": null,
-   "roles": [
-    "data-scientist"
-   ],
-   "seniority": null,
-   "years": [
-    4,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "kafka",
-    "aws",
-    "terraform",
-    "ci-cd",
-    "observability",
-    "devops",
-    "databricks",
-    "spark",
-    "flink",
-    "data-warehouse",
-    "machine-learning",
-    "inference",
-    "mlops",
-    "fintech",
-    "payments",
-    "english"
    ]
   },
   {
@@ -18309,57 +18292,6 @@
     "ai",
     "llm",
     "agile",
-    "english"
-   ]
-  },
-  {
-   "id": "lever:coderio:b59460c4-3776-4bae-b153-0d22a544e1e7",
-   "company": "Coderio",
-   "title": "Senior Integration & Backend Engineer – Incident Management Platform",
-   "url": "https://jobs.lever.co/coderio/b59460c4-3776-4bae-b153-0d22a544e1e7",
-   "ats": "lever",
-   "location": "Buenos Aires; Brasil; Uruguay; Ciudad Autónoma de Buenos Aires; La Plata; Montevideo",
-   "location_classes": [
-    "remote-argentina",
-    "latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-10-30T19:38:37.780Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [
-    "CABA",
-    "BA"
-   ],
-   "keywords": [
-    "python",
-    "typescript",
-    "flask",
-    "fastapi",
-    "nodejs",
-    "microservices",
-    "kafka",
-    "distributed-systems",
-    "aws",
-    "docker",
-    "ci-cd",
-    "observability",
-    "sre",
-    "test-automation",
-    "ai",
-    "llm",
-    "ai-agents",
-    "soc",
-    "iam",
-    "soc2",
-    "fintech",
     "english"
    ]
   },
@@ -18722,7 +18654,7 @@
   {
    "id": "lever:coderio:2281c62e-59b4-4ddc-a24a-075dac6ae4ac",
    "company": "Coderio",
-   "title": "Sr Machine Learning Engineer - AWS",
+   "title": "Sr MLOps Engineer - AWS",
    "url": "https://jobs.lever.co/coderio/2281c62e-59b4-4ddc-a24a-075dac6ae4ac",
    "ats": "lever",
    "location": "Colombia; México; Argentina; Peru; Ecuador; Chile; Uruguay",
@@ -18752,6 +18684,48 @@
     "machine-learning",
     "deep-learning",
     "mlops"
+   ]
+  },
+  {
+   "id": "lever:coderio:c5a06b69-2d39-4228-8963-29e91dac3a07",
+   "company": "Coderio",
+   "title": "Sr MLOps Engineer - AWS",
+   "url": "https://jobs.lever.co/coderio/c5a06b69-2d39-4228-8963-29e91dac3a07",
+   "ats": "lever",
+   "location": "Brazil; Argentina; Uruguay",
+   "location_classes": [
+    "latam",
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-12T15:37:13.416Z",
+   "salary": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "seniority": "senior",
+   "years": [
+    4,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "kafka",
+    "aws",
+    "terraform",
+    "ci-cd",
+    "observability",
+    "devops",
+    "databricks",
+    "spark",
+    "flink",
+    "data-warehouse",
+    "machine-learning",
+    "inference",
+    "mlops",
+    "fintech",
+    "payments",
+    "english"
    ]
   },
   {
@@ -18944,49 +18918,6 @@
     "ai-agents",
     "cybersecurity",
     "iam",
-    "english"
-   ]
-  },
-  {
-   "id": "himalayas:feed:coderoad/jobs/senior-qa-engineer-performance-testing",
-   "company": "CodeRoad",
-   "title": "Senior QA Engineer - Performance Testing",
-   "url": "https://himalayas.app/companies/coderoad/jobs/senior-qa-engineer-performance-testing?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (56 countries incl. Argentina)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-19T16:48:59Z",
-   "salary": null,
-   "roles": [
-    "qa-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "java",
-    "typescript",
-    "csharp",
-    "sql",
-    "grpc",
-    "microservices",
-    "distributed-systems",
-    "ci-cd",
-    "test-automation",
-    "postgresql",
-    "mysql",
-    "etl",
-    "ai",
-    "ai-agents",
-    "logistics",
     "english"
    ]
   },
@@ -19201,42 +19132,6 @@
     "llm",
     "fintech",
     "crm",
-    "english"
-   ]
-  },
-  {
-   "id": "himalayas:feed:commit/jobs/senior-backend-engineer-ai-security-1802285403",
-   "company": "CommIT",
-   "title": "Senior Backend Engineer – AI Security",
-   "url": "https://himalayas.app/companies/commit/jobs/senior-backend-engineer-ai-security-1802285403?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (Argentina)",
-   "location_classes": [
-    "remote-argentina"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-19T16:39:06Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    6,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "typescript",
-    "nodejs",
-    "microservices",
-    "distributed-systems",
-    "spark",
-    "ai",
-    "llm",
-    "ai-agents",
-    "cybersecurity",
     "english"
    ]
   },
@@ -20062,6 +19957,52 @@
    ]
   },
   {
+   "id": "himalayas:feed:corva/jobs/software-engineer-python-devops",
+   "company": "Corva",
+   "title": "Software Engineer (Python/DevOps)",
+   "url": "https://himalayas.app/companies/corva/jobs/software-engineer-python-devops?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (Argentina)",
+   "location_classes": [
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-19T18:14:07Z",
+   "salary": null,
+   "roles": [
+    "devops-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    4,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "python",
+    "flask",
+    "fastapi",
+    "microservices",
+    "kafka",
+    "rabbitmq",
+    "aws",
+    "gcp",
+    "azure",
+    "kubernetes",
+    "docker",
+    "terraform",
+    "ci-cd",
+    "devops",
+    "test-automation",
+    "postgresql",
+    "mongodb",
+    "redis",
+    "etl",
+    "energy"
+   ]
+  },
+  {
    "id": "himalayas:feed:creative-chaos/jobs/devops-architect-7109691652",
    "company": "Creative Chaos",
    "title": "DevOps Architect",
@@ -20410,7 +20351,7 @@
    "url": "https://himalayas.app/companies/curotec/jobs/ai-platform-engineer?utm_source=api",
    "ats": "himalayas",
    "via": "Himalayas",
-   "location": "Remote (57 countries incl. Argentina)",
+   "location": "Remote (56 countries incl. Argentina)",
    "location_classes": [
     "remote-global"
    ],
@@ -21760,6 +21701,44 @@
    ]
   },
   {
+   "id": "weworkremotely:feed:datadog-senior-sales-engineer-ai-accounts",
+   "company": "Datadog",
+   "title": "Senior Sales Engineer - AI Accounts",
+   "url": "https://weworkremotely.com/remote-jobs/datadog-senior-sales-engineer-ai-accounts",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T18:31:42Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    7,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "aws",
+    "gcp",
+    "azure",
+    "kubernetes",
+    "observability",
+    "gpu",
+    "ai",
+    "machine-learning",
+    "ai-agents",
+    "inference",
+    "mlops",
+    "logistics"
+   ]
+  },
+  {
    "id": "himalayas:feed:datakrew-pvt-ltd/jobs/backend-developer-net-c",
    "company": "DataKrew Pvt. Ltd.",
    "title": "Backend Developer (.NET - C#)",
@@ -22081,6 +22060,34 @@
    ]
   },
   {
+   "id": "smartrecruiters:DeliveryHero:744000163467491",
+   "company": "Delivery Hero",
+   "title": "Commercial Specialist",
+   "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000163467491",
+   "ats": "smartrecruiters",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "hybrid",
+   "posted_at": "2026-11-24T14:12:01.683Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": [
+    2,
+    null
+   ],
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "excel",
+    "ecommerce",
+    "logistics"
+   ]
+  },
+  {
    "id": "smartrecruiters:DeliveryHero:744000157878305",
    "company": "Delivery Hero",
    "title": "Credit Risk Sr Analyst",
@@ -22214,6 +22221,27 @@
     "excel",
     "ecommerce"
    ]
+  },
+  {
+   "id": "smartrecruiters:DeliveryHero:744000163519479",
+   "company": "Delivery Hero",
+   "title": "Field Operations Supervisor | Neuquén",
+   "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000163519479",
+   "ats": "smartrecruiters",
+   "location": "Neuquén, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "hybrid",
+   "posted_at": "2026-11-24T17:33:27.385Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": null,
+   "provinces": [
+    "NQN"
+   ],
+   "keywords": []
   },
   {
    "id": "smartrecruiters:DeliveryHero:744000159954864",
@@ -22642,6 +22670,34 @@
    ]
   },
   {
+   "id": "smartrecruiters:DeliveryHero:744000163537179",
+   "company": "Delivery Hero",
+   "title": "Retail Media Ops Analyst",
+   "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000163537179",
+   "ats": "smartrecruiters",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "hybrid",
+   "posted_at": "2026-11-24T19:46:02.642Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": [
+    2,
+    null
+   ],
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "gcp",
+    "ecommerce",
+    "english"
+   ]
+  },
+  {
    "id": "smartrecruiters:DeliveryHero:744000158337320",
    "company": "Delivery Hero",
    "title": "Salesforce Analyst",
@@ -23039,6 +23095,34 @@
    ],
    "keywords": [
     "excel"
+   ]
+  },
+  {
+   "id": "smartrecruiters:DeliveryHero:744000163449780",
+   "company": "Delivery Hero",
+   "title": "Tax Specialist",
+   "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000163449780",
+   "ats": "smartrecruiters",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "hybrid",
+   "posted_at": "2026-11-24T13:01:09.855Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": [
+    4,
+    null
+   ],
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "excel",
+    "sap",
+    "english"
    ]
   },
   {
@@ -23792,36 +23876,6 @@
    ]
   },
   {
-   "id": "lever:despegar:76d3f869-dbec-436d-ab77-9f363f722be0",
-   "company": "Despegar",
-   "title": "Manager — Cloud Platform (Traffic)",
-   "url": "https://jobs.lever.co/despegar/76d3f869-dbec-436d-ab77-9f363f722be0",
-   "ats": "lever",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "hybrid",
-   "posted_at": "2026-07-22T20:14:29.556Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "grpc",
-    "distributed-systems",
-    "aws",
-    "kubernetes",
-    "docker"
-   ]
-  },
-  {
    "id": "lever:despegar:785f6b4e-ad2e-40b9-8a96-bc4a9aaaf7fc",
    "company": "Despegar",
    "title": "People Business Partner Specialist",
@@ -23885,167 +23939,6 @@
     "ecommerce",
     "travel",
     "english"
-   ]
-  },
-  {
-   "id": "lever:despegar:b91a6cf8-7dc2-47c3-861d-c640e3690f9d",
-   "company": "Despegar",
-   "title": "Software Developer III - AuthSec",
-   "url": "https://jobs.lever.co/despegar/b91a6cf8-7dc2-47c3-861d-c640e3690f9d",
-   "ats": "lever",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "hybrid",
-   "posted_at": "2026-10-05T13:11:01.830Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    3,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "java",
-    "ai"
-   ]
-  },
-  {
-   "id": "lever:despegar:5fdae8ce-0ee3-404b-a2ed-c89d75b8c09d",
-   "company": "Despegar",
-   "title": "Software Engineer II - B2B",
-   "url": "https://jobs.lever.co/despegar/5fdae8ce-0ee3-404b-a2ed-c89d75b8c09d",
-   "ats": "lever",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "hybrid",
-   "posted_at": "2026-06-11T17:58:47.287Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "mid",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "java",
-    "react",
-    "angular",
-    "spring",
-    "nodejs",
-    "kubernetes",
-    "docker",
-    "ai"
-   ]
-  },
-  {
-   "id": "lever:despegar:5d2070f2-146d-4638-8431-aa2c2e6c93e1",
-   "company": "Despegar",
-   "title": "Software Engineer II - Back End",
-   "url": "https://jobs.lever.co/despegar/5d2070f2-146d-4638-8431-aa2c2e6c93e1",
-   "ats": "lever",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "hybrid",
-   "posted_at": "2026-06-10T21:42:19.769Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "mid",
-   "years": [
-    6,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "java",
-    "mongodb",
-    "redis",
-    "ai"
-   ]
-  },
-  {
-   "id": "lever:despegar:2fb890c8-085d-43a1-b455-ae3fabcc43f9",
-   "company": "Despegar",
-   "title": "Software Engineer II - Media Solutions",
-   "url": "https://jobs.lever.co/despegar/2fb890c8-085d-43a1-b455-ae3fabcc43f9",
-   "ats": "lever",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "hybrid",
-   "posted_at": "2026-07-14T20:25:26.048Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "mid",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "java",
-    "javascript",
-    "react",
-    "angular",
-    "html-css",
-    "observability",
-    "mysql",
-    "mongodb"
-   ]
-  },
-  {
-   "id": "lever:despegar:18374c4f-a93e-47be-a31b-80dac5d178ad",
-   "company": "Despegar",
-   "title": "Software Engineer II - Sofía",
-   "url": "https://jobs.lever.co/despegar/18374c4f-a93e-47be-a31b-80dac5d178ad",
-   "ats": "lever",
-   "location": "Buenos Aires",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "hybrid",
-   "posted_at": "2026-09-10T20:00:09.147Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "mid",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "java",
-    "scala",
-    "react",
-    "ai"
    ]
   },
   {
@@ -25232,44 +25125,6 @@
    ]
   },
   {
-   "id": "jobicy:feed:155868",
-   "company": "Doximity",
-   "title": "Senior Software Engineer, Data",
-   "url": "https://jobicy.com/jobs/155868-senior-software-engineer-data",
-   "ats": "jobicy",
-   "via": "Jobicy",
-   "location": "Remote (LATAM, Canada, USA)",
-   "location_classes": [
-    "remote-latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-19T03:05:12Z",
-   "salary": {
-    "min": 165000,
-    "max": 221000,
-    "currency": "USD",
-    "period": "year"
-   },
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "sql",
-    "test-automation",
-    "etl",
-    "ai",
-    "machine-learning",
-    "healthtech"
-   ]
-  },
-  {
    "id": "weworkremotely:feed:doximity-senior-software-engineer-data-platform",
    "company": "Doximity",
    "title": "Senior Software Engineer, Data Platform",
@@ -25871,6 +25726,238 @@
     "adtech",
     "saas",
     "english"
+   ]
+  },
+  {
+   "id": "himalayas:feed:edgeq-technologies-private-limited/jobs/etl-developer",
+   "company": "EdgeQ Technologies Private Limited",
+   "title": "ETL Developer",
+   "url": "https://himalayas.app/companies/edgeq-technologies-private-limited/jobs/etl-developer?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T04:25:58Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    3,
+    9
+   ],
+   "provinces": [],
+   "keywords": [
+    "java",
+    "sql",
+    "spring",
+    "microservices",
+    "aws",
+    "gcp",
+    "azure",
+    "ci-cd",
+    "postgresql",
+    "mysql",
+    "etl",
+    "data-warehouse",
+    "agile"
+   ]
+  },
+  {
+   "id": "himalayas:feed:edgeq-technologies-private-limited/jobs/full-stack-developer-ai",
+   "company": "EdgeQ Technologies Private Limited",
+   "title": "Full Stack Developer (AI)",
+   "url": "https://himalayas.app/companies/edgeq-technologies-private-limited/jobs/full-stack-developer-ai?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T04:25:23Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    1,
+    7
+   ],
+   "provinces": [],
+   "keywords": [
+    "python",
+    "javascript",
+    "typescript",
+    "react",
+    "nextjs",
+    "html-css",
+    "tailwind",
+    "fastapi",
+    "nodejs",
+    "aws",
+    "gcp",
+    "azure",
+    "docker",
+    "ci-cd",
+    "devops",
+    "postgresql",
+    "mysql",
+    "mongodb",
+    "ai",
+    "machine-learning",
+    "llm",
+    "ai-agents",
+    "conversational-ai",
+    "cybersecurity",
+    "saas"
+   ]
+  },
+  {
+   "id": "himalayas:feed:edgeq-technologies-private-limited/jobs/qa-engineer",
+   "company": "EdgeQ Technologies Private Limited",
+   "title": "QA Engineer",
+   "url": "https://himalayas.app/companies/edgeq-technologies-private-limited/jobs/qa-engineer?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T04:24:09Z",
+   "salary": null,
+   "roles": [
+    "qa-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    2,
+    7
+   ],
+   "provinces": [],
+   "keywords": [
+    "python",
+    "java",
+    "javascript",
+    "sql",
+    "aws",
+    "gcp",
+    "azure",
+    "kubernetes",
+    "docker",
+    "ci-cd",
+    "test-automation",
+    "agile"
+   ]
+  },
+  {
+   "id": "himalayas:feed:edgeq-technologies-private-limited/jobs/salesforce-developer",
+   "company": "EdgeQ Technologies Private Limited",
+   "title": "Salesforce Developer",
+   "url": "https://himalayas.app/companies/edgeq-technologies-private-limited/jobs/salesforce-developer?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T04:25:50Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    3,
+    9
+   ],
+   "provinces": [],
+   "keywords": [
+    "ci-cd",
+    "devops",
+    "salesforce",
+    "crm",
+    "agile"
+   ]
+  },
+  {
+   "id": "himalayas:feed:edgeq-technologies-private-limited/jobs/solutions-architect",
+   "company": "EdgeQ Technologies Private Limited",
+   "title": "Solutions Architect",
+   "url": "https://himalayas.app/companies/edgeq-technologies-private-limited/jobs/solutions-architect?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T04:25:18Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    4,
+    8
+   ],
+   "provinces": [],
+   "keywords": [
+    "javascript",
+    "typescript",
+    "react",
+    "nextjs",
+    "html-css",
+    "nodejs",
+    "aws",
+    "gcp",
+    "azure",
+    "ci-cd",
+    "test-automation",
+    "cybersecurity"
+   ]
+  },
+  {
+   "id": "himalayas:feed:edgeq-technologies-private-limited/jobs/ui-developer",
+   "company": "EdgeQ Technologies Private Limited",
+   "title": "UI Developer",
+   "url": "https://himalayas.app/companies/edgeq-technologies-private-limited/jobs/ui-developer?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T04:25:28Z",
+   "salary": null,
+   "roles": [
+    "ux-designer"
+   ],
+   "seniority": null,
+   "years": [
+    1,
+    5
+   ],
+   "provinces": [],
+   "keywords": [
+    "javascript",
+    "typescript",
+    "react",
+    "angular",
+    "html-css",
+    "tailwind",
+    "figma",
+    "seo",
+    "agile"
    ]
   },
   {
@@ -26704,6 +26791,105 @@
    ]
   },
   {
+   "id": "smartrecruiters:Endava:744000163466766",
+   "company": "Endava",
+   "title": "Data Scientist (Snowflake)",
+   "url": "https://jobs.smartrecruiters.com/Endava/744000163466766",
+   "ats": "smartrecruiters",
+   "location": "Rosario, Santa Fe, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "hybrid",
+   "posted_at": "2026-11-24T14:16:30.746Z",
+   "salary": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [
+    "SF"
+   ],
+   "keywords": [
+    "python",
+    "sql",
+    "snowflake",
+    "airflow",
+    "dbt",
+    "etl",
+    "data-warehouse",
+    "statistics",
+    "edtech"
+   ]
+  },
+  {
+   "id": "smartrecruiters:Endava:744000163468094",
+   "company": "Endava",
+   "title": "Data Scientist (Snowflake)",
+   "url": "https://jobs.smartrecruiters.com/Endava/744000163468094",
+   "ats": "smartrecruiters",
+   "location": "Córdoba, Cordoba, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "hybrid",
+   "posted_at": "2026-11-24T14:17:49.048Z",
+   "salary": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [
+    "CBA"
+   ],
+   "keywords": [
+    "python",
+    "sql",
+    "snowflake",
+    "airflow",
+    "dbt",
+    "etl",
+    "data-warehouse",
+    "statistics",
+    "edtech"
+   ]
+  },
+  {
+   "id": "smartrecruiters:Endava:744000163469139",
+   "company": "Endava",
+   "title": "Data Scientist (Snowflake)",
+   "url": "https://jobs.smartrecruiters.com/Endava/744000163469139",
+   "ats": "smartrecruiters",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "hybrid",
+   "posted_at": "2026-11-24T14:14:54.445Z",
+   "salary": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "python",
+    "sql",
+    "snowflake",
+    "airflow",
+    "dbt",
+    "etl",
+    "data-warehouse",
+    "statistics",
+    "edtech"
+   ]
+  },
+  {
    "id": "smartrecruiters:Endava:744000161094245",
    "company": "Endava",
    "title": "Dynamics 365 & Power Platform Technical Team Lead",
@@ -27080,18 +27266,18 @@
    ]
   },
   {
-   "id": "jobicy:feed:163037",
+   "id": "himalayas:feed:enumerate/jobs/product-owner-ai-pod",
    "company": "Enumerate",
    "title": "Product Owner, AI Pod",
-   "url": "https://jobicy.com/jobs/163037-product-owner-ai-pod",
-   "ats": "jobicy",
-   "via": "Jobicy",
-   "location": "Remote (LATAM)",
+   "url": "https://himalayas.app/companies/enumerate/jobs/product-owner-ai-pod?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (45 countries incl. Argentina)",
    "location_classes": [
-    "remote-latam"
+    "remote-global"
    ],
    "workplace": "remote",
-   "posted_at": "2026-11-17T16:50:13Z",
+   "posted_at": "2026-11-19T16:38:41Z",
    "salary": {
     "min": 2700,
     "max": 3300,
@@ -27685,6 +27871,163 @@
    ]
   },
   {
+   "id": "himalayas:feed:featherless-ai/jobs/machine-learning-engineer-ai-architecture-research-3201417307",
+   "company": "Featherless AI",
+   "title": "Machine Learning Engineer — AI Architecture Research",
+   "url": "https://himalayas.app/companies/featherless-ai/jobs/machine-learning-engineer-ai-architecture-research-3201417307?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T01:19:18Z",
+   "salary": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "ai",
+    "machine-learning",
+    "deep-learning",
+    "pytorch",
+    "llm",
+    "inference",
+    "statistics"
+   ]
+  },
+  {
+   "id": "himalayas:feed:featherless-ai/jobs/machine-learning-engineer-distillation-7150229143",
+   "company": "Featherless AI",
+   "title": "Machine Learning Engineer — Distillation",
+   "url": "https://himalayas.app/companies/featherless-ai/jobs/machine-learning-engineer-distillation-7150229143?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T02:10:18Z",
+   "salary": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "kernel",
+    "gpu",
+    "machine-learning",
+    "deep-learning",
+    "pytorch",
+    "llm",
+    "inference"
+   ]
+  },
+  {
+   "id": "himalayas:feed:featherless-ai/jobs/machine-learning-engineer-inference-optimization-1530595301",
+   "company": "Featherless AI",
+   "title": "Machine Learning Engineer — Inference Optimization",
+   "url": "https://himalayas.app/companies/featherless-ai/jobs/machine-learning-engineer-inference-optimization-1530595301?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T03:46:12Z",
+   "salary": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "distributed-systems",
+    "low-latency",
+    "observability",
+    "kernel",
+    "gpu",
+    "machine-learning",
+    "deep-learning",
+    "pytorch",
+    "llm",
+    "inference"
+   ]
+  },
+  {
+   "id": "himalayas:feed:featherless-ai/jobs/machine-learning-engineer-multilingual-data-1973275583",
+   "company": "Featherless AI",
+   "title": "Machine Learning Engineer — Multilingual Data",
+   "url": "https://himalayas.app/companies/featherless-ai/jobs/machine-learning-engineer-multilingual-data-1973275583?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T01:41:38Z",
+   "salary": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "seniority": null,
+   "years": [
+    3,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "python",
+    "spark",
+    "etl",
+    "machine-learning",
+    "llm",
+    "nlp",
+    "statistics",
+    "english"
+   ]
+  },
+  {
+   "id": "himalayas:feed:featherless-ai/jobs/machine-learning-engineer-training-optimization-6594100484",
+   "company": "Featherless AI",
+   "title": "Machine Learning Engineer — Training Optimization",
+   "url": "https://himalayas.app/companies/featherless-ai/jobs/machine-learning-engineer-training-optimization-6594100484?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T00:51:48Z",
+   "salary": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "distributed-systems",
+    "kernel",
+    "gpu",
+    "machine-learning",
+    "deep-learning",
+    "pytorch",
+    "llm"
+   ]
+  },
+  {
    "id": "greenhouse:feedzai:1771294",
    "company": "Feedzai",
    "title": "Join our Talent Community",
@@ -28076,6 +28419,29 @@
     "crm",
     "english",
     "spanish"
+   ]
+  },
+  {
+   "id": "greenhouse:feverup:4745406101",
+   "company": "Fever",
+   "title": "Onsite Event Coordinator",
+   "url": "https://job-boards.greenhouse.io/embed/job_app?for=feverup&token=4745406101",
+   "ats": "greenhouse",
+   "location": "Buenos Aires",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": null,
+   "posted_at": "2025-12-29T06:28:52-05:00",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "english"
    ]
   },
   {
@@ -28471,6 +28837,41 @@
     "iam",
     "grc",
     "saas"
+   ]
+  },
+  {
+   "id": "weworkremotely:feed:fivetran-manager-software-engineering",
+   "company": "Fivetran ",
+   "title": "Manager, Software Engineering",
+   "url": "https://weworkremotely.com/remote-jobs/fivetran-manager-software-engineering",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T18:32:09Z",
+   "salary": null,
+   "roles": [
+    "software-engineering-manager"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "python",
+    "sql",
+    "gcp",
+    "ci-cd",
+    "observability",
+    "compilers",
+    "snowflake",
+    "databricks",
+    "dbt",
+    "data-warehouse",
+    "ai",
+    "ai-agents"
    ]
   },
   {
@@ -29263,43 +29664,6 @@
    ]
   },
   {
-   "id": "bamboohr:fudo:319",
-   "company": "Fudo",
-   "title": "SRE Engineer / Tech Lead",
-   "url": "https://fudo.bamboohr.com/careers/319",
-   "ats": "bamboohr",
-   "location": "CABA, Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-06-08",
-   "salary": null,
-   "roles": [
-    "tech-lead",
-    "devops-engineer"
-   ],
-   "seniority": "lead",
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "bash",
-    "aws",
-    "kubernetes",
-    "terraform",
-    "linux",
-    "ci-cd",
-    "observability",
-    "sre",
-    "networking",
-    "elasticsearch",
-    "english",
-    "portuguese"
-   ]
-  },
-  {
    "id": "bamboohr:fudo:370",
    "company": "Fudo",
    "title": "Strategy Specialist",
@@ -29399,18 +29763,18 @@
    ]
   },
   {
-   "id": "jobicy:feed:150781",
+   "id": "himalayas:feed:fueled/jobs/product-designer-content-solutions",
    "company": "Fueled",
    "title": "Product Designer – Content Solutions",
-   "url": "https://jobicy.com/jobs/150781-product-designer-content-solutions",
-   "ats": "jobicy",
-   "via": "Jobicy",
-   "location": "Remote (LATAM)",
+   "url": "https://himalayas.app/companies/fueled/jobs/product-designer-content-solutions?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (21 countries incl. Argentina)",
    "location_classes": [
-    "remote-latam"
+    "remote-global"
    ],
    "workplace": "remote",
-   "posted_at": "2026-11-17T02:50:16Z",
+   "posted_at": "2026-11-19T17:59:32Z",
    "salary": null,
    "roles": [
     "ux-designer"
@@ -29569,6 +29933,39 @@
     "typescript",
     "ai",
     "llm",
+    "english"
+   ]
+  },
+  {
+   "id": "himalayas:feed:g2i-inc/jobs/senior-fullstack-developer",
+   "company": "G2i Inc.",
+   "title": "Senior FullStack Developer",
+   "url": "https://himalayas.app/companies/g2i-inc/jobs/senior-fullstack-developer?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T00:09:16Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    10,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "typescript",
+    "react",
+    "design-systems",
+    "nodejs",
+    "ai-agents",
+    "crypto",
     "english"
    ]
   },
@@ -29877,6 +30274,94 @@
     "statistics",
     "fintech",
     "crypto"
+   ]
+  },
+  {
+   "id": "weworkremotely:feed:gemini-staff-platform-engineer",
+   "company": "Gemini",
+   "title": "Staff Platform Engineer",
+   "url": "https://weworkremotely.com/remote-jobs/gemini-staff-platform-engineer",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T06:02:15Z",
+   "salary": null,
+   "roles": [
+    "devops-engineer"
+   ],
+   "seniority": "staff",
+   "years": [
+    8,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "python",
+    "typescript",
+    "golang",
+    "rust",
+    "design-systems",
+    "event-driven",
+    "distributed-systems",
+    "aws",
+    "gcp",
+    "azure",
+    "kubernetes",
+    "docker",
+    "terraform",
+    "ci-cd",
+    "observability",
+    "sre",
+    "ai",
+    "machine-learning",
+    "soc",
+    "crypto",
+    "logistics"
+   ]
+  },
+  {
+   "id": "weworkremotely:feed:gemini-staff-platform-security-engineer",
+   "company": "Gemini",
+   "title": "Staff Platform Security Engineer",
+   "url": "https://weworkremotely.com/remote-jobs/gemini-staff-platform-security-engineer",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T06:02:17Z",
+   "salary": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "seniority": "staff",
+   "years": [
+    8,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "python",
+    "golang",
+    "distributed-systems",
+    "aws",
+    "gcp",
+    "azure",
+    "kubernetes",
+    "terraform",
+    "ci-cd",
+    "sre",
+    "cybersecurity",
+    "soc",
+    "iam",
+    "crypto",
+    "logistics"
    ]
   },
   {
@@ -30441,35 +30926,34 @@
    ]
   },
   {
-   "id": "getonboard:feed:back-end-developer-grupo-mariposa-remote",
+   "id": "getonboard:feed:tech-lead-grupo-mariposa-remote-ff58",
    "company": "Grupo Mariposa",
-   "title": "Back-end Developer",
-   "url": "https://www.getonbrd.com/jobs/back-end-developer-grupo-mariposa-remote",
+   "title": "Tech Lead",
+   "url": "https://www.getonbrd.com/jobs/tech-lead-grupo-mariposa-remote-ff58",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Mexico, Colombia, Chile, Peru, Ecuador, Central America)",
+   "location": "Remote (Chile, Argentina, Colombia, Ecuador, Mexico, Central America)",
    "location_classes": [
     "remote-latam"
    ],
    "workplace": "remote",
-   "posted_at": "2026-10-30T18:48:52Z",
+   "posted_at": "2026-11-24T15:45:05Z",
    "salary": null,
    "roles": [
-    "software-engineer"
+    "tech-lead"
    ],
-   "seniority": null,
-   "years": [
-    3,
-    null
-   ],
+   "seniority": "lead",
+   "years": null,
    "provinces": [],
    "keywords": [
     "java",
     "golang",
-    "kafka",
-    "test-automation",
+    "angular",
+    "flutter",
+    "nodejs",
+    "devops",
     "mongodb",
-    "redis"
+    "agile"
    ]
   },
   {
@@ -31622,42 +32106,6 @@
    ]
   },
   {
-   "id": "himalayas:feed:hiredfy/jobs/l2-incident-management-support-analyst-sre-remote-latam",
-   "company": "Hiredfy",
-   "title": "L2 Incident Management / Support Analyst (SRE) — Remote, LATAM",
-   "url": "https://himalayas.app/companies/hiredfy/jobs/l2-incident-management-support-analyst-sre-remote-latam?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (56 countries incl. Argentina)",
-   "location_classes": [
-    "remote-latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-19T16:39:52Z",
-   "salary": {
-    "min": 2800,
-    "max": 2800,
-    "currency": "USD",
-    "period": "month"
-   },
-   "roles": [
-    "devops-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    1,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "observability",
-    "sre",
-    "ai",
-    "product-analytics",
-    "english"
-   ]
-  },
-  {
    "id": "himalayas:feed:hireworks/jobs/senior-product-manager",
    "company": "hireworks",
    "title": "Senior Product Manager",
@@ -32564,7 +33012,7 @@
     "remote-global"
    ],
    "workplace": "remote",
-   "posted_at": "2026-11-01T12:20:16Z",
+   "posted_at": "2026-11-24T17:12:59Z",
    "salary": null,
    "roles": [
     "software-engineer"
@@ -32999,37 +33447,6 @@
    ],
    "keywords": [
     "payments"
-   ]
-  },
-  {
-   "id": "phenom:careers.hpe.com/HPE1US/us/en:1215676",
-   "company": "HPE",
-   "title": "PCAI Presales Architect",
-   "url": "https://careers.hpe.com/us/en/job/1215676",
-   "ats": "phenom",
-   "location": "Buenos Aires, Buenos Aires, C1429BMS; Bogota; Santiago, N/A; Buenos Aires, Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina",
-    "latam",
-    "other"
-   ],
-   "workplace": null,
-   "posted_at": "2026-09-30T00:00:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "ai",
-    "payments",
-    "crm",
-    "english"
    ]
   },
   {
@@ -33487,7 +33904,7 @@
    "url": "https://www.getonbrd.com/jobs/android-developer-improving-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Peru, Colombia, Argentina, Chile)",
+   "location": "Remote (Perú, Colombia, Argentina, Chile)",
    "location_classes": [
     "remote-latam"
    ],
@@ -33518,7 +33935,7 @@
    "url": "https://www.getonbrd.com/jobs/android-software-engineer-improving-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Costa Rica, Peru, Mexico, Colombia, Argentina)",
+   "location": "Remote (Costa Rica, Perú, Mexico, Colombia, Argentina)",
    "location_classes": [
     "remote-latam"
    ],
@@ -33551,7 +33968,7 @@
    "url": "https://www.getonbrd.com/jobs/backend-ai-engineer-python-llm-orchestration-improving-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Peru, Colombia, Argentina, Chile)",
+   "location": "Remote (Perú, Colombia, Argentina, Chile)",
    "location_classes": [
     "remote-latam"
    ],
@@ -33583,7 +34000,7 @@
    "url": "https://www.getonbrd.com/jobs/desarrollador-fullstack-java-angular-improving-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Argentina, Colombia, Peru, Chile)",
+   "location": "Remote (Argentina, Colombia, Perú, Chile)",
    "location_classes": [
     "remote-latam"
    ],
@@ -33621,7 +34038,7 @@
    "url": "https://www.getonbrd.com/jobs/devops-engineer-improving-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Argentina, Peru, Colombia, Chile)",
+   "location": "Remote (Argentina, Perú, Colombia, Chile)",
    "location_classes": [
     "remote-latam"
    ],
@@ -33694,7 +34111,7 @@
    "url": "https://www.getonbrd.com/jobs/full-stack-engineer-react-net-aws-improving-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Colombia, Peru, Argentina, Chile)",
+   "location": "Remote (Colombia, Perú, Argentina, Chile)",
    "location_classes": [
     "remote-latam"
    ],
@@ -33730,7 +34147,7 @@
    "url": "https://www.getonbrd.com/jobs/ia-developer-improving-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Peru, Argentina, Colombia, Chile)",
+   "location": "Remote (Perú, Argentina, Colombia, Chile)",
    "location_classes": [
     "remote-latam"
    ],
@@ -33798,7 +34215,7 @@
    "url": "https://www.getonbrd.com/jobs/machine-learning-engineer-improving-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Chile, Peru, Argentina, Colombia)",
+   "location": "Remote (Chile, Perú, Argentina, Colombia)",
    "location_classes": [
     "remote-latam"
    ],
@@ -33930,13 +34347,44 @@
    ]
   },
   {
+   "id": "getonboard:feed:senior-infrastructure-security-engineer-improving-remote",
+   "company": "Improving",
+   "title": "Senior Infrastructure Security Engineer",
+   "url": "https://www.getonbrd.com/jobs/senior-infrastructure-security-engineer-improving-remote",
+   "ats": "getonboard",
+   "via": "Get on Board",
+   "location": "Remote (Mexico, Colombia, Argentina, Costa Rica)",
+   "location_classes": [
+    "remote-latam"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T04:03:42Z",
+   "salary": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    8,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "azure",
+    "cybersecurity",
+    "soc",
+    "iso-27001",
+    "english"
+   ]
+  },
+  {
    "id": "getonboard:feed:looker-developer-senior-improving-remote",
    "company": "Improving",
    "title": "Senior Looker Developer",
    "url": "https://www.getonbrd.com/jobs/looker-developer-senior-improving-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Brazil, Argentina, Colombia, Peru, Chile)",
+   "location": "Remote (Brazil, Argentina, Colombia, Perú, Chile)",
    "location_classes": [
     "remote-latam"
    ],
@@ -34154,10 +34602,10 @@
    ]
   },
   {
-   "id": "pinpoint:infor.pinpointhq.com:621558",
+   "id": "pinpoint:infor.pinpointhq.com:621559",
    "company": "Infor",
    "title": "Account Manager",
-   "url": "https://careers.infor.com/en/postings/d4e5b6fe-b8c0-4e24-b0a0-2ddafa0f145d",
+   "url": "https://careers.infor.com/en/postings/2f0db88e-23eb-4d91-9d47-b7a9633755ea",
    "ats": "pinpoint",
    "location": "Remote",
    "location_classes": [
@@ -34398,29 +34846,34 @@
    ]
   },
   {
-   "id": "pinpoint:infor.pinpointhq.com:575304",
+   "id": "pinpoint:infor.pinpointhq.com:605711",
    "company": "Infor",
-   "title": "ERP Solution Architect - Industrial Manufacturing (LN) m/f/d",
-   "url": "https://careers.infor.com/en/postings/69e5de10-ea47-46bc-bc54-a94c32151058",
+   "title": "End of Studies Science Internship",
+   "url": "https://careers.infor.com/en/postings/6e3c4c8f-1d5c-435d-b87b-38ba8e57c487",
    "ats": "pinpoint",
    "location": "Remote",
    "location_classes": [
     "remote-global"
    ],
-   "workplace": "hybrid",
+   "workplace": "onsite",
    "posted_at": null,
    "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
+   "roles": [],
+   "seniority": "intern",
    "years": null,
    "provinces": [],
    "keywords": [
+    "spring",
+    "nodejs",
+    "docker",
+    "ai",
+    "machine-learning",
+    "deep-learning",
+    "pytorch",
+    "llm",
+    "ai-agents",
     "logistics",
-    "automotive",
-    "english",
-    "german"
+    "agile"
    ]
   },
   {
@@ -34495,6 +34948,97 @@
     "sql",
     "microservices",
     "sap"
+   ]
+  },
+  {
+   "id": "pinpoint:infor.pinpointhq.com:590208",
+   "company": "Infor",
+   "title": "Project Director",
+   "url": "https://careers.infor.com/en/postings/97575791-245a-4ebb-b32c-23f2293bb0a5",
+   "ats": "pinpoint",
+   "location": "Remote",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": null,
+   "salary": null,
+   "roles": [],
+   "seniority": "head",
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "grc",
+    "logistics",
+    "saas"
+   ]
+  },
+  {
+   "id": "pinpoint:infor.pinpointhq.com:605710",
+   "company": "Infor",
+   "title": "Science Intern",
+   "url": "https://careers.infor.com/en/postings/1d4179aa-aeac-4ad0-a2c4-032e88bb44a4",
+   "ats": "pinpoint",
+   "location": "Remote",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "onsite",
+   "posted_at": null,
+   "salary": null,
+   "roles": [],
+   "seniority": "intern",
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "python",
+    "sql",
+    "spring",
+    "nodejs",
+    "distributed-systems",
+    "docker",
+    "ci-cd",
+    "ai",
+    "machine-learning",
+    "deep-learning",
+    "pytorch",
+    "llm",
+    "ai-agents",
+    "statistics",
+    "logistics",
+    "agile"
+   ]
+  },
+  {
+   "id": "pinpoint:infor.pinpointhq.com:570285",
+   "company": "Infor",
+   "title": "Senior Business Analyst, AI Studio",
+   "url": "https://careers.infor.com/en/postings/46ddff99-42cf-40aa-aead-41fce5acb52c",
+   "ats": "pinpoint",
+   "location": "Remote",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "hybrid",
+   "posted_at": null,
+   "salary": null,
+   "roles": [],
+   "seniority": "senior",
+   "years": [
+    5,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "aws",
+    "sap",
+    "dynamics",
+    "ai",
+    "llm",
+    "ai-agents",
+    "logistics",
+    "saas",
+    "agile"
    ]
   },
   {
@@ -34589,30 +35133,6 @@
    "keywords": [
     "logistics",
     "aerospace"
-   ]
-  },
-  {
-   "id": "pinpoint:infor.pinpointhq.com:616765",
-   "company": "Infor",
-   "title": "Sr. Solution Consultant (Pre-Sales)  ERP  - Automotive Industry m/f/d",
-   "url": "https://careers.infor.com/en/postings/b90a73e2-0fd1-428a-8293-3729c71a8dbd",
-   "ats": "pinpoint",
-   "location": "Remote",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": null,
-   "salary": null,
-   "roles": [],
-   "seniority": "senior",
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "logistics",
-    "automotive",
-    "english",
-    "german"
    ]
   },
   {
@@ -35229,6 +35749,50 @@
     "automotive",
     "agile",
     "spanish"
+   ]
+  },
+  {
+   "id": "himalayas:feed:introhive/jobs/software-engineer-contractor-6-month-contract",
+   "company": "Introhive",
+   "title": "Software Engineer Contractor (6-month contract)",
+   "url": "https://himalayas.app/companies/introhive/jobs/software-engineer-contractor-6-month-contract?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (Argentina, Brazil, Canada)",
+   "location_classes": [
+    "remote-latam"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T07:18:14Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    3,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "ruby",
+    "rails",
+    "sql",
+    "react",
+    "aws",
+    "ci-cd",
+    "test-automation",
+    "snowflake",
+    "airflow",
+    "dbt",
+    "ai",
+    "llm",
+    "ai-agents",
+    "adtech",
+    "saas",
+    "crm",
+    "agile",
+    "english"
    ]
   },
   {
@@ -37666,7 +38230,7 @@
   {
    "id": "ashby:kraken.com:e0230515-9bbe-4fbd-a183-9444bcd8c56f",
    "company": "Kraken",
-   "title": "Creative Strategist & Producer - Consumer",
+   "title": "Creative Strategist & Copywriter - Consumer",
    "url": "https://jobs.ashbyhq.com/kraken.com/e0230515-9bbe-4fbd-a183-9444bcd8c56f",
    "ats": "ashby",
    "location": "United Kingdom; Brazil; United Arab Emirates; Ireland; Peru; Sweden; Colombia; Argentina; Romania; Cyprus; Switzerland; Portugal; Lithuania; South Africa; Czech Republic; Canada; Hungary; Mexico; Chile; Poland; Spain; Bulgaria",
@@ -37897,6 +38461,40 @@
     "crypto",
     "spanish",
     "portuguese"
+   ]
+  },
+  {
+   "id": "ashby:kraken.com:fe8ccd40-5fcb-4bd1-bc40-3d145d35121c",
+   "company": "Kraken",
+   "title": "Marketing Operations Specialist, SEO/AEO",
+   "url": "https://jobs.ashbyhq.com/kraken.com/fe8ccd40-5fcb-4bd1-bc40-3d145d35121c",
+   "ats": "ashby",
+   "location": "United Kingdom; Brazil; United Arab Emirates; Ireland; Peru; Sweden; Colombia; Argentina; Romania; Cyprus; Switzerland; Portugal; Lithuania; South Africa; Czech Republic; Canada; Hungary; Mexico; Chile; Poland; Spain; Bulgaria",
+   "location_classes": [
+    "europe",
+    "latam",
+    "remote-global",
+    "remote-argentina",
+    "remote-canada",
+    "remote-spain"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T07:35:03.058+00:00",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": [
+    2,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "ai",
+    "ai-agents",
+    "fintech",
+    "crypto",
+    "media",
+    "seo"
    ]
   },
   {
@@ -38507,40 +39105,6 @@
    ]
   },
   {
-   "id": "ashby:kraken.com:9cdd4c99-0f19-4886-aa13-ca0327cec800",
-   "company": "Kraken",
-   "title": "Senior Video Creative, Performance - Kraken Consumer",
-   "url": "https://jobs.ashbyhq.com/kraken.com/9cdd4c99-0f19-4886-aa13-ca0327cec800",
-   "ats": "ashby",
-   "location": "United Kingdom; Brazil; United Arab Emirates; Ireland; Peru; Sweden; Colombia; Argentina; Romania; Cyprus; Switzerland; Portugal; Lithuania; South Africa; Czech Republic; Canada; Hungary; Mexico; Chile; Poland; Spain; Bulgaria",
-   "location_classes": [
-    "europe",
-    "latam",
-    "remote-global",
-    "remote-argentina",
-    "remote-canada",
-    "remote-spain"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-03T16:25:35.596+00:00",
-   "salary": null,
-   "roles": [],
-   "seniority": "senior",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "ai",
-    "llm",
-    "fintech",
-    "crypto",
-    "gaming",
-    "seo"
-   ]
-  },
-  {
    "id": "ashby:kraken.com:decc0dbd-51f7-4fee-9635-130211623f07",
    "company": "Kraken",
    "title": "Software Engineer - Database - Bitnomial",
@@ -39000,6 +39564,40 @@
    ]
   },
   {
+   "id": "ashby:kraken.com:9cdd4c99-0f19-4886-aa13-ca0327cec800",
+   "company": "Kraken",
+   "title": "Sr. Video Creative, Performance - Kraken Consumer",
+   "url": "https://jobs.ashbyhq.com/kraken.com/9cdd4c99-0f19-4886-aa13-ca0327cec800",
+   "ats": "ashby",
+   "location": "United Kingdom; Brazil; United Arab Emirates; Ireland; Peru; Sweden; Colombia; Argentina; Romania; Cyprus; Switzerland; Portugal; Lithuania; South Africa; Czech Republic; Canada; Hungary; Mexico; Chile; Poland; Spain; Bulgaria",
+   "location_classes": [
+    "europe",
+    "latam",
+    "remote-global",
+    "remote-argentina",
+    "remote-canada",
+    "remote-spain"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-03T16:25:35.596+00:00",
+   "salary": null,
+   "roles": [],
+   "seniority": "senior",
+   "years": [
+    5,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "ai",
+    "llm",
+    "fintech",
+    "crypto",
+    "gaming",
+    "seo"
+   ]
+  },
+  {
    "id": "ashby:kraken.com:1e7c38ce-3bd3-46a7-878f-f551ccbeebcb",
    "company": "Kraken",
    "title": "Staff Brand Designer - Consumer",
@@ -39133,6 +39731,31 @@
     "ai-agents",
     "inference",
     "soc",
+    "fintech",
+    "crypto"
+   ]
+  },
+  {
+   "id": "ashby:kraken.com:5b87c3ae-888a-4170-a9f0-cb8385c3f941",
+   "company": "Kraken",
+   "title": "Tech Recruiter",
+   "url": "https://jobs.ashbyhq.com/kraken.com/5b87c3ae-888a-4170-a9f0-cb8385c3f941",
+   "ats": "ashby",
+   "location": "Brazil; Argentina; Portugal; Poland",
+   "location_classes": [
+    "latam",
+    "remote-argentina",
+    "europe"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-09-28T08:41:50.991+00:00",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "ai",
     "fintech",
     "crypto"
    ]
@@ -42081,6 +42704,33 @@
    ]
   },
   {
+   "id": "weworkremotely:feed:maven-clinic-product-manager-care-delivery",
+   "company": "Maven Clinic",
+   "title": "Product Manager, Care Delivery",
+   "url": "https://weworkremotely.com/remote-jobs/maven-clinic-product-manager-care-delivery",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T18:32:23Z",
+   "salary": null,
+   "roles": [
+    "product-manager"
+   ],
+   "seniority": null,
+   "years": [
+    3,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "ai"
+   ]
+  },
+  {
    "id": "himalayas:feed:maxana/jobs/backend-engineer-payments",
    "company": "Maxana",
    "title": "Backend Engineer - Payments",
@@ -42345,22 +42995,19 @@
    ]
   },
   {
-   "id": "icims:jobs.medallia.com:6242",
+   "id": "icims:jobs.medallia.com:6667",
    "company": "Medallia",
-   "title": "Senior Cybersecurity Operations Engineer",
-   "url": "https://jobs.medallia.com/jobs/6242?lang=en-us",
+   "title": "Senior AP Analyst, Travel & Entertainment",
+   "url": "https://jobs.medallia.com/jobs/6667?lang=en-us",
    "ats": "icims",
-   "location": "Palermo, Ciudad Autónoma de Buenos Aires (CABA), Buenos Aires, Argentina; Cuauhtémoc, Mexico",
+   "location": "Palermo, Ciudad Autónoma de Buenos Aires (CABA), Buenos Aires, Argentina",
    "location_classes": [
-    "argentina",
-    "latam"
+    "argentina"
    ],
    "workplace": null,
-   "posted_at": "2026-06-03T21:48:00.000Z",
+   "posted_at": "2026-11-24T16:10:00.000Z",
    "salary": null,
-   "roles": [
-    "security-engineer"
-   ],
+   "roles": [],
    "seniority": "senior",
    "years": [
     5,
@@ -42370,25 +43017,9 @@
     "CABA"
    ],
    "keywords": [
-    "python",
-    "golang",
-    "bash",
-    "aws",
-    "gcp",
-    "azure",
-    "kubernetes",
-    "terraform",
-    "linux",
-    "observability",
+    "excel",
+    "sap",
     "ai",
-    "llm",
-    "cybersecurity",
-    "pentesting",
-    "soc",
-    "iam",
-    "compliance",
-    "iso-27001",
-    "soc2",
     "healthtech",
     "saas",
     "english"
@@ -42593,18 +43224,18 @@
    ]
   },
   {
-   "id": "getonboard:feed:desarrollad-r-mobile-ctv-mediastream-bogota-9881",
+   "id": "getonboard:feed:desarrollad-r-mobile-mediastream-remote",
    "company": "Mediastream",
    "title": "Desarrollad@R Mobile",
-   "url": "https://www.getonbrd.com/jobs/desarrollad-r-mobile-ctv-mediastream-bogota-9881",
+   "url": "https://www.getonbrd.com/jobs/desarrollad-r-mobile-mediastream-remote",
    "ats": "getonboard",
    "via": "Get on Board",
-   "location": "Remote (Venezuela, Ecuador, Argentina, Peru, Bolivia, Mexico)",
+   "location": "Remote (Perú, Argentina, Mexico, Bolivia)",
    "location_classes": [
     "remote-latam"
    ],
    "workplace": "remote",
-   "posted_at": "2026-10-27T13:14:04Z",
+   "posted_at": "2026-11-24T16:28:46Z",
    "salary": null,
    "roles": [
     "software-engineer"
@@ -43063,10 +43694,7 @@
    "provinces": [
     "CABA"
    ],
-   "keywords": [
-    "statistics",
-    "ecommerce"
-   ]
+   "keywords": []
   },
   {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:44748659",
@@ -43088,6 +43716,34 @@
     "CBA"
    ],
    "keywords": []
+  },
+  {
+   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45732539",
+   "company": "Mercado Libre",
+   "title": "Analista de Seguridad Física - Mercado Envíos",
+   "url": "https://mercadolibre.eightfold.ai/careers/job/45732539",
+   "ats": "eightfold",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "onsite",
+   "posted_at": "2026-11-24T15:12:19.000Z",
+   "salary": null,
+   "roles": [
+    "security-engineer"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "excel",
+    "ai",
+    "llm",
+    "logistics"
+   ]
   },
   {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:44434531",
@@ -43423,64 +44079,6 @@
    ]
   },
   {
-   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45316398",
-   "company": "Mercado Libre",
-   "title": "Analista Senior de Gestión de Cuentas - Marketplace",
-   "url": "https://mercadolibre.eightfold.ai/careers/job/45316398",
-   "ats": "eightfold",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "onsite",
-   "posted_at": "2026-11-02T21:41:20.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "senior",
-   "years": [
-    4,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "gcp",
-    "bi",
-    "ecommerce",
-    "product-analytics",
-    "english"
-   ]
-  },
-  {
-   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45055242",
-   "company": "Mercado Libre",
-   "title": "Analista Senior de Grandes Cuentas - Mercado Pago",
-   "url": "https://mercadolibre.eightfold.ai/careers/job/45055242",
-   "ats": "eightfold",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "hybrid",
-   "posted_at": "2026-10-23T17:04:00.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "senior",
-   "years": [
-    4,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "ai",
-    "llm",
-    "ecommerce"
-   ]
-  },
-  {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45575064",
    "company": "Mercado Libre",
    "title": "Analista Senior de Iniciativas Estratégicas - Marketplace",
@@ -43574,33 +44172,6 @@
    ]
   },
   {
-   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:44417485",
-   "company": "Mercado Libre",
-   "title": "Analista Senior de Planeamiento Financiero para Mercado Pago",
-   "url": "https://mercadolibre.eightfold.ai/careers/job/44417485",
-   "ats": "eightfold",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "onsite",
-   "posted_at": "2026-10-23T11:01:07.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "senior",
-   "years": [
-    4,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "sql",
-    "bi"
-   ]
-  },
-  {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45514060",
    "company": "Mercado Libre",
    "title": "Analista Senior de Planificación de Inbound - Mercado Envíos",
@@ -43624,35 +44195,6 @@
     "sql",
     "llm",
     "logistics"
-   ]
-  },
-  {
-   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:44979184",
-   "company": "Mercado Libre",
-   "title": "Analista Senior de Planificación Financiera para Créditos",
-   "url": "https://mercadolibre.eightfold.ai/careers/job/44979184",
-   "ats": "eightfold",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "onsite",
-   "posted_at": "2026-10-23T11:16:40.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "senior",
-   "years": [
-    4,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "python",
-    "sql",
-    "gcp",
-    "bi"
    ]
   },
   {
@@ -43967,7 +44509,12 @@
    "provinces": [
     "CABA"
    ],
-   "keywords": []
+   "keywords": [
+    "java",
+    "aws",
+    "elasticsearch",
+    "llm"
+   ]
   },
   {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45598975",
@@ -44083,12 +44630,21 @@
    "salary": null,
    "roles": [],
    "seniority": null,
-   "years": null,
+   "years": [
+    3,
+    null
+   ],
    "provinces": [
     "CABA"
    ],
    "keywords": [
-    "ecommerce"
+    "sql",
+    "gcp",
+    "bi",
+    "llm",
+    "ecommerce",
+    "english",
+    "portuguese"
    ]
   },
   {
@@ -44225,7 +44781,14 @@
    "provinces": [
     "CABA"
    ],
-   "keywords": []
+   "keywords": [
+    "python",
+    "sql",
+    "gcp",
+    "ai",
+    "llm",
+    "ai-agents"
+   ]
   },
   {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45615700",
@@ -44247,6 +44810,7 @@
     "CABA"
    ],
    "keywords": [
+    "ai",
     "ecommerce"
    ]
   },
@@ -44807,37 +45371,6 @@
     "bi",
     "robotics",
     "logistics",
-    "english"
-   ]
-  },
-  {
-   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45021767",
-   "company": "Mercado Libre",
-   "title": "Especialista en Mercado de Capitales",
-   "url": "https://mercadolibre.eightfold.ai/careers/job/45021767",
-   "ats": "eightfold",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "onsite",
-   "posted_at": "2026-10-23T11:15:30.000Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "python",
-    "sql",
-    "bi",
-    "excel",
-    "ai",
     "english"
    ]
   },
@@ -45426,7 +45959,7 @@
    "title": "Ingeniero Senior en Seguridad de Plataformas y Aplicaciones Empresariales",
    "url": "https://mercadolibre.eightfold.ai/careers/job/44729345",
    "ats": "eightfold",
-   "location": "Buenos Aires, Argentina",
+   "location": "Capital Federal, Argentina",
    "location_classes": [
     "argentina"
    ],
@@ -45552,7 +46085,10 @@
    "provinces": [
     "CABA"
    ],
-   "keywords": []
+   "keywords": [
+    "excel",
+    "llm"
+   ]
   },
   {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45455671",
@@ -45698,7 +46234,7 @@
    "location_classes": [
     "argentina"
    ],
-   "workplace": "onsite",
+   "workplace": "hybrid",
    "posted_at": "2026-11-18T12:31:22.000Z",
    "salary": null,
    "roles": [],
@@ -46124,7 +46660,12 @@
     "CABA"
    ],
    "keywords": [
-    "cybersecurity"
+    "python",
+    "ai",
+    "llm",
+    "cybersecurity",
+    "ecommerce",
+    "logistics"
    ]
   },
   {
@@ -46148,13 +46689,7 @@
    "provinces": [
     "CABA"
    ],
-   "keywords": [
-    "java",
-    "react",
-    "aws",
-    "ai",
-    "llm"
-   ]
+   "keywords": []
   },
   {
    "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45572877",
@@ -46184,6 +46719,36 @@
     "rust",
     "distributed-systems",
     "devops",
+    "ai",
+    "llm"
+   ]
+  },
+  {
+   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:45736301",
+   "company": "Mercado Libre",
+   "title": "Senior Software Engineer Backend - Observability & SRE",
+   "url": "https://mercadolibre.eightfold.ai/careers/job/45736301",
+   "ats": "eightfold",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "onsite",
+   "posted_at": "2026-11-24T18:53:32.000Z",
+   "salary": null,
+   "roles": [
+    "devops-engineer"
+   ],
+   "seniority": "senior",
+   "years": null,
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "java",
+    "golang",
+    "observability",
+    "sre",
     "ai",
     "llm"
    ]
@@ -46643,35 +47208,6 @@
     "CBA"
    ],
    "keywords": [
-    "ecommerce"
-   ]
-  },
-  {
-   "id": "eightfold:mercadolibre.eightfold.ai/mercadolibre.com:44645055",
-   "company": "Mercado Libre",
-   "title": "Software Engineer - Traffic & Platform Security",
-   "url": "https://mercadolibre.eightfold.ai/careers/job/44645055",
-   "ats": "eightfold",
-   "location": "Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": "onsite",
-   "posted_at": "2026-10-23T17:50:40.000Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "distributed-systems",
-    "aws",
-    "gcp",
-    "ai",
     "ecommerce"
    ]
   },
@@ -47392,6 +47928,44 @@
    ]
   },
   {
+   "id": "himalayas:feed:mercor/jobs/customer-success-engineer-fully-remote",
+   "company": "mercor",
+   "title": "Customer Success Engineer - Fully Remote",
+   "url": "https://himalayas.app/companies/mercor/jobs/customer-success-engineer-fully-remote?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (45 countries incl. Argentina)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-01T11:36:40Z",
+   "salary": {
+    "min": 35000,
+    "max": 50000,
+    "currency": "USD",
+    "period": "year"
+   },
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    2,
+    5
+   ],
+   "provinces": [],
+   "keywords": [
+    "react",
+    "nextjs",
+    "flask",
+    "nodejs",
+    "ai",
+    "llm",
+    "saas"
+   ]
+  },
+  {
    "id": "himalayas:feed:mercor/jobs/customer-success-engineer-saas-expert",
    "company": "mercor",
    "title": "Customer Success Engineer - SaaS Expert",
@@ -47453,6 +48027,68 @@
     "typescript",
     "haskell",
     "ai",
+    "fintech",
+    "payments",
+    "saas"
+   ]
+  },
+  {
+   "id": "weworkremotely:feed:mercury-head-of-product-business-banking",
+   "company": "Mercury",
+   "title": "Head of Product - Business Banking",
+   "url": "https://weworkremotely.com/remote-jobs/mercury-head-of-product-business-banking",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T06:01:59Z",
+   "salary": null,
+   "roles": [
+    "product-manager"
+   ],
+   "seniority": "head",
+   "years": [
+    10,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "ai",
+    "statistics",
+    "fintech",
+    "payments",
+    "saas"
+   ]
+  },
+  {
+   "id": "weworkremotely:feed:mercury-head-of-product-personal-banking",
+   "company": "Mercury",
+   "title": "Head of Product - Personal Banking",
+   "url": "https://weworkremotely.com/remote-jobs/mercury-head-of-product-personal-banking",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T06:01:59Z",
+   "salary": null,
+   "roles": [
+    "product-manager"
+   ],
+   "seniority": "head",
+   "years": [
+    10,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "ai",
+    "statistics",
     "fintech",
     "payments",
     "saas"
@@ -47652,6 +48288,43 @@
     "compliance",
     "fintech",
     "crypto"
+   ]
+  },
+  {
+   "id": "himalayas:feed:miaplaza/jobs/hands-on-engineering-manager-c-vue",
+   "company": "Miaplaza",
+   "title": "Hands-on Engineering Manager (C#/Vue)",
+   "url": "https://himalayas.app/companies/miaplaza/jobs/hands-on-engineering-manager-c-vue?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (161 countries incl. Argentina)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-23T22:23:57Z",
+   "salary": {
+    "min": 82000,
+    "max": 140000,
+    "currency": "EUR",
+    "period": "year"
+   },
+   "roles": [
+    "software-engineering-manager"
+   ],
+   "seniority": null,
+   "years": [
+    7,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "csharp",
+    "vue",
+    "kubernetes",
+    "terraform",
+    "devops",
+    "edtech"
    ]
   },
   {
@@ -48055,31 +48728,6 @@
     "mlops",
     "statistics",
     "adtech"
-   ]
-  },
-  {
-   "id": "himalayas:feed:micro1/jobs/rust-architect-backend-developer",
-   "company": "micro1",
-   "title": "Rust Architect / Backend Developer",
-   "url": "https://himalayas.app/companies/micro1/jobs/rust-architect-backend-developer?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (anywhere)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-10-25T04:05:19Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "rust",
-    "ai"
    ]
   },
   {
@@ -49445,38 +50093,6 @@
    ]
   },
   {
-   "id": "greenhouse:mozilla:8233080",
-   "company": "Mozilla",
-   "title": "Staff Software Engineer, Web Application Services",
-   "url": "https://job-boards.greenhouse.io/mozilla/jobs/8233080",
-   "ats": "greenhouse",
-   "location": "Remote",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-09-27T09:52:29-04:00",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "staff",
-   "years": [
-    10,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "javascript",
-    "golang",
-    "rust",
-    "cpp",
-    "ai",
-    "english"
-   ]
-  },
-  {
    "id": "himalayas:feed:multiplica-talent/jobs/ui-designer-lead",
    "company": "Multiplica Talent",
    "title": "UI Designer Lead",
@@ -50355,6 +50971,31 @@
     "saas",
     "english",
     "spanish"
+   ]
+  },
+  {
+   "id": "himalayas:feed:my-va-support-inc/jobs/quality-assurance-analyst-and-recruitment-specialist-english-c1-latam-only",
+   "company": "My VA Support, Inc.",
+   "title": "Quality Assurance Analyst and Recruitment Specialist- ENGLISH C1  (LATAM only)",
+   "url": "https://himalayas.app/companies/my-va-support-inc/jobs/quality-assurance-analyst-and-recruitment-specialist-english-c1-latam-only?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (45 countries incl. Argentina)",
+   "location_classes": [
+    "remote-latam"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-19T18:15:00Z",
+   "salary": null,
+   "roles": [
+    "qa-engineer"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "excel",
+    "english"
    ]
   },
   {
@@ -51886,37 +52527,6 @@
     "product-analytics",
     "english",
     "spanish"
-   ]
-  },
-  {
-   "id": "getonboard:feed:web-app-full-stack-engineer-niuro-remote-03c6",
-   "company": "Niuro",
-   "title": "Web App Full-Stack Engineer",
-   "url": "https://www.getonbrd.com/jobs/web-app-full-stack-engineer-niuro-remote-03c6",
-   "ats": "getonboard",
-   "via": "Get on Board",
-   "location": "Remote (Mexico, Central America, South America)",
-   "location_classes": [
-    "remote-latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-09T16:30:11Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "ai",
-    "machine-learning",
-    "llm",
-    "computer-vision",
-    "english"
    ]
   },
   {
@@ -53795,7 +54405,7 @@
     "remote-argentina"
    ],
    "workplace": "remote",
-   "posted_at": "2026-11-19T17:57:23Z",
+   "posted_at": "2026-11-24T17:16:29Z",
    "salary": null,
    "roles": [
     "software-engineer"
@@ -55113,55 +55723,6 @@
    ]
   },
   {
-   "id": "himalayas:feed:perry-street-software/jobs/senior-ruby-developer-eu-latam-na",
-   "company": "Perry Street Software",
-   "title": "Senior Ruby Developer (EU/LatAm/NA)",
-   "url": "https://himalayas.app/companies/perry-street-software/jobs/senior-ruby-developer-eu-latam-na?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (195 countries incl. Argentina)",
-   "location_classes": [
-    "remote-latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-23T16:50:21Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    8,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "kotlin",
-    "scala",
-    "javascript",
-    "ruby",
-    "rails",
-    "swift",
-    "sql",
-    "react",
-    "aws",
-    "kubernetes",
-    "docker",
-    "terraform",
-    "linux",
-    "observability",
-    "devops",
-    "databricks",
-    "spark",
-    "etl",
-    "data-warehouse",
-    "ai",
-    "crm",
-    "product-analytics"
-   ]
-  },
-  {
    "id": "workday:pfizer/wd1/PfizerCareers:7fdd8c0ee4c710010d39828aea7c0000",
    "company": "Pfizer",
    "title": "QC Analyst Micro",
@@ -55188,47 +55749,6 @@
     "ai",
     "grc",
     "english"
-   ]
-  },
-  {
-   "id": "jobicy:feed:155601",
-   "company": "Phantom",
-   "title": "Staff Software Engineer (SRE)",
-   "url": "https://jobicy.com/jobs/155601-staff-software-engineer-sre-2",
-   "ats": "jobicy",
-   "via": "Jobicy",
-   "location": "Remote (Anywhere)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-17T03:00:18Z",
-   "salary": {
-    "min": 200000,
-    "max": 250000,
-    "currency": "USD",
-    "period": "year"
-   },
-   "roles": [
-    "devops-engineer"
-   ],
-   "seniority": "staff",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "aws",
-    "kubernetes",
-    "docker",
-    "terraform",
-    "observability",
-    "sre",
-    "ai",
-    "iam",
-    "fintech",
-    "crypto"
    ]
   },
   {
@@ -55338,10 +55858,10 @@
    ]
   },
   {
-   "id": "weworkremotely:feed:planetscale-software-engineer-planetscale-postgres",
-   "company": "PlanetScale",
-   "title": "Software Engineer - PlanetScale Postgres",
-   "url": "https://weworkremotely.com/remote-jobs/planetscale-software-engineer-planetscale-postgres",
+   "id": "weworkremotely:feed:pinterest-principal-engineer-ai-platform",
+   "company": "Pinterest",
+   "title": "Principal Engineer, AI Platform",
+   "url": "https://weworkremotely.com/remote-jobs/pinterest-principal-engineer-ai-platform",
    "ats": "weworkremotely",
    "via": "We Work Remotely",
    "location": "Remote (Anywhere in the World)",
@@ -55349,31 +55869,61 @@
     "remote-global"
    ],
    "workplace": "remote",
-   "posted_at": "2026-10-25T07:30:54Z",
+   "posted_at": "2026-11-24T18:32:37Z",
    "salary": null,
    "roles": [
     "software-engineer"
    ],
-   "seniority": null,
+   "seniority": "staff",
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "java",
+    "rust",
+    "cpp",
+    "distributed-systems",
+    "ai",
+    "machine-learning",
+    "llm",
+    "recommender-systems"
+   ]
+  },
+  {
+   "id": "weworkremotely:feed:pinterest-principal-engineer-big-data-platform",
+   "company": "Pinterest",
+   "title": "Principal Engineer, Big Data Platform",
+   "url": "https://weworkremotely.com/remote-jobs/pinterest-principal-engineer-big-data-platform",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T18:32:37Z",
+   "salary": null,
+   "roles": [
+    "data-engineer"
+   ],
+   "seniority": "staff",
    "years": [
-    5,
+    12,
     null
    ],
    "provinces": [],
    "keywords": [
     "python",
+    "java",
+    "scala",
     "golang",
-    "rust",
-    "ruby",
-    "distributed-systems",
     "aws",
-    "gcp",
-    "azure",
     "kubernetes",
-    "terraform",
-    "postgresql",
-    "gaming",
-    "saas"
+    "spark",
+    "flink",
+    "ai",
+    "machine-learning",
+    "pytorch",
+    "tensorflow"
    ]
   },
   {
@@ -55404,6 +55954,38 @@
     "statistics",
     "grc",
     "fp-a",
+    "english"
+   ]
+  },
+  {
+   "id": "greenhouse:platacard:4791587008",
+   "company": "Plata",
+   "title": "Analytics Engineer [DWH] Junior+/Middle",
+   "url": "https://job-boards.greenhouse.io/embed/job_app?for=platacard&token=4791587008",
+   "ats": "greenhouse",
+   "location": "Worldwide",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": null,
+   "posted_at": "2025-07-02T07:57:31-04:00",
+   "salary": null,
+   "roles": [
+    "data-engineer"
+   ],
+   "seniority": "junior",
+   "years": [
+    4,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "sql",
+    "airflow",
+    "dbt",
+    "etl",
+    "data-warehouse",
+    "fintech",
     "english"
    ]
   },
@@ -55610,43 +56192,6 @@
    ]
   },
   {
-   "id": "greenhouse:platacard:5395249008",
-   "company": "Plata",
-   "title": "Engineering Manager (Python) [DWH Data Tools]",
-   "url": "https://job-boards.greenhouse.io/embed/job_app?for=platacard&token=5395249008",
-   "ats": "greenhouse",
-   "location": "Worldwide",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": null,
-   "posted_at": "2026-08-21T05:29:09-04:00",
-   "salary": null,
-   "roles": [
-    "software-engineering-manager"
-   ],
-   "seniority": null,
-   "years": [
-    1,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "golang",
-    "nodejs",
-    "kafka",
-    "kubernetes",
-    "sre",
-    "snowflake",
-    "airflow",
-    "dbt",
-    "etl",
-    "fintech",
-    "english"
-   ]
-  },
-  {
    "id": "greenhouse:platacard:5395514008",
    "company": "Plata",
    "title": "Engineering Manager [AI Business Features]",
@@ -55748,6 +56293,30 @@
    "keywords": [
     "iam",
     "saas"
+   ]
+  },
+  {
+   "id": "greenhouse:platacard:5140585008",
+   "company": "Plata",
+   "title": "Instructional Designer Middle",
+   "url": "https://job-boards.greenhouse.io/embed/job_app?for=platacard&token=5140585008",
+   "ats": "greenhouse",
+   "location": "Worldwide",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": null,
+   "posted_at": "2026-04-14T11:43:20-04:00",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "statistics",
+    "edtech",
+    "english",
+    "spanish"
    ]
   },
   {
@@ -55937,6 +56506,75 @@
     "postgresql",
     "mongodb",
     "fintech",
+    "english"
+   ]
+  },
+  {
+   "id": "greenhouse:platacard:4762832008",
+   "company": "Plata",
+   "title": "Software Engineer - iOS Middle/Middle+ [Auth]",
+   "url": "https://job-boards.greenhouse.io/embed/job_app?for=platacard&token=4762832008",
+   "ats": "greenhouse",
+   "location": "Worldwide",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": null,
+   "posted_at": "2025-06-13T08:32:37-04:00",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    4,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "swift",
+    "ios",
+    "android",
+    "design-systems",
+    "grpc",
+    "ci-cd",
+    "english"
+   ]
+  },
+  {
+   "id": "greenhouse:platacard:5291036008",
+   "company": "Plata",
+   "title": "Software Engineer - Java/Kotlin Senior [Auth]",
+   "url": "https://job-boards.greenhouse.io/embed/job_app?for=platacard&token=5291036008",
+   "ats": "greenhouse",
+   "location": "Worldwide",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": null,
+   "posted_at": "2026-07-03T11:31:56-04:00",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    5,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "java",
+    "kotlin",
+    "golang",
+    "spring",
+    "grpc",
+    "kafka",
+    "aws",
+    "observability",
+    "postgresql",
+    "redis",
+    "soc",
     "english"
    ]
   },
@@ -56141,31 +56779,6 @@
     "soc",
     "iso-27001",
     "payments"
-   ]
-  },
-  {
-   "id": "greenhouse:careerspomelo:6185017004",
-   "company": "Pomelo",
-   "title": "Accounting Manager",
-   "url": "https://job-boards.greenhouse.io/embed/job_app?for=careerspomelo&token=6185017004",
-   "ats": "greenhouse",
-   "location": "Buenos Aires, Buenos Aires, Argentina",
-   "location_classes": [
-    "argentina"
-   ],
-   "workplace": null,
-   "posted_at": "2026-10-15T17:53:56-04:00",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "ai",
-    "fp-a",
-    "english"
    ]
   },
   {
@@ -56603,51 +57216,6 @@
    ]
   },
   {
-   "id": "himalayas:feed:proofpoint/jobs/sr-devops-engineer",
-   "company": "Proofpoint",
-   "title": "Sr DevOps Engineer",
-   "url": "https://himalayas.app/companies/proofpoint/jobs/sr-devops-engineer?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (Argentina)",
-   "location_classes": [
-    "remote-argentina"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-19T18:29:09Z",
-   "salary": null,
-   "roles": [
-    "devops-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "golang",
-    "bash",
-    "aws",
-    "azure",
-    "kubernetes",
-    "docker",
-    "terraform",
-    "ci-cd",
-    "observability",
-    "devops",
-    "sre",
-    "ai",
-    "ai-agents",
-    "cybersecurity",
-    "iam",
-    "agile",
-    "english",
-    "spanish"
-   ]
-  },
-  {
    "id": "weworkremotely:feed:prove-site-reliability-engineer-sr-site-reliability-engineer",
    "company": "Prove",
    "title": "Site Reliability Engineer, Sr. Site Reliability Engineer",
@@ -56720,6 +57288,40 @@
     "bi",
     "salesforce",
     "fintech"
+   ]
+  },
+  {
+   "id": "weworkremotely:feed:proxify-ab-senior-fullstack-developer-react-js-node-js-6",
+   "company": "Proxify AB",
+   "title": "Senior Fullstack Developer (React.js / Node.js)",
+   "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-6",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-19T10:40:24Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    5,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "sql",
+    "react",
+    "nodejs",
+    "microservices",
+    "low-latency",
+    "mongodb",
+    "payments",
+    "english"
    ]
   },
   {
@@ -58289,32 +58891,6 @@
    ]
   },
   {
-   "id": "lever:redbee:df798e0a-a5ee-43bb-ba78-58195ba7c0ad",
-   "company": "Redbee",
-   "title": "Senior Business Analyst",
-   "url": "https://jobs.lever.co/redbee/df798e0a-a5ee-43bb-ba78-58195ba7c0ad",
-   "ats": "lever",
-   "location": "Buenos Aires; Argentina",
-   "location_classes": [
-    "remote-argentina"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-10-16T15:21:23.700Z",
-   "salary": null,
-   "roles": [],
-   "seniority": "senior",
-   "years": [
-    14,
-    null
-   ],
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "english"
-   ]
-  },
-  {
    "id": "weworkremotely:feed:reddit-engineering-manager-ads-product-catalogs",
    "company": "Reddit",
    "title": "Engineering Manager, Ads Product Catalogs",
@@ -58696,6 +59272,38 @@
    ]
   },
   {
+   "id": "jobicy:feed:156738",
+   "company": "RevenueCat",
+   "title": "Senior Product Manager, Ad Monetization",
+   "url": "https://jobicy.com/jobs/156738-senior-product-manager-ad-monetization",
+   "ats": "jobicy",
+   "via": "Jobicy",
+   "location": "Remote (APAC, EMEA, LATAM, Canada, USA)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T04:30:30Z",
+   "salary": {
+    "min": 230000,
+    "max": 230000,
+    "currency": "USD",
+    "period": "year"
+   },
+   "roles": [
+    "product-manager"
+   ],
+   "seniority": "senior",
+   "years": [
+    5,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "llm"
+   ]
+  },
+  {
    "id": "ashby:rillet:f5fac07f-a10b-4447-ada0-15d858278f4b",
    "company": "Rillet",
    "title": "Solution Consulting Manager",
@@ -58972,6 +59580,32 @@
     "ai",
     "crypto",
     "agile"
+   ]
+  },
+  {
+   "id": "weworkremotely:feed:ritual-software-engineer-intern",
+   "company": "Ritual",
+   "title": "Software Engineer Intern",
+   "url": "https://weworkremotely.com/remote-jobs/ritual-software-engineer-intern",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T18:32:09Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "intern",
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "ai",
+    "machine-learning",
+    "crypto"
    ]
   },
   {
@@ -60105,6 +60739,52 @@
    ]
   },
   {
+   "id": "greenhouse:santex:8959996002",
+   "company": "Santex",
+   "title": "Senior Back-End Engineer (Must: Node & AWS)",
+   "url": "https://job-boards.greenhouse.io/santex/jobs/8959996002",
+   "ats": "greenhouse",
+   "location": "Argentina / Perú; México City; Argentina - Perú",
+   "location_classes": [
+    "argentina",
+    "latam"
+   ],
+   "workplace": null,
+   "posted_at": "2026-11-24T09:20:59-05:00",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    4,
+    8
+   ],
+   "provinces": [],
+   "keywords": [
+    "javascript",
+    "sql",
+    "nodejs",
+    "microservices",
+    "event-driven",
+    "aws",
+    "azure",
+    "terraform",
+    "ci-cd",
+    "observability",
+    "serverless",
+    "test-automation",
+    "postgresql",
+    "ai",
+    "soc",
+    "fintech",
+    "payments",
+    "ecommerce",
+    "sustainability",
+    "agile"
+   ]
+  },
+  {
    "id": "greenhouse:santex:8939760002",
    "company": "Santex",
    "title": "Senior Forward Deployed Engineer",
@@ -60167,6 +60847,33 @@
     "ai",
     "llm",
     "low-code"
+   ]
+  },
+  {
+   "id": "greenhouse:santex:8792100002",
+   "company": "Santex",
+   "title": "Technical Delivery Lead / Staff Architect",
+   "url": "https://job-boards.greenhouse.io/santex/jobs/8792100002",
+   "ats": "greenhouse",
+   "location": "Córdoba / CABA; Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": null,
+   "posted_at": "2026-09-10T09:55:42-04:00",
+   "salary": null,
+   "roles": [],
+   "seniority": "staff",
+   "years": null,
+   "provinces": [
+    "CABA",
+    "CBA"
+   ],
+   "keywords": [
+    "ai",
+    "cybersecurity",
+    "english",
+    "spanish"
    ]
   },
   {
@@ -61598,47 +62305,6 @@
    ]
   },
   {
-   "id": "ashby:silver:ca61a0e6-dd35-4dbb-b481-5e144a8e83be",
-   "company": "Silver.dev",
-   "title": "AI-Native ERP - Senior Backend Engineer",
-   "url": "https://jobs.ashbyhq.com/Silver/ca61a0e6-dd35-4dbb-b481-5e144a8e83be",
-   "ats": "ashby",
-   "location": "Remote; Argentina; Uruguay; Brazil",
-   "location_classes": [
-    "remote-global",
-    "argentina",
-    "latam"
-   ],
-   "workplace": null,
-   "posted_at": "2026-08-10T19:21:41.098+00:00",
-   "salary": {
-    "min": 140000,
-    "max": 250000,
-    "currency": "USD",
-    "period": "year"
-   },
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "sql",
-    "django",
-    "flask",
-    "fastapi",
-    "aws",
-    "ci-cd",
-    "postgresql",
-    "ai"
-   ]
-  },
-  {
    "id": "ashby:silver:b447aa24-032d-4eca-ad5d-37eeaf133cb9",
    "company": "Silver.dev",
    "title": "Carefull - Analytics Engineer",
@@ -61965,145 +62631,6 @@
     "observability",
     "ai",
     "iam"
-   ]
-  },
-  {
-   "id": "ashby:silver:a6752aed-a6ec-4081-82c9-8cdc9e285bbd",
-   "company": "Silver.dev",
-   "title": "Serie B - Fintech Company - Lead Engineer",
-   "url": "https://jobs.ashbyhq.com/Silver/a6752aed-a6ec-4081-82c9-8cdc9e285bbd",
-   "ats": "ashby",
-   "location": "Remote; Argentina; Uruguay",
-   "location_classes": [
-    "remote-global",
-    "argentina",
-    "latam"
-   ],
-   "workplace": null,
-   "posted_at": "2026-08-06T13:13:39.448+00:00",
-   "salary": {
-    "min": 67000,
-    "max": 78000,
-    "currency": "USD",
-    "period": "year"
-   },
-   "roles": [
-    "tech-lead"
-   ],
-   "seniority": "lead",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "nodejs",
-    "nestjs",
-    "microservices",
-    "kafka",
-    "rabbitmq",
-    "event-driven",
-    "distributed-systems",
-    "gcp",
-    "kubernetes",
-    "docker",
-    "terraform",
-    "ci-cd",
-    "devops",
-    "serverless",
-    "postgresql",
-    "fintech",
-    "english",
-    "spanish"
-   ]
-  },
-  {
-   "id": "ashby:silver:d9623c22-88a7-456c-9fef-b6935d570e92",
-   "company": "Silver.dev",
-   "title": "Serie B - Fintech Company - Software Engineer",
-   "url": "https://jobs.ashbyhq.com/Silver/d9623c22-88a7-456c-9fef-b6935d570e92",
-   "ats": "ashby",
-   "location": "Remote; Argentina; Uruguay",
-   "location_classes": [
-    "remote-global",
-    "remote-argentina",
-    "latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-08-06T13:13:32.117+00:00",
-   "salary": {
-    "min": 54000,
-    "max": 63000,
-    "currency": "USD",
-    "period": "year"
-   },
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "nodejs",
-    "nestjs",
-    "kafka",
-    "rabbitmq",
-    "gcp",
-    "kubernetes",
-    "docker",
-    "postgresql",
-    "fintech",
-    "payments",
-    "english",
-    "spanish"
-   ]
-  },
-  {
-   "id": "ashby:silver:69edc36c-ec2a-45bb-9a9e-3ab9e66c906f",
-   "company": "Silver.dev",
-   "title": "Serie B - Fintech Company - Staff Engineer",
-   "url": "https://jobs.ashbyhq.com/Silver/69edc36c-ec2a-45bb-9a9e-3ab9e66c906f",
-   "ats": "ashby",
-   "location": "Remote",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-09-21T16:47:31.002+00:00",
-   "salary": {
-    "min": 84000,
-    "max": 96000,
-    "currency": "USD",
-    "period": "year"
-   },
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "staff",
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "typescript",
-    "golang",
-    "rust",
-    "nodejs",
-    "nestjs",
-    "grpc",
-    "kafka",
-    "rabbitmq",
-    "event-driven",
-    "distributed-systems",
-    "low-latency",
-    "observability",
-    "postgresql",
-    "redis",
-    "compliance",
-    "fintech",
-    "english",
-    "spanish"
    ]
   },
   {
@@ -62495,6 +63022,38 @@
    ]
   },
   {
+   "id": "ashby:silver:073b54ac-2774-4254-9c08-4c0d2180bc32",
+   "company": "Silver.dev",
+   "title": "VU Security - Regional Sales Director",
+   "url": "https://jobs.ashbyhq.com/Silver/073b54ac-2774-4254-9c08-4c0d2180bc32",
+   "ats": "ashby",
+   "location": "Remote; Argentina; Brazil",
+   "location_classes": [
+    "remote-global",
+    "remote-argentina",
+    "latam"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T17:59:03.399+00:00",
+   "salary": null,
+   "roles": [],
+   "seniority": "head",
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "machine-learning",
+    "cybersecurity",
+    "iam",
+    "fintech",
+    "telecom",
+    "saas",
+    "crm",
+    "english",
+    "spanish",
+    "portuguese"
+   ]
+  },
+  {
    "id": "ashby:silver:e59cc464-0a11-4b17-8c1b-e50d4499f7ad",
    "company": "Silver.dev",
    "title": "VU Security - Technical Lead",
@@ -62629,7 +63188,12 @@
    ],
    "workplace": "remote",
    "posted_at": "2026-11-20T17:09:36.443+00:00",
-   "salary": null,
+   "salary": {
+    "min": 100000,
+    "max": 100001,
+    "currency": "USD",
+    "period": "year"
+   },
    "roles": [],
    "seniority": null,
    "years": [
@@ -62704,49 +63268,6 @@
     "crm",
     "seo",
     "product-analytics"
-   ]
-  },
-  {
-   "id": "getonboard:feed:senior-software-engineer-smart-click-guys-remote",
-   "company": "Smart Click Guys",
-   "title": "Senior Software Engineer",
-   "url": "https://www.getonbrd.com/jobs/senior-software-engineer-smart-click-guys-remote",
-   "ats": "getonboard",
-   "via": "Get on Board",
-   "location": "Remote",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-17T16:13:02Z",
-   "salary": {
-    "min": 3000,
-    "max": 5000,
-    "currency": "USD",
-    "period": "month"
-   },
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "java",
-    "javascript",
-    "csharp",
-    "dotnet",
-    "sql",
-    "html-css",
-    "aws",
-    "ci-cd",
-    "devops",
-    "test-automation",
-    "mysql",
-    "agile"
    ]
   },
   {
@@ -62859,48 +63380,6 @@
    ]
   },
   {
-   "id": "weworkremotely:feed:smartsheet-software-engineer-remote-eligible-in-bulgaria",
-   "company": "Smartsheet",
-   "title": "Software Engineer  (Remote Eligible in Bulgaria)",
-   "url": "https://weworkremotely.com/remote-jobs/smartsheet-software-engineer-remote-eligible-in-bulgaria",
-   "ats": "weworkremotely",
-   "via": "We Work Remotely",
-   "location": "Remote (Anywhere in the World)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-21T18:32:07Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "java",
-    "kotlin",
-    "javascript",
-    "golang",
-    "react",
-    "html-css",
-    "nodejs",
-    "microservices",
-    "aws",
-    "kubernetes",
-    "docker",
-    "terraform",
-    "linux",
-    "test-automation",
-    "mysql",
-    "ai",
-    "ai-agents",
-    "saas",
-    "english"
-   ]
-  },
-  {
    "id": "weworkremotely:feed:smartsheet-software-engineer-i-remote-eligible",
    "company": "Smartsheet",
    "title": "Software Engineer I (Remote Eligible)",
@@ -62972,47 +63451,6 @@
     "kubernetes",
     "ai",
     "ai-agents",
-    "ecommerce",
-    "saas"
-   ]
-  },
-  {
-   "id": "weworkremotely:feed:smartsheet-sr-data-scientist-ii-remote-eligible",
-   "company": "Smartsheet",
-   "title": "Sr. Data Scientist II (Remote Eligible)",
-   "url": "https://weworkremotely.com/remote-jobs/smartsheet-sr-data-scientist-ii-remote-eligible",
-   "ats": "weworkremotely",
-   "via": "We Work Remotely",
-   "location": "Remote (Anywhere in the World)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-22T06:02:20Z",
-   "salary": null,
-   "roles": [
-    "data-scientist"
-   ],
-   "seniority": "senior",
-   "years": [
-    10,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "sql",
-    "snowflake",
-    "databricks",
-    "spark",
-    "bi",
-    "ai",
-    "machine-learning",
-    "deep-learning",
-    "pytorch",
-    "llm",
-    "ai-agents",
-    "statistics",
     "ecommerce",
     "saas"
    ]
@@ -64165,39 +64603,6 @@
    ]
   },
   {
-   "id": "himalayas:feed:sqldbm/jobs/senior-backend-engineer-ai-native",
-   "company": "SqlDBM",
-   "title": "Senior Backend Engineer, AI-native",
-   "url": "https://himalayas.app/companies/sqldbm/jobs/senior-backend-engineer-ai-native?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (195 countries incl. Argentina)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-19T18:05:51Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "java",
-    "typescript",
-    "golang",
-    "rust",
-    "csharp",
-    "aws",
-    "ai",
-    "llm",
-    "ai-agents",
-    "english"
-   ]
-  },
-  {
    "id": "weworkremotely:feed:squarespace-senior-security-engineer",
    "company": "Squarespace",
    "title": "Senior Security Engineer",
@@ -64448,31 +64853,35 @@
    ]
   },
   {
-   "id": "greenhouse:stripe:8190038",
+   "id": "weworkremotely:feed:stripe-backend-engineer-developer-end-user-experience-platform",
    "company": "Stripe",
-   "title": "Product Manager, Business Network",
-   "url": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&token=8190038",
-   "ats": "greenhouse",
-   "location": "AMER; US",
+   "title": "Backend Engineer, Developer & End-user Experience Platform",
+   "url": "https://weworkremotely.com/remote-jobs/stripe-backend-engineer-developer-end-user-experience-platform",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
    "location_classes": [
-    "remote-latam",
-    "us-other"
+    "remote-global"
    ],
-   "workplace": null,
-   "posted_at": "2026-11-17T16:49:41-05:00",
+   "workplace": "remote",
+   "posted_at": "2026-11-24T06:01:32Z",
    "salary": null,
    "roles": [
-    "product-manager"
+    "software-engineer"
    ],
    "seniority": null,
    "years": [
-    10,
-    null
+    2,
+    12
    ],
    "provinces": [],
    "keywords": [
-    "payments",
-    "fp-a"
+    "graphql",
+    "grpc",
+    "aws",
+    "kubernetes",
+    "docker",
+    "payments"
    ]
   },
   {
@@ -64534,46 +64943,6 @@
     "statistics",
     "ux-research",
     "english"
-   ]
-  },
-  {
-   "id": "weworkremotely:feed:sumo-logic-presales-solutions-engineer",
-   "company": "Sumo Logic",
-   "title": "PreSales Solutions Engineer",
-   "url": "https://weworkremotely.com/remote-jobs/sumo-logic-presales-solutions-engineer",
-   "ats": "weworkremotely",
-   "via": "We Work Remotely",
-   "location": "Remote (Anywhere in the World)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-20T06:01:44Z",
-   "salary": null,
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    3,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "microservices",
-    "aws",
-    "gcp",
-    "azure",
-    "kubernetes",
-    "docker",
-    "observability",
-    "sre",
-    "ai",
-    "ai-agents",
-    "cybersecurity",
-    "soc",
-    "privacy",
-    "saas"
    ]
   },
   {
@@ -64647,41 +65016,6 @@
    ]
   },
   {
-   "id": "jobicy:feed:153329",
-   "company": "Supabase",
-   "title": "Customer Solution Architect, Team Lead",
-   "url": "https://jobicy.com/jobs/153329-customer-solution-architect-team-lead",
-   "ats": "jobicy",
-   "via": "Jobicy",
-   "location": "Remote (LATAM, Canada, USA)",
-   "location_classes": [
-    "remote-latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-17T02:45:12Z",
-   "salary": null,
-   "roles": [
-    "tech-lead"
-   ],
-   "seniority": "lead",
-   "years": [
-    6,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "react",
-    "vue",
-    "svelte",
-    "nodejs",
-    "gcp",
-    "embedded",
-    "postgresql",
-    "crm",
-    "agile"
-   ]
-  },
-  {
    "id": "jobicy:feed:156582",
    "company": "Supabase",
    "title": "Performance Engineer - Benchmarking",
@@ -64735,44 +65069,6 @@
     "observability",
     "kernel",
     "postgresql"
-   ]
-  },
-  {
-   "id": "jobicy:feed:162979",
-   "company": "Supabase",
-   "title": "Platform Engineer - Compute",
-   "url": "https://jobicy.com/jobs/162979-platform-engineer-compute",
-   "ats": "jobicy",
-   "via": "Jobicy",
-   "location": "Remote (Anywhere)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-17T13:39:12Z",
-   "salary": null,
-   "roles": [
-    "devops-engineer"
-   ],
-   "seniority": null,
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "typescript",
-    "golang",
-    "distributed-systems",
-    "low-latency",
-    "aws",
-    "gcp",
-    "azure",
-    "kubernetes",
-    "terraform",
-    "observability",
-    "postgresql",
-    "soc"
    ]
   },
   {
@@ -65602,6 +65898,90 @@
     "conversational-ai",
     "mlops",
     "nlp",
+    "cybersecurity",
+    "fintech",
+    "ecommerce",
+    "logistics",
+    "energy",
+    "sustainability",
+    "telecom",
+    "agile"
+   ]
+  },
+  {
+   "id": "smartrecruiters:Talan:744000163450049",
+   "company": "Talan",
+   "title": "Senior AI Agent Engineer – Banking (AI Native)",
+   "url": "https://jobs.smartrecruiters.com/Talan/744000163450049",
+   "ats": "smartrecruiters",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T12:40:00.413Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    6,
+    null
+   ],
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "aws",
+    "azure",
+    "sap",
+    "salesforce",
+    "ai",
+    "llm",
+    "ai-agents",
+    "cybersecurity",
+    "fintech",
+    "ecommerce",
+    "logistics",
+    "energy",
+    "sustainability",
+    "telecom",
+    "agile"
+   ]
+  },
+  {
+   "id": "smartrecruiters:Talan:744000163450092",
+   "company": "Talan",
+   "title": "Senior AI Agent Engineer – Banking (AI Native)",
+   "url": "https://jobs.smartrecruiters.com/Talan/744000163450092",
+   "ats": "smartrecruiters",
+   "location": "Córdoba, Córdoba Province, Argentina",
+   "location_classes": [
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T12:42:16.215Z",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": "senior",
+   "years": [
+    6,
+    null
+   ],
+   "provinces": [
+    "CBA"
+   ],
+   "keywords": [
+    "aws",
+    "azure",
+    "sap",
+    "salesforce",
+    "ai",
+    "llm",
+    "ai-agents",
     "cybersecurity",
     "fintech",
     "ecommerce",
@@ -67905,6 +68285,36 @@
    ]
   },
   {
+   "id": "phenom:jobs.thermofisher.com/TFSCGLOBAL/global/en:R-01365880",
+   "company": "Thermo Fisher Scientific",
+   "title": "Accountant I",
+   "url": "https://jobs.thermofisher.com/global/en/job/R-01365880",
+   "ats": "phenom",
+   "location": "Buenos Aires, Buenos Aires, Argentina; Mexico City, Mexico",
+   "location_classes": [
+    "argentina",
+    "latam"
+   ],
+   "workplace": null,
+   "posted_at": "2026-11-19T00:00:00.000Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": [
+    2,
+    null
+   ],
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "excel",
+    "fp-a",
+    "english",
+    "spanish"
+   ]
+  },
+  {
    "id": "phenom:jobs.thermofisher.com/TFSCGLOBAL/global/en:R-01374440",
    "company": "Thermo Fisher Scientific",
    "title": "Associate Feasibility Manager",
@@ -67982,6 +68392,62 @@
     "excel",
     "compliance",
     "biotech",
+    "english"
+   ]
+  },
+  {
+   "id": "phenom:jobs.thermofisher.com/TFSCGLOBAL/global/en:R-01376507",
+   "company": "Thermo Fisher Scientific",
+   "title": "Clinical Trial Manager, FSP",
+   "url": "https://jobs.thermofisher.com/global/en/job/R-01376507",
+   "ats": "phenom",
+   "location": "Remote, Argentina",
+   "location_classes": [
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T00:00:00.000Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": [
+    5,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "gcp",
+    "excel",
+    "compliance",
+    "healthtech",
+    "english"
+   ]
+  },
+  {
+   "id": "phenom:jobs.thermofisher.com/TFSCGLOBAL/global/en:R-01376508",
+   "company": "Thermo Fisher Scientific",
+   "title": "Clinical Trial Manager, FSP",
+   "url": "https://jobs.thermofisher.com/global/en/job/R-01376508",
+   "ats": "phenom",
+   "location": "Remote, Argentina",
+   "location_classes": [
+    "remote-argentina"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T00:00:00.000Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": [
+    5,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "gcp",
+    "excel",
+    "compliance",
+    "healthtech",
     "english"
    ]
   },
@@ -69061,7 +69527,7 @@
    "title": "Safety Reporting Specialist",
    "url": "https://jobs.thermofisher.com/global/en/job/R-01371083",
    "ats": "phenom",
-   "location": "Remote, Mexico; Remote, Argentina; Remote, Colombia",
+   "location": "Remote, Mexico; Remote, Colombia; Remote, Argentina",
    "location_classes": [
     "latam",
     "remote-argentina"
@@ -69081,27 +69547,28 @@
    ]
   },
   {
-   "id": "phenom:jobs.thermofisher.com/TFSCGLOBAL/global/en:R-01372096",
+   "id": "phenom:jobs.thermofisher.com/TFSCGLOBAL/global/en:R-01370169",
    "company": "Thermo Fisher Scientific",
-   "title": "Senior Material Handler",
-   "url": "https://jobs.thermofisher.com/global/en/job/R-01372096",
+   "title": "Senior ICF Project Manager",
+   "url": "https://jobs.thermofisher.com/global/en/job/R-01370169",
    "ats": "phenom",
-   "location": "Buenos Aires, Buenos Aires, Argentina",
+   "location": "Remote, Mexico; Remote, São Paulo, Brazil; Remote, Colombia; Remote, Chile; Remote, Argentina",
    "location_classes": [
-    "argentina"
+    "latam",
+    "remote-argentina"
    ],
-   "workplace": null,
-   "posted_at": "2026-11-10T00:00:00.000Z",
+   "workplace": "remote",
+   "posted_at": "2026-10-14T00:00:00.000Z",
    "salary": null,
    "roles": [],
    "seniority": "senior",
-   "years": null,
-   "provinces": [
-    "CABA"
+   "years": [
+    5,
+    null
    ],
+   "provinces": [],
    "keywords": [
-    "logistics",
-    "english"
+    "biotech"
    ]
   },
   {
@@ -70549,6 +71016,34 @@
    ]
   },
   {
+   "id": "recruitee:transperfect:2839547",
+   "company": "TransPerfect",
+   "title": "Language Lead (Buenos Aires)",
+   "url": "https://transperfect.recruitee.com/o/language-lead-buenos-aires",
+   "ats": "recruitee",
+   "location": "Buenos Aires, Argentina",
+   "location_classes": [
+    "argentina"
+   ],
+   "workplace": "onsite",
+   "posted_at": "2026-11-24T20:03:36Z",
+   "salary": null,
+   "roles": [],
+   "seniority": "lead",
+   "years": [
+    2,
+    null
+   ],
+   "provinces": [
+    "CABA"
+   ],
+   "keywords": [
+    "biotech",
+    "english",
+    "spanish"
+   ]
+  },
+  {
    "id": "recruitee:transperfect:2832758",
    "company": "TransPerfect",
    "title": "Language Quality Specialist (Buenos Aires)",
@@ -70574,33 +71069,6 @@
     "biotech",
     "english",
     "spanish"
-   ]
-  },
-  {
-   "id": "recruitee:transperfect:2836067",
-   "company": "TransPerfect",
-   "title": "Medical Translator (Brazilian Portuguese-English and LATAM Spanish-English)",
-   "url": "https://transperfect.recruitee.com/o/medical-translator-brazilian-portuguese-english-and-latam-spanish-english",
-   "ats": "recruitee",
-   "location": "Buenos Aires, Argentina; Sao Paulo, São Paulo, Brazil; Santiago, Región Metropolitana de Santiago, Chile; Mexico, México; Lima, Peru",
-   "location_classes": [
-    "remote-argentina",
-    "latam"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-20T15:06:53Z",
-   "salary": null,
-   "roles": [],
-   "seniority": null,
-   "years": null,
-   "provinces": [
-    "CABA"
-   ],
-   "keywords": [
-    "biotech",
-    "english",
-    "spanish",
-    "portuguese"
    ]
   },
   {
@@ -71547,6 +72015,42 @@
    ]
   },
   {
+   "id": "ashby:truelogic:b3d374c7-13df-4212-97b2-1d68ba3172e9",
+   "company": "Truelogic",
+   "title": "Quality Engineer (Automation JS/TS) - Software Industry",
+   "url": "https://jobs.ashbyhq.com/truelogic/b3d374c7-13df-4212-97b2-1d68ba3172e9",
+   "ats": "ashby",
+   "location": "LatAm",
+   "location_classes": [
+    "remote-latam"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T18:41:15.667+00:00",
+   "salary": null,
+   "roles": [
+    "software-engineer"
+   ],
+   "seniority": null,
+   "years": [
+    3,
+    5
+   ],
+   "provinces": [],
+   "keywords": [
+    "javascript",
+    "typescript",
+    "sql",
+    "docker",
+    "ci-cd",
+    "devops",
+    "test-automation",
+    "ai",
+    "payments",
+    "ecommerce",
+    "energy"
+   ]
+  },
+  {
    "id": "ashby:truelogic:d6470f53-987b-4370-a2da-8870bfd17bcc",
    "company": "Truelogic",
    "title": "Semi Sr. - QA Engineer (Data) – E-Learning",
@@ -71952,26 +72456,45 @@
    ]
   },
   {
-   "id": "ashby:truelogic:c8c1587f-5aed-43ec-a0f3-3cd4af4a5954",
+   "id": "ashby:truelogic:943e2781-8670-4038-a653-6fd3b336be24",
    "company": "Truelogic",
-   "title": "Senior Product Designer - Finance",
-   "url": "https://jobs.ashbyhq.com/truelogic/c8c1587f-5aed-43ec-a0f3-3cd4af4a5954",
+   "title": "Senior Full-stack Engineer (React/Node) (Backend-Focused) - Real Estate  - LATAM",
+   "url": "https://jobs.ashbyhq.com/truelogic/943e2781-8670-4038-a653-6fd3b336be24",
    "ats": "ashby",
    "location": "LatAm",
    "location_classes": [
     "remote-latam"
    ],
    "workplace": "remote",
-   "posted_at": "2026-11-17T21:02:21.640+00:00",
+   "posted_at": "2026-11-24T20:08:07.528+00:00",
    "salary": null,
    "roles": [
-    "ux-designer"
+    "software-engineer"
    ],
    "seniority": "senior",
-   "years": null,
+   "years": [
+    5,
+    null
+   ],
    "provinces": [],
    "keywords": [
-    "html-css"
+    "typescript",
+    "sql",
+    "react",
+    "nextjs",
+    "nodejs",
+    "event-driven",
+    "distributed-systems",
+    "terraform",
+    "observability",
+    "postgresql",
+    "ai",
+    "ai-agents",
+    "soc2",
+    "fintech",
+    "payments",
+    "proptech",
+    "media"
    ]
   },
   {
@@ -72151,6 +72674,47 @@
    "provinces": [],
    "keywords": [
     "ai",
+    "fintech",
+    "payments",
+    "crypto"
+   ]
+  },
+  {
+   "id": "weworkremotely:feed:twilio-devops-engineer-observability",
+   "company": "Twilio",
+   "title": "DevOps Engineer (Observability)",
+   "url": "https://weworkremotely.com/remote-jobs/twilio-devops-engineer-observability",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T18:32:02Z",
+   "salary": null,
+   "roles": [
+    "devops-engineer"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "python",
+    "java",
+    "golang",
+    "microservices",
+    "kafka",
+    "distributed-systems",
+    "aws",
+    "kubernetes",
+    "terraform",
+    "observability",
+    "devops",
+    "sre",
+    "data-warehouse",
+    "ai",
+    "soc",
     "fintech",
     "payments",
     "crypto"
@@ -74351,48 +74915,6 @@
    ]
   },
   {
-   "id": "himalayas:feed:vidiq/jobs/senior-frontend-engineer-1174306056",
-   "company": "vidIQ",
-   "title": "Senior Frontend Engineer",
-   "url": "https://himalayas.app/companies/vidiq/jobs/senior-frontend-engineer-1174306056?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (anywhere)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-19T17:46:32Z",
-   "salary": {
-    "min": 80000,
-    "max": 150000,
-    "currency": "USD",
-    "period": "year"
-   },
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "python",
-    "scala",
-    "javascript",
-    "typescript",
-    "react",
-    "nextjs",
-    "redux",
-    "tailwind",
-    "ai",
-    "llm",
-    "ai-agents"
-   ]
-  },
-  {
    "id": "himalayas:feed:virtasant/jobs/senior-back-end-engineer-latam",
    "company": "Virtasant",
    "title": "Senior Back-End Engineer - LATAM",
@@ -74895,76 +75417,6 @@
     "crm",
     "seo",
     "english"
-   ]
-  },
-  {
-   "id": "getonboard:feed:data-layer-developer-we-built-it-remote",
-   "company": "We Built It",
-   "title": "Data Layer Developer",
-   "url": "https://www.getonbrd.com/jobs/data-layer-developer-we-built-it-remote",
-   "ats": "getonboard",
-   "via": "Get on Board",
-   "location": "Remote",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-03T15:45:44Z",
-   "salary": {
-    "min": 4500,
-    "max": 5000,
-    "currency": "USD",
-    "period": "month"
-   },
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "javascript",
-    "react",
-    "angular",
-    "html-css",
-    "event-driven",
-    "ecommerce",
-    "agile"
-   ]
-  },
-  {
-   "id": "getonboard:feed:senior-adobe-analytics-implementation-developer-we-built-it-remote",
-   "company": "We Built It",
-   "title": "Senior Adobe Analytics & Implementation Developer",
-   "url": "https://www.getonbrd.com/jobs/senior-adobe-analytics-implementation-developer-we-built-it-remote",
-   "ats": "getonboard",
-   "via": "Get on Board",
-   "location": "Remote",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-03T15:45:35Z",
-   "salary": {
-    "min": 4500,
-    "max": 5000,
-    "currency": "USD",
-    "period": "month"
-   },
-   "roles": [
-    "software-engineer"
-   ],
-   "seniority": "senior",
-   "years": [
-    5,
-    null
-   ],
-   "provinces": [],
-   "keywords": [
-    "javascript",
-    "html-css",
-    "ios",
-    "android"
    ]
   },
   {
@@ -75653,6 +76105,32 @@
     "ai",
     "conversational-ai",
     "spanish"
+   ]
+  },
+  {
+   "id": "lever:weloglobal:c0509d1a-f040-429b-bb3d-8d63ab04ca25",
+   "company": "Welocalize",
+   "title": "Localization Quoting Specialist",
+   "url": "https://jobs.lever.co/weloglobal/c0509d1a-f040-429b-bb3d-8d63ab04ca25",
+   "ats": "lever",
+   "location": "Argentina; Mexico City, Mexico",
+   "location_classes": [
+    "remote-argentina",
+    "latam"
+   ],
+   "workplace": "remote",
+   "posted_at": "2021-01-06T15:25:24.822Z",
+   "salary": null,
+   "roles": [],
+   "seniority": null,
+   "years": [
+    2,
+    4
+   ],
+   "provinces": [],
+   "keywords": [
+    "biotech",
+    "english"
    ]
   },
   {
@@ -77566,40 +78044,6 @@
    ]
   },
   {
-   "id": "himalayas:feed:xperteez-technology/jobs/ml-engineer-remote-contract-627126483",
-   "company": "Xperteez Technology",
-   "title": "🌍 ML Engineer, Remote- Contract",
-   "url": "https://himalayas.app/companies/xperteez-technology/jobs/ml-engineer-remote-contract-627126483?utm_source=api",
-   "ats": "himalayas",
-   "via": "Himalayas",
-   "location": "Remote (anywhere)",
-   "location_classes": [
-    "remote-global"
-   ],
-   "workplace": "remote",
-   "posted_at": "2026-11-20T03:50:31Z",
-   "salary": null,
-   "roles": [
-    "data-scientist"
-   ],
-   "seniority": null,
-   "years": null,
-   "provinces": [],
-   "keywords": [
-    "python",
-    "kernel",
-    "gpu",
-    "etl",
-    "ai",
-    "machine-learning",
-    "llm",
-    "inference",
-    "mlops",
-    "statistics",
-    "adtech"
-   ]
-  },
-  {
    "id": "himalayas:feed:xperteez-technology/jobs/sr-full-stack-software-engineer-remote-contract",
    "company": "Xperteez Technology",
    "title": "🌍 Sr. Full-Stack Software Engineer, Remote- Contract",
@@ -77794,6 +78238,45 @@
    "workplace": "remote",
    "posted_at": "2026-11-19T12:55:00Z",
    "salary": null,
+   "roles": [
+    "data-scientist"
+   ],
+   "seniority": null,
+   "years": null,
+   "provinces": [],
+   "keywords": [
+    "python",
+    "kernel",
+    "gpu",
+    "etl",
+    "ai",
+    "machine-learning",
+    "llm",
+    "inference",
+    "mlops",
+    "statistics",
+    "adtech"
+   ]
+  },
+  {
+   "id": "himalayas:feed:xperteez-technology/jobs/ml-engineer-remote-contract-1794009161",
+   "company": "Xperteez Technology",
+   "title": "ML Engineer, Remote- Contract",
+   "url": "https://himalayas.app/companies/xperteez-technology/jobs/ml-engineer-remote-contract-1794009161?utm_source=api",
+   "ats": "himalayas",
+   "via": "Himalayas",
+   "location": "Remote (anywhere)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T06:03:54Z",
+   "salary": {
+    "min": 60,
+    "max": 120,
+    "currency": "USD",
+    "period": "hour"
+   },
    "roles": [
     "data-scientist"
    ],
@@ -78616,6 +79099,36 @@
     "ai",
     "machine-learning",
     "nlp"
+   ]
+  },
+  {
+   "id": "weworkremotely:feed:zoominfo-technologies-llc-senior-director-product-management-agentic-platform",
+   "company": "ZoomInfo Technologies LLC",
+   "title": "Senior Director, Product Management, Agentic Platform",
+   "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-senior-director-product-management-agentic-platform",
+   "ats": "weworkremotely",
+   "via": "We Work Remotely",
+   "location": "Remote (Anywhere in the World)",
+   "location_classes": [
+    "remote-global"
+   ],
+   "workplace": "remote",
+   "posted_at": "2026-11-24T18:31:18Z",
+   "salary": null,
+   "roles": [
+    "product-manager"
+   ],
+   "seniority": "head",
+   "years": [
+    10,
+    null
+   ],
+   "provinces": [],
+   "keywords": [
+    "observability",
+    "ai",
+    "llm",
+    "ai-agents"
    ]
   }
  ]

@@ -1,27 +1,27 @@
 {
   "version": 1,
-  "generated_at": "2026-11-23T21:23:24Z",
-  "postings": 2351,
-  "companies": 611,
+  "generated_at": "2026-11-24T20:11:59Z",
+  "postings": 2368,
+  "companies": 605,
   "boards": 109,
-  "remote": 1844,
+  "remote": 1866,
   "sources": {
     "company boards": 1062,
-    "Himalayas": 1049,
-    "We Work Remotely": 153,
-    "Get on Board": 51,
-    "Jobicy": 36
+    "Himalayas": 1059,
+    "We Work Remotely": 168,
+    "Get on Board": 48,
+    "Jobicy": 31
   },
   "roles": {
-    "software-engineer": 921,
-    "devops-engineer": 149,
-    "data-scientist": 137,
-    "data-engineer": 108,
-    "product-manager": 79,
-    "software-engineering-manager": 75,
-    "tech-lead": 73,
-    "qa-engineer": 70,
-    "security-engineer": 58,
-    "ux-designer": 56
+    "software-engineer": 917,
+    "devops-engineer": 148,
+    "data-scientist": 144,
+    "data-engineer": 110,
+    "product-manager": 83,
+    "software-engineering-manager": 76,
+    "qa-engineer": 71,
+    "tech-lead": 71,
+    "security-engineer": 61,
+    "ux-designer": 55
   }
 }
